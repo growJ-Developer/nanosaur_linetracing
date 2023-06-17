@@ -1,0 +1,6 @@
+Invoking command in '/ws/build/cpp_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/nanosaur_hardware:/opt/ros/humble /usr/bin/cmake /ws/src/rb_nanosaur/cpp_first_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/cpp_first_pkg
+Invoked command in '/ws/build/cpp_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/nanosaur_hardware:/opt/ros/humble /usr/bin/cmake /ws/src/rb_nanosaur/cpp_first_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/cpp_first_pkg
+Invoking command in '/ws/build/cpp_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/nanosaur_hardware:/opt/ros/humble /usr/bin/cmake --build /ws/build/cpp_first_pkg -- -j4 -l4
+Invoked command in '/ws/build/cpp_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/nanosaur_hardware:/opt/ros/humble /usr/bin/cmake --build /ws/build/cpp_first_pkg -- -j4 -l4
+Invoking command in '/ws/build/cpp_first_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/nanosaur_hardware:/opt/ros/humble /usr/bin/cmake --install /ws/build/cpp_first_pkg
+Invoked command in '/ws/build/cpp_first_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ws/install/nanosaur_hardware:/opt/ros/humble /usr/bin/cmake --install /ws/build/cpp_first_pkg

@@ -1,0 +1,4 @@
+[submodule "rb_nanosaur"]
+	path = src/sb_nanosaur
+	url = https://github.com/Road-Balance/rb_nanosaur.git
+	branch = main

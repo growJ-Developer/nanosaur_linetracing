@@ -1,0 +1,16 @@
+package.xml
+requirements.txt
+setup.cfg
+setup.py
+nanosaur_hardware/__init__.py
+nanosaur_hardware/display.py
+nanosaur_hardware/motor.py
+nanosaur_hardware/nanosaur.py
+nanosaur_hardware.egg-info/PKG-INFO
+nanosaur_hardware.egg-info/SOURCES.txt
+nanosaur_hardware.egg-info/dependency_links.txt
+nanosaur_hardware.egg-info/entry_points.txt
+nanosaur_hardware.egg-info/requires.txt
+nanosaur_hardware.egg-info/top_level.txt
+nanosaur_hardware.egg-info/zip-safe
+resource/nanosaur_hardware

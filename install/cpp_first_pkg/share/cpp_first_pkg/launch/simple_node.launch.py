@@ -1,0 +1,1 @@
+/ws/src/rb_nanosaur/cpp_first_pkg/launch/simple_node.launch.py

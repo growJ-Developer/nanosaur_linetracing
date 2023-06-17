@@ -1,0 +1,3 @@
+[console_scripts]
+nanosaur = nanosaur_hardware.nanosaur:main
+
