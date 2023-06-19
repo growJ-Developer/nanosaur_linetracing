@@ -1,0 +1,1 @@
+/ws/build/nanosaur_control/ament_cmake_core/nanosaur_controlConfig-version.cmake

@@ -1,0 +1,17 @@
+[5.289s] Invoking command in '/ws/build/nanosaur_hardware': PYTHONPATH=/ws/build/nanosaur_hardware/prefix_override:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ws/build/nanosaur_hardware/build --no-deps install_data
+[6.500s] running develop
+[7.328s] running egg_info
+[7.330s] writing nanosaur_hardware.egg-info/PKG-INFO
+[7.332s] writing dependency_links to nanosaur_hardware.egg-info/dependency_links.txt
+[7.334s] writing entry points to nanosaur_hardware.egg-info/entry_points.txt
+[7.336s] writing requirements to nanosaur_hardware.egg-info/requires.txt
+[7.337s] writing top-level names to nanosaur_hardware.egg-info/top_level.txt
+[7.521s] reading manifest file 'nanosaur_hardware.egg-info/SOURCES.txt'
+[7.525s] writing manifest file 'nanosaur_hardware.egg-info/SOURCES.txt'
+[7.691s] running build_ext
+[7.692s] Creating /ws/install/nanosaur_hardware/lib/python3.8/site-packages/nanosaur-hardware.egg-link (link to .)
+[7.695s] Installing nanosaur script to /ws/install/nanosaur_hardware/lib/nanosaur_hardware
+[7.696s] 
+[7.696s] Installed /ws/build/nanosaur_hardware
+[7.696s] running install_data
+[8.410s] Invoked command in '/ws/build/nanosaur_hardware' returned '0': PYTHONPATH=/ws/build/nanosaur_hardware/prefix_override:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ws/build/nanosaur_hardware/build --no-deps install_data

@@ -1,0 +1,17 @@
+[3.003s] Invoking command in '/ws/build/rover_line_follower': PYTHONPATH=/ws/build/rover_line_follower/prefix_override:/ws/install/rover_line_follower/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ws/build/rover_line_follower/build --no-deps install_data
+[4.020s] running develop
+[4.647s] running egg_info
+[4.648s] writing rover_line_follower.egg-info/PKG-INFO
+[4.649s] writing dependency_links to rover_line_follower.egg-info/dependency_links.txt
+[4.650s] writing entry points to rover_line_follower.egg-info/entry_points.txt
+[4.650s] writing requirements to rover_line_follower.egg-info/requires.txt
+[4.651s] writing top-level names to rover_line_follower.egg-info/top_level.txt
+[4.794s] reading manifest file 'rover_line_follower.egg-info/SOURCES.txt'
+[4.797s] writing manifest file 'rover_line_follower.egg-info/SOURCES.txt'
+[4.956s] running build_ext
+[4.957s] Creating /ws/install/rover_line_follower/lib/python3.8/site-packages/rover-line-follower.egg-link (link to .)
+[4.960s] Installing rover_line_follower script to /ws/install/rover_line_follower/lib/rover_line_follower
+[4.961s] 
+[4.962s] Installed /ws/build/rover_line_follower
+[4.962s] running install_data
+[5.081s] Invoked command in '/ws/build/rover_line_follower' returned '0': PYTHONPATH=/ws/build/rover_line_follower/prefix_override:/ws/install/rover_line_follower/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ws/build/rover_line_follower/build --no-deps install_data

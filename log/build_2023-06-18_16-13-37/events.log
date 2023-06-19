@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.001465] (-) JobUnselected: {'identifier': 'image_pub'}
+[0.002418] (-) JobUnselected: {'identifier': 'nanosaur_control'}
+[0.003087] (-) JobUnselected: {'identifier': 'nanosaur_msgs'}
+[0.004670] (-) JobUnselected: {'identifier': 'rosboard'}
+[0.004980] (nanosaur_hardware) JobQueued: {'identifier': 'nanosaur_hardware', 'dependencies': OrderedDict()}
+[0.005152] (nanosaur_hardware) JobStarted: {'identifier': 'nanosaur_hardware'}
+[0.101699] (-) TimerEvent: {}
+[0.202696] (-) TimerEvent: {}
+[0.304981] (-) TimerEvent: {}
+[0.406111] (-) TimerEvent: {}
+[0.508282] (-) TimerEvent: {}
+[0.609968] (-) TimerEvent: {}
+[0.712838] (-) TimerEvent: {}
+[0.813473] (-) TimerEvent: {}
+[0.915086] (-) TimerEvent: {}
+[1.015786] (-) TimerEvent: {}
+[1.116387] (-) TimerEvent: {}
+[1.217184] (-) TimerEvent: {}
+[1.317926] (-) TimerEvent: {}
+[1.418678] (-) TimerEvent: {}
+[1.520065] (-) TimerEvent: {}
+[1.620774] (-) TimerEvent: {}
+[1.721504] (-) TimerEvent: {}
+[1.824361] (-) TimerEvent: {}
+[1.925952] (-) TimerEvent: {}
+[2.026731] (-) TimerEvent: {}
+[2.127362] (-) TimerEvent: {}
+[2.228247] (-) TimerEvent: {}
+[2.329635] (-) TimerEvent: {}
+[2.431054] (-) TimerEvent: {}
+[2.531694] (-) TimerEvent: {}
+[2.632401] (-) TimerEvent: {}
+[2.733601] (-) TimerEvent: {}
+[2.834270] (-) TimerEvent: {}
+[2.934972] (-) TimerEvent: {}
+[3.035930] (-) TimerEvent: {}
+[3.137523] (-) TimerEvent: {}
+[3.240299] (-) TimerEvent: {}
+[3.340978] (-) TimerEvent: {}
+[3.441668] (-) TimerEvent: {}
+[3.542326] (-) TimerEvent: {}
+[3.643399] (-) TimerEvent: {}
+[3.744384] (-) TimerEvent: {}
+[3.845411] (-) TimerEvent: {}
+[3.948962] (-) TimerEvent: {}
+[4.050033] (-) TimerEvent: {}
+[4.150790] (-) TimerEvent: {}
+[4.254813] (-) TimerEvent: {}
+[4.355682] (-) TimerEvent: {}
+[4.456331] (-) TimerEvent: {}
+[4.557083] (-) TimerEvent: {}
+[4.593283] (nanosaur_hardware) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/ws/build/nanosaur_hardware/build', '--no-deps', 'install_data'], 'cwd': '/ws/build/nanosaur_hardware', 'env': {'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': 'jetson-desktop', 'ROS_PACKAGE_PATH': '/ros_deep_learning/install/ros_deep_learning/share', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/ws/install/nanosaur_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:', 'HOME': '/root', 'OLDPWD': '/ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/ws/install:/ros_deep_learning/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'AMENT_PREFIX_PATH': '/ws/install/nanosaur_msgs:/ws/install/nanosaur_hardware:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PWD': '/ws/build/nanosaur_hardware', 'CUDA_HOME': '/usr/local/cuda', 'PYTHONPATH': '/ws/build/nanosaur_hardware/prefix_override:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:/ws/install/nanosaur_msgs/lib/python3.8/site-packages:/ws/build/nanosaur_hardware:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'}, 'shell': False}
+[4.657400] (-) TimerEvent: {}
+[4.758303] (-) TimerEvent: {}
+[4.862713] (-) TimerEvent: {}
+[4.963381] (-) TimerEvent: {}
+[5.064337] (-) TimerEvent: {}
+[5.165019] (-) TimerEvent: {}
+[5.266375] (-) TimerEvent: {}
+[5.367624] (-) TimerEvent: {}
+[5.472081] (-) TimerEvent: {}
+[5.573314] (-) TimerEvent: {}
+[5.673983] (-) TimerEvent: {}
+[5.774955] (-) TimerEvent: {}
+[5.875662] (-) TimerEvent: {}
+[5.976344] (-) TimerEvent: {}
+[6.008153] (nanosaur_hardware) StdoutLine: {'line': b'running develop\n'}
+[6.076533] (-) TimerEvent: {}
+[6.177329] (-) TimerEvent: {}
+[6.278725] (-) TimerEvent: {}
+[6.379390] (-) TimerEvent: {}
+[6.480625] (-) TimerEvent: {}
+[6.581257] (-) TimerEvent: {}
+[6.682659] (-) TimerEvent: {}
+[6.785462] (-) TimerEvent: {}
+[6.886972] (-) TimerEvent: {}
+[6.960449] (nanosaur_hardware) StdoutLine: {'line': b'running egg_info\n'}
+[6.961567] (nanosaur_hardware) StdoutLine: {'line': b'writing nanosaur_hardware.egg-info/PKG-INFO\n'}
+[6.962552] (nanosaur_hardware) StdoutLine: {'line': b'writing dependency_links to nanosaur_hardware.egg-info/dependency_links.txt\n'}
+[6.963154] (nanosaur_hardware) StdoutLine: {'line': b'writing entry points to nanosaur_hardware.egg-info/entry_points.txt\n'}
+[6.963856] (nanosaur_hardware) StdoutLine: {'line': b'writing requirements to nanosaur_hardware.egg-info/requires.txt\n'}
+[6.964638] (nanosaur_hardware) StdoutLine: {'line': b'writing top-level names to nanosaur_hardware.egg-info/top_level.txt\n'}
+[6.988137] (-) TimerEvent: {}
+[7.089968] (-) TimerEvent: {}
+[7.150678] (nanosaur_hardware) StdoutLine: {'line': b"reading manifest file 'nanosaur_hardware.egg-info/SOURCES.txt'\n"}
+[7.156543] (nanosaur_hardware) StdoutLine: {'line': b"writing manifest file 'nanosaur_hardware.egg-info/SOURCES.txt'\n"}
+[7.190688] (-) TimerEvent: {}
+[7.291973] (-) TimerEvent: {}
+[7.381374] (nanosaur_hardware) StdoutLine: {'line': b'running build_ext\n'}
+[7.386661] (nanosaur_hardware) StdoutLine: {'line': b'Creating /ws/install/nanosaur_hardware/lib/python3.8/site-packages/nanosaur-hardware.egg-link (link to .)\n'}
+[7.390540] (nanosaur_hardware) StdoutLine: {'line': b'Installing nanosaur script to /ws/install/nanosaur_hardware/lib/nanosaur_hardware\n'}
+[7.391865] (nanosaur_hardware) StdoutLine: {'line': b'\n'}
+[7.392741] (-) TimerEvent: {}
+[7.393257] (nanosaur_hardware) StdoutLine: {'line': b'Installed /ws/build/nanosaur_hardware\n'}
+[7.393904] (nanosaur_hardware) StdoutLine: {'line': b'running install_data\n'}
+[7.492949] (-) TimerEvent: {}
+[7.542020] (nanosaur_hardware) CommandEnded: {'returncode': 0}
+[7.593200] (-) TimerEvent: {}
+[7.696015] (-) TimerEvent: {}
+[7.712867] (nanosaur_hardware) JobEnded: {'identifier': 'nanosaur_hardware', 'rc': 0}
+[7.716222] (-) EventReactorShutdown: {}

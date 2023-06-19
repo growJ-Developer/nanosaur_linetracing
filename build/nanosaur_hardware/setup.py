@@ -1,1 +1,1 @@
-/ws/src/rb_nanosaur/nanosaur_hardware/setup.py
+/ws/src/nanosaur_hardware/setup.py

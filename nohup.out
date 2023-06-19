@@ -1,0 +1,1137 @@
+[INFO] [1687113854.658405605] [rosboard_node]: ROSboard listening on :8888
+[WARN] [1687113860.915895962] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687113860.926582385] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687113860.930530223] [rosboard_node]: warning: topic /cmd_vel not found
+[WARN] [1687113861.561116724] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687113861.565570346] [rosboard_node]: warning: topic /cmd_vel not found
+[WARN] [1687113862.570356925] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687113862.574767317] [rosboard_node]: warning: topic /cmd_vel not found
+[WARN] [1687113863.579550315] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687113863.584008832] [rosboard_node]: warning: topic /cmd_vel not found
+[WARN] [1687113864.588666846] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687113864.593082342] [rosboard_node]: warning: topic /cmd_vel not found
+[WARN] [1687113865.598011837] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687113865.602464103] [rosboard_node]: warning: topic /cmd_vel not found
+[WARN] [1687113866.607374925] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687113866.612092245] [rosboard_node]: warning: topic /cmd_vel not found
+[WARN] [1687113867.616996011] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687113867.621461402] [rosboard_node]: warning: topic /cmd_vel not found
+[WARN] [1687113868.625938215] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687113868.629859801] [rosboard_node]: warning: topic /cmd_vel not found
+[WARN] [1687113869.634413417] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687113869.638782712] [rosboard_node]: warning: topic /cmd_vel not found
+[WARN] [1687113870.643374591] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687113870.647424093] [rosboard_node]: warning: topic /cmd_vel not found
+[WARN] [1687113871.651636317] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687113871.657190931] [rosboard_node]: warning: topic /cmd_vel not found
+[WARN] [1687113872.663492424] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687113872.669145945] [rosboard_node]: warning: topic /cmd_vel not found
+[INFO] [1687113873.704492479] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[INFO] [1687113873.997068549] [rosboard_node]: Subscribing to /cmd_vel
+[INFO] [1687114278.932248234] [rosboard_node]: Unsubscribing from /cmd_vel
+[INFO] [1687114627.580659087] [rosboard_node]: Unsubscribing from /simple_rover/camera/image_raw
+[INFO] [1687114629.915659288] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[INFO] [1687115074.834514821] [rosboard_node]: Unsubscribing from /simple_rover/camera/image_raw
+[INFO] [1687115078.447780327] [rosboard_node]: Subscribing to /camera/image_raw
+[INFO] [1687115168.963778797] [rosboard_node]: Unsubscribing from /camera/image_raw
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/ws/src/rosboard/rosboard/rospy2/__init__.py", line 82, in _thread_spin_target
+    rclpy.spin(_node)
+  File "/opt/ros/humble/install/lib/python3.8/site-packages/rclpy/__init__.py", line 222, in spin
+    executor.spin_once()
+  File "/opt/ros/humble/install/lib/python3.8/site-packages/rclpy/executors.py", line 705, in spin_once
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/install/lib/python3.8/site-packages/rclpy/executors.py", line 691, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/install/lib/python3.8/site-packages/rclpy/executors.py", line 592, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException
+Running from ['/ws/src/rosboard/rosboard']
+[INFO] [1687116352.450217523] [rosboard_node]: ROSboard listening on :8888
+[INFO] [1687116353.671001083] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[INFO] [1687116353.689175101] [rosboard_node]: Subscribing to /cmd_vel
+[INFO] [1687116995.402989929] [rosboard_node]: Subscribing to /nanosaur/camera/image_raw
+[INFO] [1687116999.279560988] [rosboard_node]: Unsubscribing from /simple_rover/camera/image_raw
+[INFO] [1687116999.287457796] [rosboard_node]: Unsubscribing from /cmd_vel
+[INFO] [1687116999.294169911] [rosboard_node]: Unsubscribing from /nanosaur/camera/image_raw
+[INFO] [1687116999.443401188] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[INFO] [1687116999.450970026] [rosboard_node]: Subscribing to /cmd_vel
+[INFO] [1687116999.457298389] [rosboard_node]: Subscribing to /nanosaur/camera/image_raw
+[INFO] [1687117001.303328770] [rosboard_node]: Unsubscribing from /simple_rover/camera/image_raw
+[INFO] [1687117001.310101562] [rosboard_node]: Unsubscribing from /cmd_vel
+[INFO] [1687117002.315385005] [rosboard_node]: Unsubscribing from /nanosaur/camera/image_raw
+[INFO] [1687117004.283664817] [rosboard_node]: Subscribing to /simple_rover/camera/camera_info
+[INFO] [1687117007.326877463] [rosboard_node]: Unsubscribing from /simple_rover/camera/camera_info
+[INFO] [1687117008.399173306] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[INFO] [1687117016.348010410] [rosboard_node]: Unsubscribing from /simple_rover/camera/image_raw
+[INFO] [1687117018.014465776] [rosboard_node]: Subscribing to /nanosaur/camera/image_raw
+[INFO] [1687117026.364722119] [rosboard_node]: Unsubscribing from /nanosaur/camera/image_raw
+[INFO] [1687117107.718916081] [rosboard_node]: Subscribing to /simple_rover/camera/camera_info
+[INFO] [1687117136.515935268] [rosboard_node]: Unsubscribing from /simple_rover/camera/camera_info
+[INFO] [1687117170.819419271] [rosboard_node]: Subscribing to /simple_rover/camera/camera_info
+[INFO] [1687117171.733295608] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[INFO] [1687117174.570811564] [rosboard_node]: Unsubscribing from /simple_rover/camera/camera_info
+[INFO] [1687117544.255459760] [rosboard_node]: Unsubscribing from /simple_rover/camera/image_raw
+[INFO] [1687117544.790807621] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[INFO] [1687118330.889536742] [rosboard_node]: ROSboard listening on :8888
+[WARN] [1687118335.141292053] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687118335.788785488] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687118336.793002306] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687118337.797657430] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687118338.801273660] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687118339.808322568] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687118341.664860951] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[INFO] [1687118341.925036863] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[INFO] [1687119560.590875430] [rosboard_node]: ROSboard listening on :8888
+[WARN] [1687119563.415972518] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687119563.485855090] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687119564.489937317] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687119565.496153743] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687119566.501236231] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[INFO] [1687119567.536801922] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[INFO] [1687120996.065638952] [rosboard_node]: ROSboard listening on :8888
+[WARN] [1687121001.478753787] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121001.966434790] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[INFO] [1687121002.994547476] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[INFO] [1687121134.260489524] [rosboard_node]: ROSboard listening on :8888
+[WARN] [1687121136.621480576] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121137.138507558] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121138.142024577] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121139.146085516] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121140.149838583] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121141.153672175] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121142.158015056] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121143.162150109] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121144.167280354] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121145.171307462] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121146.176061639] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121147.180817914] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121148.186618901] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121149.191893614] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121150.196889074] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121151.201682647] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121152.212303510] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[INFO] [1687121153.265992452] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[INFO] [1687121295.857063523] [rosboard_node]: Unsubscribing from /simple_rover/camera/image_raw
+[WARN] [1687121296.216087451] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121296.864310501] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121297.869255765] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121298.874094953] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121299.878920931] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121300.883267240] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121301.889154985] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121302.893632745] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121303.899024805] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121304.904709913] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121305.913301312] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121306.922480553] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121307.927014170] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121308.937317065] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121309.945304404] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121310.949704928] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121311.955376587] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121312.964624968] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121313.968377007] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121314.976471238] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121315.980420254] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121316.984177322] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121317.998187396] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121319.003961489] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121320.009627756] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121321.014453920] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121322.020035679] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121323.026316584] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121324.031737810] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121325.037209880] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121326.041873986] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121327.047482963] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121328.053104407] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121329.057749544] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121330.064190983] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121331.069319196] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121332.074056420] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121333.079994057] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121334.084887246] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121335.089868549] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121336.096726565] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121337.101206381] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121338.106025005] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121339.110898629] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121340.115771114] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121341.120740623] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121342.125679820] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121343.130588470] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121344.135445223] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121345.140404662] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121346.145197363] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121347.150093056] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121348.154532276] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121349.158961111] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121350.163868518] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121351.168764841] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121352.173753172] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121353.178655440] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121354.181806392] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121355.186573843] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121356.191501816] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121357.196452889] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121358.201371616] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121359.206349732] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121360.210781563] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121361.215223275] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121362.219827482] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121363.223389437] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121364.238090067] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121365.242619703] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121366.253700989] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121367.261740623] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121368.268937131] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121369.273901905] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121370.277868984] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121371.281582951] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121372.285255547] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121373.292512805] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121374.298165186] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121375.308279993] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121376.312663271] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121377.318690411] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121378.324027499] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121379.328615428] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121380.334186270] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121381.339750766] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121382.344543210] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121383.349711166] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121384.355233441] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121385.359931864] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121386.366086861] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121387.370694809] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121388.375669869] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121389.381126426] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121390.386823279] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121391.392118583] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121392.397483199] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121393.402389611] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121394.407684373] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121395.413023726] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121396.417807497] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121397.423507366] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121398.428647653] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121399.433501345] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121400.438998539] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121401.444942460] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121402.450350004] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121403.455345450] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121404.460036624] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121405.465853062] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121406.471255702] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121407.474954136] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121408.480000413] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121409.484976098] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121410.489522589] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121411.495897839] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121412.501022365] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121413.505826207] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121414.510334839] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121415.515582678] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121416.520041028] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121417.525520219] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121418.530831931] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121419.535592615] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121420.540587561] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121421.545635311] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121422.551113067] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121423.555433961] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121424.560151431] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121425.565478667] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121426.570744868] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121427.574998341] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121428.579360584] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121429.584859500] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121430.589693887] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121431.595306661] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121432.600551017] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121433.604919289] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121434.610323518] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121435.615819093] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121436.620625319] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121437.625764676] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121438.631136592] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121439.636070062] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121440.644602394] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121441.648426526] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121442.656180784] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121443.665543073] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121444.671493615] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121445.676197374] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121446.680994077] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121447.687443459] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121448.692159960] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121449.696787845] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121450.701575668] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121451.706492700] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121452.711745721] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121453.716234651] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121454.721026865] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121455.726334612] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121456.731260629] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121457.735195999] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121458.739394193] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121459.744702111] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121460.749083765] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121461.753238811] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121462.757993838] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121463.762870237] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121464.767773788] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121465.772831793] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121466.777686169] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121467.783812528] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121468.788709615] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121469.793587355] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121470.798510230] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121471.803208758] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121472.808141441] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121473.812968690] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121474.817575818] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121475.822424504] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121476.827117915] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121477.831874755] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121478.836652475] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121479.841173836] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121480.845934364] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121481.850711298] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121482.855482604] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121483.860402041] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121484.865087934] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121485.869835503] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121486.874582246] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121487.879183111] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121488.884036540] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121489.888742949] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121490.893535568] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121491.898364192] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121492.903118194] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121493.907890340] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121494.912597814] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121495.917261871] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121496.922148609] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121497.926855367] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121498.931679078] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121499.936322812] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121500.941087982] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121501.945957814] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121502.950819657] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121503.955644964] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121504.960350717] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121505.965151711] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121506.969947114] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121507.974830472] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121508.979576051] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121509.984344269] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121510.989161900] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121511.993914674] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121512.998696603] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121514.003374666] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121515.008177875] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121516.012882792] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121517.017713327] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121518.022304059] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121519.027134061] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121520.031973224] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121521.036945822] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121522.041684349] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121523.046502824] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121524.051307128] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121525.056100651] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121526.060812140] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121527.065580090] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121528.070402103] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121529.075078283] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121530.079430657] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121531.084100853] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121532.088535164] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121533.093050835] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121534.097968656] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121535.102411422] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121536.106787476] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121537.110631340] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121538.115494190] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121539.120444292] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121540.125247942] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121541.129643210] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121542.135460548] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121543.140015998] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121544.143736238] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121545.149452830] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121546.162837967] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121547.167504412] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121548.174825297] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121549.178075340] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121550.182469431] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121551.188994047] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121552.195428470] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121553.202688030] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121554.207474751] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121555.212390920] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121556.217324712] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121557.222167638] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121558.226971365] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121559.231225311] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121560.237317072] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121561.242210969] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121562.247135774] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121563.251915600] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121564.256738888] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121565.261404540] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121566.266294961] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121567.270942328] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121568.275773162] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121569.280514853] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121570.285193078] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121571.289853935] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121572.294567214] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121573.299170207] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121574.303998179] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121575.308742116] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121576.313499206] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121577.318163666] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121578.323028419] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121579.327740648] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121580.332636920] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121581.337384573] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121582.342118923] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121583.346912316] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121584.351692771] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121585.356566176] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121586.361468207] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121587.366160788] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121588.371061738] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121589.375006089] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121590.379812415] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121591.384614556] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121592.389449439] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121593.394243626] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121594.399046077] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121595.403761998] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121596.408602435] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121597.413371656] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121598.418249925] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121599.422898798] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121600.427719689] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121601.432445354] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121602.437182306] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121603.441817261] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121604.446574235] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121605.451171764] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121606.455879124] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121607.460639803] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121608.465503908] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121609.470193099] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121610.474953944] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121611.479628212] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121612.484320487] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121613.489006239] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121614.493871148] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121615.498523018] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121616.503273784] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121617.507997820] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121618.512907314] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121619.517626742] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121620.522332251] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121621.527560934] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121622.532308035] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121623.537078614] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121624.541811265] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121625.547057040] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121626.551888265] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121627.556684218] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121628.561452400] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121629.566193019] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121630.571002067] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121631.575812876] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121632.580663884] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121633.585556862] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121634.590165346] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121635.594946064] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121636.599872035] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121637.605943799] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121638.610718500] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121639.615458609] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121640.620509703] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121641.625242034] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121642.630002690] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121643.636066798] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121644.640727227] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121645.645579163] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121646.650407236] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121647.655139206] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121648.659934764] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121649.664780210] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121650.669643358] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121651.674477436] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121652.679300985] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121653.684102235] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121654.688950771] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121655.693783935] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121656.698566154] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121657.703286543] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121658.708088802] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121659.712961732] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121660.717835698] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121661.724033586] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121662.728858945] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121663.733564504] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121664.738334486] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121665.743062950] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121666.747998548] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121667.752813357] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121668.757543679] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121669.762388843] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121670.767202906] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121671.772078996] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121672.776817735] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121673.781542719] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121674.786374678] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121675.791135382] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121676.795998218] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121677.800654119] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121678.805464496] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121679.811445878] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121680.816326299] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121681.821137028] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121682.825980721] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121683.830715711] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121684.835448872] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121685.840302136] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121686.844983726] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121687.849726876] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121688.854488095] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121689.859216601] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121690.864056354] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121691.868820061] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121692.873386418] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121693.878154961] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121694.882857770] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121695.887636462] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121696.892413328] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121697.897230972] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121698.902029967] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121699.906753331] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121700.911590028] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121701.916261614] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121702.921084399] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121703.925985202] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121704.930807354] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121705.935591065] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121706.940457067] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121707.945096186] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121708.949888118] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121709.954572024] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121710.959379524] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121711.964307022] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121712.969161391] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121713.973878985] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121714.978713609] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121715.991000595] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121716.995730108] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121718.000428317] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121719.005189022] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121720.009903892] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121721.014740324] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121722.019389406] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121723.024379638] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121724.029114967] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121725.033923472] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121726.038675151] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121727.043457141] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121728.048263504] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121729.053006947] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121730.057833827] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121731.062493776] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121732.067216848] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121733.071983721] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121734.076667570] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121735.081175112] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121736.086063856] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121737.090817128] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121738.096510725] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121739.101217794] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121740.105858506] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121741.110701875] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121742.115458784] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121743.120354286] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121744.125221870] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121745.129796894] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121746.134560619] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121747.139241424] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121748.143977697] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121749.148702458] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121750.153291955] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121751.158138538] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121752.162861315] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121753.167455859] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121754.172249676] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121755.176853853] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121756.181759492] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121757.186422522] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121758.191126592] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121759.195854672] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121760.200712908] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121761.205516039] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121762.210373336] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121763.215104171] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121764.219856776] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121765.224523389] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121766.229339639] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121767.234129064] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121768.238826612] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121769.243404625] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121770.248390405] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121771.253195398] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121772.257847576] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121773.262842988] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121774.267577196] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121775.272207182] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121776.276880553] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121777.281680124] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121778.286356567] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121779.292372667] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121780.297089942] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121781.301819715] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121782.306658032] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121783.311462961] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121784.316407476] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121785.321135840] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121786.325894047] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121787.330724078] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121788.335505305] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121789.340295594] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121790.345088382] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121791.349825179] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121792.354530100] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121793.359104496] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121794.363990512] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121795.368663243] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121796.373487224] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121797.378179329] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121798.382972788] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121799.387717287] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121800.392503349] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121801.397219565] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121802.401868853] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121803.406674548] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121804.411337792] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121805.416155987] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121806.420992931] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121807.425692788] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121808.430410823] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121809.435019011] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121810.439804338] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121811.444603934] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121812.449404572] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121813.454157448] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121814.458974335] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121815.463743565] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121816.468540294] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121817.473216239] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121818.478017655] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121819.482788601] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121820.487633141] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121821.492437056] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121822.496827890] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121823.501589719] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121824.506413945] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121825.511100616] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121826.515863850] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121827.520299683] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121828.525006457] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121829.529475518] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121830.533872442] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121831.538238844] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121832.543248955] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121833.546741175] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121834.550709758] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121835.555336111] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121836.560282833] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121837.564702203] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121838.569243241] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121839.573706517] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121840.577369207] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121841.581939828] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121842.587247231] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121843.597794513] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121844.602961601] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121845.608871096] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121846.623988141] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121847.629907688] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121848.635744941] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121849.641955587] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121850.647127777] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121851.653409516] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121852.667829568] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121853.679384519] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121854.683421638] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121855.694202461] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121856.705258966] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121858.063916252] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121858.711138060] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121859.715505806] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121860.719828448] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687121879.755237455] [rosboard_node]: failed to get topic names and types: rcl node's context is invalid, at /opt/ros/humble/src/rcl/rcl/src/rcl/node.c:428
+Failed to publish log message to rosout: publisher's context is invalid, at /opt/ros/humble/src/rcl/rcl/src/rcl/publisher.c:389
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/ws/src/rosboard/rosboard/rospy2/__init__.py", line 82, in _thread_spin_target
+    rclpy.spin(_node)
+  File "/opt/ros/humble/install/lib/python3.8/site-packages/rclpy/__init__.py", line 222, in spin
+    executor.spin_once()
+  File "/opt/ros/humble/install/lib/python3.8/site-packages/rclpy/executors.py", line 705, in spin_once
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/install/lib/python3.8/site-packages/rclpy/executors.py", line 691, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/install/lib/python3.8/site-packages/rclpy/executors.py", line 592, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException
+Running from ['/ws/src/rosboard/rosboard']
+[INFO] [1687121884.478470627] [rosboard_node]: ROSboard listening on :8888
+[INFO] [1687121899.220825003] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[INFO] [1687122346.895566682] [rosboard_node]: ROSboard listening on :8888
+[WARN] [1687122348.116538548] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687122348.785916276] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687122349.790842119] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687122350.795569960] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687122351.800209393] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687122352.804911987] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687122353.809645495] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687122354.814292874] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687122355.824206812] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687122356.831588171] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[INFO] [1687122357.864992521] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[INFO] [1687124390.565569944] [rosboard_node]: Subscribing to /simple_rover/camera/line_raw
+[WARN] [1687124390.625732324] [rosboard_node]: New publisher discovered on topic '/simple_rover/camera/line_raw', offering incompatible QoS. No messages will be received from it. Last incompatible policy: RELIABILITY
+[INFO] [1687124430.214408192] [rosboard_node]: Unsubscribing from /simple_rover/camera/line_raw
+[INFO] [1687124432.019414921] [rosboard_node]: Subscribing to /simple_rover/camera/line_raw
+[WARN] [1687124432.029562395] [rosboard_node]: New publisher discovered on topic '/simple_rover/camera/line_raw', offering incompatible QoS. No messages will be received from it. Last incompatible policy: RELIABILITY
+[WARN] [1687124678.304725812] [rosboard_node]: New publisher discovered on topic '/simple_rover/camera/line_raw', offering incompatible QoS. No messages will be received from it. Last incompatible policy: RELIABILITY
+[INFO] [1687124691.849989879] [rosboard_node]: Unsubscribing from /simple_rover/camera/line_raw
+[INFO] [1687124770.525016516] [rosboard_node]: Subscribing to /simple_rover/camera/line_raw
+[WARN] [1687124770.559985356] [rosboard_node]: New publisher discovered on topic '/simple_rover/camera/line_raw', offering incompatible QoS. No messages will be received from it. Last incompatible policy: RELIABILITY
+[INFO] [1687126038.325102709] [rosboard_node]: Unsubscribing from /simple_rover/camera/line_raw
+[INFO] [1687126050.619117670] [rosboard_node]: Subscribing to /simple_rover/camera/line_raw
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/ws/src/rosboard/rosboard/rospy2/__init__.py", line 82, in _thread_spin_target
+    rclpy.spin(_node)
+  File "/opt/ros/humble/install/lib/python3.8/site-packages/rclpy/__init__.py", line 222, in spin
+    executor.spin_once()
+  File "/opt/ros/humble/install/lib/python3.8/site-packages/rclpy/executors.py", line 713, in spin_once
+    raise handler.exception()
+  File "/opt/ros/humble/install/lib/python3.8/site-packages/rclpy/task.py", line 239, in __call__
+    self._handler.send(None)
+  File "/opt/ros/humble/install/lib/python3.8/site-packages/rclpy/executors.py", line 418, in handler
+    await call_coroutine(entity, arg)
+  File "/opt/ros/humble/install/lib/python3.8/site-packages/rclpy/executors.py", line 343, in _execute_subscription
+    await await_or_execute(sub.callback, msg)
+  File "/opt/ros/humble/install/lib/python3.8/site-packages/rclpy/executors.py", line 107, in await_or_execute
+    return callback(*args)
+  File "/ws/src/rosboard/rosboard/rospy2/__init__.py", line 245, in _ros2_callback
+    self.callback(msg, self.callback_args)
+  File "/ws/src/rosboard/rosboard/rosboard.py", line 324, in on_ros_msg
+    ros_msg_dict = ros2dict(msg)
+  File "/ws/src/rosboard/rosboard/serialization.py", line 41, in ros2dict
+    rosboard.compression.compress_image(msg, output)
+  File "/ws/src/rosboard/rosboard/compression.py", line 196, in compress_image
+    img_jpeg = encode_jpeg(cv2_img)
+  File "/ws/src/rosboard/rosboard/compression.py", line 36, in encode_jpeg
+    return simplejpeg.encode_jpeg(img, colorspace = "GRAY", quality = 50)
+  File "simplejpeg/_jpeg.pyx", line 474, in simplejpeg._jpeg.encode_jpeg
+ValueError: tjCompress2(): Invalid argument
+Running from ['/ws/src/rosboard/rosboard']
+[INFO] [1687127815.509360173] [rosboard_node]: ROSboard listening on :8888
+[WARN] [1687127815.992599803] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687127815.997173098] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687127816.001261277] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687127816.408934316] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687127816.413556623] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687127817.418350097] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687127817.422823545] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687127818.426233802] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687127818.430122756] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687127819.434461313] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687127819.439795357] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687127820.444144066] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687127820.448103492] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[INFO] [1687127821.480189058] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[WARN] [1687127821.493528570] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687127822.498000606] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[INFO] [1687127823.508509252] [rosboard_node]: Subscribing to /simple_rover/camera/line_raw
+Running from ['/ws/src/rosboard/rosboard']
+Traceback (most recent call last):
+  File "src/rosboard/run", line 5, in <module>
+    rosboard.rosboard.main()
+  File "/ws/src/rosboard/rosboard/rosboard.py", line 341, in main
+    ROSBoardNode().start()
+  File "/ws/src/rosboard/rosboard/rosboard.py", line 79, in __init__
+    self.tornado_application.listen(self.port)
+  File "/usr/local/lib/python3.8/dist-packages/tornado/web.py", line 2207, in listen
+    server.listen(
+  File "/usr/local/lib/python3.8/dist-packages/tornado/tcpserver.py", line 183, in listen
+    sockets = bind_sockets(
+  File "/usr/local/lib/python3.8/dist-packages/tornado/netutil.py", line 162, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 98] Address already in use
+[INFO] [1687129351.208710421] [rosboard_node]: ROSboard listening on :8888
+404 GET /favicon.ico (192.168.1.101) 6.32ms
+[INFO] [1687129382.538103010] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[INFO] [1687129387.032935143] [rosboard_node]: Subscribing to /simple_rover/camera/line_raw
+Running from ['/ws/src/rosboard/rosboard']
+Traceback (most recent call last):
+  File "src/rosboard/run", line 5, in <module>
+    rosboard.rosboard.main()
+  File "/ws/src/rosboard/rosboard/rosboard.py", line 341, in main
+    ROSBoardNode().start()
+  File "/ws/src/rosboard/rosboard/rosboard.py", line 79, in __init__
+    self.tornado_application.listen(self.port)
+  File "/usr/local/lib/python3.8/dist-packages/tornado/web.py", line 2207, in listen
+    server.listen(
+  File "/usr/local/lib/python3.8/dist-packages/tornado/tcpserver.py", line 183, in listen
+    sockets = bind_sockets(
+  File "/usr/local/lib/python3.8/dist-packages/tornado/netutil.py", line 162, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 98] Address already in use
+[INFO] [1687129760.237846952] [rosboard_node]: ROSboard listening on :8888
+[WARN] [1687129761.748311483] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129761.752983879] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129761.756758670] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129762.133917577] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129762.138357212] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129763.142157003] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129763.147833722] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129764.152619972] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129764.156902524] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129765.162987992] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129765.167336430] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129766.172097627] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129766.176517210] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129767.181206846] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129767.185584866] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129768.190028538] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129768.194566006] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129769.199288375] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129769.203757812] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129770.208224662] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129770.212626458] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129771.217129068] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129771.221500667] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129772.226198139] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129772.230639958] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129773.235397814] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129773.239684866] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129774.243985345] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129774.248767562] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129775.253436018] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129775.257889160] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129776.261854059] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129776.266244087] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129777.270957532] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129777.275431900] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129778.280160899] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129778.284588722] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129779.288521034] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129779.293434487] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129780.297593783] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129780.302037472] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129781.306754367] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129781.311103415] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129782.315831976] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129782.320064177] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129783.326237624] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129783.330838283] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129784.335884200] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129784.340634580] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129785.345119658] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129785.348925990] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129786.354048957] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129786.358959463] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129787.363556483] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129787.367538128] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129788.371948799] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129788.375915020] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129789.380477378] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129789.384411082] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129790.389164525] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129790.394177758] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129791.399143616] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129791.403390660] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129792.408572882] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129792.413562290] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129793.418231517] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129793.423575963] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129794.428534237] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129794.432697679] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129795.437330606] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129795.441535527] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129796.446313436] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129796.450852881] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129797.455358521] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129797.459438839] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129798.463995289] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129798.467962936] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129799.472312586] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129799.476245848] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129800.481590044] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129800.485706150] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129801.490776423] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129801.494959367] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129802.498892134] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129802.503026847] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129803.507843047] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129803.511955235] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129804.516837261] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129804.520837387] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129805.525655635] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129805.529843349] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129806.534735621] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129806.538851136] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129807.543591809] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129807.547718558] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129808.553110771] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129808.557551319] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129809.562576506] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129809.567013862] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129810.572003852] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129810.576473708] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129811.581537187] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129811.585980684] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129812.590963663] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129812.595492613] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129813.600420639] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129813.604833993] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129814.609751918] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129814.614077924] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129815.619049212] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129815.623498141] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129816.627988294] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129816.632441475] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129817.637419120] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129817.641586291] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129818.646541709] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129818.651409954] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129819.656184449] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129819.660605272] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129820.665530060] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129820.670004240] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129821.674861400] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129821.679265966] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129822.684219688] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129822.688642766] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129823.693453439] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129823.698934075] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129824.703724479] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129824.708164631] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129825.712970096] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129825.717332677] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129826.722150517] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129826.726744533] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129827.731600413] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129827.736001679] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129828.740802803] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129828.745468857] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129829.750304976] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129829.754740935] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129830.759440516] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129830.763871654] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129831.768663257] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129831.773126188] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129832.777987230] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129832.782623913] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129833.787351402] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129833.792079899] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129834.796700083] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129834.801108385] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129835.805857323] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129835.810233491] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129836.815034218] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129836.819377928] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129837.824249484] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129837.828843371] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129838.833647466] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129838.838058727] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129839.842748401] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129839.846781234] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129840.851546055] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129840.856072553] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129841.860855639] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129841.865223745] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129842.869845020] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129842.873926219] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129843.879107225] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129843.883498648] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129844.888231925] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129844.892621038] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129845.897312924] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129845.901271637] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129846.906108540] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129846.910586366] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129847.915405255] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129847.920026096] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129848.924836551] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129848.929353900] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129849.934110501] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129849.938565610] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129850.943212017] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129850.947646139] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129851.952348689] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129851.956774374] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129852.961636984] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129852.966091374] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129853.969870142] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129853.974357819] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129854.978978733] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129854.982974500] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129855.987281805] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129855.991363625] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129856.996030392] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129857.000568214] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129858.005044167] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129858.009218926] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129859.013768137] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129859.017948560] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[INFO] [1687129860.111525260] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[WARN] [1687129860.159007275] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129861.169986215] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129862.174586594] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129863.179401567] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129864.196022293] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129865.202940311] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129866.209817891] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129867.216773189] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129868.223327711] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129869.231521117] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129870.236992438] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129871.241792038] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129872.246779585] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129873.253514229] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129874.258454172] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                [INFO] [1687129979.361558232] [rosboard_node]: ROSboard listening on :8888
+[WARN] [1687129981.065738544] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129981.070716200] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129981.074461148] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129981.258872815] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129981.263338179] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129982.268029377] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129982.272307658] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129983.276719376] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129983.280546981] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129984.284455157] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129984.288231772] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129985.292444740] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687129985.297734167] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[INFO] [1687129986.355057709] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[WARN] [1687129986.395924740] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687129987.401275573] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      [INFO] [1687130195.495341373] [rosboard_node]: ROSboard listening on :8888
+[WARN] [1687130198.960207477] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687130198.964940021] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687130198.969153249] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687130199.392500493] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687130199.397249656] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687130200.400759141] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687130200.405421225] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687130201.409983045] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687130201.415604028] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[INFO] [1687130202.460902857] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[WARN] [1687130202.638949137] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687130203.644087935] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687130204.649016699] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[INFO] [1687130204.653039842] [rosboard_node]: Unsubscribing from /simple_rover/camera/image_raw
+[INFO] [1687130402.565280941] [rosboard_node]: ROSboard listening on :8888
+[INFO] [1687130607.480515987] [rosboard_node]: ROSboard listening on :8888
+[INFO] [1687136650.399915190] [rosboard_node]: ROSboard listening on :8888
+[INFO] [1687136906.632207695] [rosboard_node]: ROSboard listening on :8888
+[INFO] [1687137074.807635081] [rosboard_node]: ROSboard listening on :8888
+[WARN] [1687137081.085449975] [rosboard_node]: warning: topic /nanosaur/camera/image_raw not found
+[WARN] [1687137081.709212162] [rosboard_node]: warning: topic /nanosaur/camera/image_raw not found
+[WARN] [1687137082.714047526] [rosboard_node]: warning: topic /nanosaur/camera/image_raw not found
+[INFO] [1687137087.795937982] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[INFO] [1687137090.737176996] [rosboard_node]: Subscribing to /simple_rover/camera/line_raw
+[INFO] [1687137320.287537297] [rosboard_node]: ROSboard listening on :8888
+404 GET /favicon.ico (192.168.1.100) 21.42ms
+[INFO] [1687137357.729626446] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[INFO] [1687137358.998756800] [rosboard_node]: Subscribing to /simple_rover/camera/line_raw
+[WARN] [1687137407.233048438] [rosboard_node]: socket abd3b68f-7549-4fb5-a994-f48b929d32b9 has high latency of 3484.49 ms
+[WARN] [1687137408.095479324] [rosboard_node]: socket abd3b68f-7549-4fb5-a994-f48b929d32b9 has high latency of 1416.93 ms
+404 GET /apple-touch-icon-precomposed.png (192.168.1.100) 5.53ms
+404 GET /apple-touch-icon.png (192.168.1.100) 2.45ms
+404 GET /favicon.ico (192.168.1.100) 1.54ms
+404 GET /apple-touch-icon-precomposed.png (192.168.1.100) 3.65ms
+404 GET /apple-touch-icon.png (192.168.1.100) 4.26ms
+404 GET /favicon.ico (192.168.1.100) 1.64ms
+404 GET /apple-touch-icon-precomposed.png (192.168.1.100) 1.61ms
+404 GET /apple-touch-icon.png (192.168.1.100) 10.86ms
+404 GET /favicon.ico (192.168.1.100) 2.27ms
+404 GET /apple-touch-icon-precomposed.png (192.168.1.100) 2.88ms
+404 GET /apple-touch-icon.png (192.168.1.100) 2.47ms
+404 GET /favicon.ico (192.168.1.100) 2.60ms
+[INFO] [1687138693.192733639] [rosboard_node]: ROSboard listening on :8888
+[INFO] [1687138722.961961873] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[INFO] [1687138722.990045827] [rosboard_node]: Subscribing to /simple_rover/camera/line_raw
+404 GET /apple-touch-icon-precomposed.png (192.168.0.128) 7.82ms
+404 GET /apple-touch-icon.png (192.168.0.128) 1.68ms
+404 GET /favicon.ico (192.168.0.128) 1.84ms
+404 GET /apple-touch-icon-precomposed.png (192.168.0.128) 1.54ms
+404 GET /apple-touch-icon.png (192.168.0.128) 1.39ms
+404 GET /favicon.ico (192.168.0.128) 1.35ms
+404 GET /apple-touch-icon-precomposed.png (192.168.0.128) 1.41ms
+404 GET /apple-touch-icon.png (192.168.0.128) 1.31ms
+404 GET /favicon.ico (192.168.0.128) 1.28ms
+404 GET /apple-touch-icon-precomposed.png (192.168.0.128) 1.36ms
+404 GET /apple-touch-icon.png (192.168.0.128) 1.33ms
+404 GET /favicon.ico (192.168.0.128) 1.33ms
+[INFO] [1687140029.530588902] [rosboard_node]: Unsubscribing from /simple_rover/camera/image_raw
+[INFO] [1687140029.535437309] [rosboard_node]: Unsubscribing from /simple_rover/camera/line_raw
+[INFO] [1687142947.095808445] [rosboard_node]: ROSboard listening on :8888
+[WARN] [1687142959.433820914] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687142959.445834818] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687142959.450090829] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687142960.010701584] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687142960.015213378] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687142961.019994831] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687142961.024659334] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687142962.029337889] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687142962.033722542] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687142963.038464783] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687142963.042914852] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687142964.047377550] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687142964.051402715] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687142965.055891982] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687142965.059919803] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687142966.064403203] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687142966.068540816] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687142967.073328520] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687142967.077618685] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687142968.081798400] [rosboard_node]: warning: topic /simple_rover/camera/image_raw not found
+[WARN] [1687142968.088807143] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[INFO] [1687142969.121051457] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[WARN] [1687142969.288405304] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687142970.293693004] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687142971.309139659] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687142972.316503265] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[WARN] [1687142973.326994395] [rosboard_node]: warning: topic /simple_rover/camera/line_raw not found
+[INFO] [1687142974.330734184] [rosboard_node]: Subscribing to /simple_rover/camera/line_raw
+[INFO] [1687144848.157540838] [rosboard_node]: Unsubscribing from /simple_rover/camera/image_raw
+[INFO] [1687144848.161554047] [rosboard_node]: Unsubscribing from /simple_rover/camera/line_raw
+[INFO] [1687145014.340450898] [rosboard_node]: Subscribing to /simple_rover/camera/image_raw
+[INFO] [1687145014.347691711] [rosboard_node]: Subscribing to /simple_rover/camera/line_raw

@@ -1,0 +1,108 @@
+[0.000000] (-) TimerEvent: {}
+[0.002184] (-) JobUnselected: {'identifier': 'image_pub'}
+[0.003847] (-) JobUnselected: {'identifier': 'nanosaur_control'}
+[0.004208] (-) JobUnselected: {'identifier': 'nanosaur_hardware'}
+[0.004462] (-) JobUnselected: {'identifier': 'nanosaur_msgs'}
+[0.004881] (-) JobUnselected: {'identifier': 'rosboard'}
+[0.007323] (teleop_twist_keyboard) JobQueued: {'identifier': 'teleop_twist_keyboard', 'dependencies': OrderedDict()}
+[0.011260] (teleop_twist_keyboard) JobStarted: {'identifier': 'teleop_twist_keyboard'}
+[0.099440] (-) TimerEvent: {}
+[0.200886] (-) TimerEvent: {}
+[0.301896] (-) TimerEvent: {}
+[0.402647] (-) TimerEvent: {}
+[0.503312] (-) TimerEvent: {}
+[0.616971] (-) TimerEvent: {}
+[0.718996] (-) TimerEvent: {}
+[0.819764] (-) TimerEvent: {}
+[0.920504] (-) TimerEvent: {}
+[1.022295] (-) TimerEvent: {}
+[1.123417] (-) TimerEvent: {}
+[1.224242] (-) TimerEvent: {}
+[1.324979] (-) TimerEvent: {}
+[1.426260] (-) TimerEvent: {}
+[1.532619] (-) TimerEvent: {}
+[1.638706] (-) TimerEvent: {}
+[1.739667] (-) TimerEvent: {}
+[1.840550] (-) TimerEvent: {}
+[1.941866] (-) TimerEvent: {}
+[2.042962] (-) TimerEvent: {}
+[2.143777] (-) TimerEvent: {}
+[2.244483] (-) TimerEvent: {}
+[2.348554] (-) TimerEvent: {}
+[2.450433] (-) TimerEvent: {}
+[2.551252] (-) TimerEvent: {}
+[2.652140] (-) TimerEvent: {}
+[2.752979] (-) TimerEvent: {}
+[2.853876] (-) TimerEvent: {}
+[2.954898] (-) TimerEvent: {}
+[3.055674] (-) TimerEvent: {}
+[3.157159] (-) TimerEvent: {}
+[3.257995] (-) TimerEvent: {}
+[3.359114] (-) TimerEvent: {}
+[3.460204] (-) TimerEvent: {}
+[3.562201] (-) TimerEvent: {}
+[3.663365] (-) TimerEvent: {}
+[3.765241] (-) TimerEvent: {}
+[3.866152] (-) TimerEvent: {}
+[3.967131] (-) TimerEvent: {}
+[4.068234] (-) TimerEvent: {}
+[4.169212] (-) TimerEvent: {}
+[4.193400] (teleop_twist_keyboard) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/ws/build/teleop_twist_keyboard/build', '--no-deps', 'install_data'], 'cwd': '/ws/build/teleop_twist_keyboard', 'env': {'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': 'jetson-desktop', 'ROS_PACKAGE_PATH': '/ros_deep_learning/install/ros_deep_learning/share', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/ws/install/nanosaur_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/ws/install:/ros_deep_learning/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'AMENT_PREFIX_PATH': '/ws/install/nanosaur_msgs:/ws/install/nanosaur_hardware:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PWD': '/ws/build/teleop_twist_keyboard', 'CUDA_HOME': '/usr/local/cuda', 'PYTHONPATH': '/ws/build/teleop_twist_keyboard/prefix_override:/ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/ws/install/nanosaur_msgs/lib/python3.8/site-packages:/ws/build/nanosaur_hardware:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'}, 'shell': False}
+[4.269472] (-) TimerEvent: {}
+[4.371018] (-) TimerEvent: {}
+[4.471934] (-) TimerEvent: {}
+[4.579311] (-) TimerEvent: {}
+[4.682705] (-) TimerEvent: {}
+[4.783527] (-) TimerEvent: {}
+[4.884326] (-) TimerEvent: {}
+[4.985026] (-) TimerEvent: {}
+[5.085733] (-) TimerEvent: {}
+[5.186595] (-) TimerEvent: {}
+[5.287227] (-) TimerEvent: {}
+[5.387935] (-) TimerEvent: {}
+[5.489548] (-) TimerEvent: {}
+[5.590994] (-) TimerEvent: {}
+[5.692514] (-) TimerEvent: {}
+[5.707164] (teleop_twist_keyboard) StdoutLine: {'line': b'running develop\n'}
+[5.793869] (-) TimerEvent: {}
+[5.895645] (-) TimerEvent: {}
+[5.996289] (-) TimerEvent: {}
+[6.096982] (-) TimerEvent: {}
+[6.198637] (-) TimerEvent: {}
+[6.301439] (-) TimerEvent: {}
+[6.402167] (-) TimerEvent: {}
+[6.503086] (-) TimerEvent: {}
+[6.605235] (-) TimerEvent: {}
+[6.691445] (teleop_twist_keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[6.692337] (teleop_twist_keyboard) StdoutLine: {'line': b'creating teleop_twist_keyboard.egg-info\n'}
+[6.693443] (teleop_twist_keyboard) StdoutLine: {'line': b'writing teleop_twist_keyboard.egg-info/PKG-INFO\n'}
+[6.695078] (teleop_twist_keyboard) StdoutLine: {'line': b'writing dependency_links to teleop_twist_keyboard.egg-info/dependency_links.txt\n'}
+[6.695973] (teleop_twist_keyboard) StdoutLine: {'line': b'writing entry points to teleop_twist_keyboard.egg-info/entry_points.txt\n'}
+[6.696607] (teleop_twist_keyboard) StdoutLine: {'line': b'writing requirements to teleop_twist_keyboard.egg-info/requires.txt\n'}
+[6.699437] (teleop_twist_keyboard) StdoutLine: {'line': b'writing top-level names to teleop_twist_keyboard.egg-info/top_level.txt\n'}
+[6.700212] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file 'teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[6.705394] (-) TimerEvent: {}
+[6.810202] (-) TimerEvent: {}
+[6.885090] (teleop_twist_keyboard) StdoutLine: {'line': b"reading manifest file 'teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[6.888086] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file 'teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[6.910367] (-) TimerEvent: {}
+[7.011367] (-) TimerEvent: {}
+[7.112053] (-) TimerEvent: {}
+[7.117757] (teleop_twist_keyboard) StdoutLine: {'line': b'running build_ext\n'}
+[7.119185] (teleop_twist_keyboard) StdoutLine: {'line': b'Creating /ws/install/teleop_twist_keyboard/lib/python3.8/site-packages/site.py\n'}
+[7.128489] (teleop_twist_keyboard) StdoutLine: {'line': b'Creating /ws/install/teleop_twist_keyboard/lib/python3.8/site-packages/teleop-twist-keyboard.egg-link (link to .)\n'}
+[7.132142] (teleop_twist_keyboard) StdoutLine: {'line': b'Installing teleop_twist_keyboard script to /ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard\n'}
+[7.133408] (teleop_twist_keyboard) StdoutLine: {'line': b'\n'}
+[7.134030] (teleop_twist_keyboard) StdoutLine: {'line': b'Installed /ws/build/teleop_twist_keyboard\n'}
+[7.134877] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_data\n'}
+[7.135469] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /ws/install/teleop_twist_keyboard/share/ament_index\n'}
+[7.136176] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /ws/install/teleop_twist_keyboard/share/ament_index/resource_index\n'}
+[7.136702] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages\n'}
+[7.137169] (teleop_twist_keyboard) StdoutLine: {'line': b'copying resource/teleop_twist_keyboard -> /ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages\n'}
+[7.137625] (teleop_twist_keyboard) StdoutLine: {'line': b'copying package.xml -> /ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard\n'}
+[7.212306] (-) TimerEvent: {}
+[7.288086] (teleop_twist_keyboard) CommandEnded: {'returncode': 0}
+[7.314465] (-) TimerEvent: {}
+[7.424076] (-) TimerEvent: {}
+[7.446498] (teleop_twist_keyboard) JobEnded: {'identifier': 'teleop_twist_keyboard', 'rc': 0}
+[7.456683] (-) EventReactorShutdown: {}

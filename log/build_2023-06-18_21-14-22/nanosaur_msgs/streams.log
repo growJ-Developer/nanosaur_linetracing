@@ -1,0 +1,231 @@
+[1.303s] Invoking command in '/ws/build/nanosaur_msgs': CMAKE_PREFIX_PATH=/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake /ws/src/nanosaur/nanosaur_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/nanosaur_msgs
+[1.630s] -- The C compiler identification is GNU 9.4.0
+[1.867s] -- The CXX compiler identification is GNU 9.4.0
+[1.911s] -- Detecting C compiler ABI info
+[2.218s] -- Detecting C compiler ABI info - done
+[2.274s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.276s] -- Detecting C compile features
+[2.279s] -- Detecting C compile features - done
+[2.296s] -- Detecting CXX compiler ABI info
+[2.584s] -- Detecting CXX compiler ABI info - done
+[2.640s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.643s] -- Detecting CXX compile features
+[2.646s] -- Detecting CXX compile features - done
+[2.663s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[8.143s] -- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter 
+[8.454s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.621s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/install/share/rosidl_default_generators/cmake)
+[8.652s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.712s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[9.036s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.353s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/install/share/geometry_msgs/cmake)
+[11.486s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)
+[12.651s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.379s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.680s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") 
+[14.697s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
+[15.045s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[15.045s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[15.046s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[15.046s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so
+[15.231s] -- Found PythonExtra: .so  
+[16.010s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[16.339s] -- Added test 'copyright' to check source files copyright and LICENSE
+[16.362s] -- Added test 'lint_cmake' to check CMake code style
+[16.382s] -- Added test 'xmllint' to check XML markup files
+[16.420s] -- Configuring done (15.0s)
+[16.673s] -- Generating done (0.2s)
+[16.673s] -- Build files have been written to: /ws/build/nanosaur_msgs
+[16.766s] Invoked command in '/ws/build/nanosaur_msgs' returned '0': CMAKE_PREFIX_PATH=/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake /ws/src/nanosaur/nanosaur_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/nanosaur_msgs
+[16.769s] Invoking command in '/ws/build/nanosaur_msgs': CMAKE_PREFIX_PATH=/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --build /ws/build/nanosaur_msgs -- -j4 -l4
+[17.219s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[17.280s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[17.311s] [  5%] Built target ament_cmake_python_symlink_nanosaur_msgs
+[19.776s] running egg_info
+[19.780s] creating nanosaur_msgs.egg-info
+[19.782s] writing nanosaur_msgs.egg-info/PKG-INFO
+[19.784s] writing dependency_links to nanosaur_msgs.egg-info/dependency_links.txt
+[19.786s] writing top-level names to nanosaur_msgs.egg-info/top_level.txt
+[19.787s] writing manifest file 'nanosaur_msgs.egg-info/SOURCES.txt'
+[20.149s] reading manifest file 'nanosaur_msgs.egg-info/SOURCES.txt'
+[20.156s] writing manifest file 'nanosaur_msgs.egg-info/SOURCES.txt'
+[20.384s] [  5%] Built target ament_cmake_python_build_nanosaur_msgs_egg
+[21.532s] [  7%] [32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_generator_c.dir/rosidl_generator_c/nanosaur_msgs/msg/detail/eyes__functions.c.o[0m
+[21.540s] [ 10%] [32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_generator_c.dir/rosidl_generator_c/nanosaur_msgs/srv/detail/eye_message__functions.c.o[0m
+[22.053s] [ 10%] Built target nanosaur_msgs__cpp
+[22.139s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[22.154s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[22.338s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[22.380s] [ 20%] [32m[1mLinking C shared library libnanosaur_msgs__rosidl_generator_c.so[0m
+[22.772s] [ 20%] Built target nanosaur_msgs__rosidl_generator_c
+[22.861s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[26.934s] [ 25%] [32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nanosaur_msgs/msg/detail/eyes__type_support.cpp.o[0m
+[26.935s] [ 28%] [32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nanosaur_msgs/msg/eyes__type_support.cpp.o[0m
+[27.035s] [ 30%] [32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nanosaur_msgs/msg/detail/dds_fastrtps/eyes__type_support.cpp.o[0m
+[27.993s] [ 33%] [32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nanosaur_msgs/msg/detail/eyes__type_support_c.cpp.o[0m
+[34.105s] [ 35%] [32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nanosaur_msgs/srv/eye_message__type_support.cpp.o[0m
+[34.119s] [ 38%] [32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nanosaur_msgs/srv/detail/eye_message__type_support.cpp.o[0m
+[34.120s] [ 41%] [32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nanosaur_msgs/srv/detail/eye_message__type_support_c.cpp.o[0m
+[34.121s] [ 43%] [32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nanosaur_msgs/srv/detail/dds_fastrtps/eye_message__type_support.cpp.o[0m
+[38.326s] [ 46%] [32m[1mLinking CXX shared library libnanosaur_msgs__rosidl_typesupport_cpp.so[0m
+[39.970s] [ 53%] [32m[1mLinking CXX shared library libnanosaur_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[39.973s] [ 51%] [32m[1mLinking CXX shared library libnanosaur_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[39.973s] [ 48%] [32m[1mLinking CXX shared library libnanosaur_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[40.208s] [ 53%] Built target nanosaur_msgs__rosidl_typesupport_cpp
+[40.315s] [ 56%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[40.564s] [ 56%] Built target nanosaur_msgs__rosidl_typesupport_fastrtps_c
+[40.603s] [ 56%] Built target nanosaur_msgs__rosidl_typesupport_introspection_cpp
+[40.631s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[40.632s] [ 58%] Built target nanosaur_msgs__rosidl_typesupport_fastrtps_cpp
+[60.988s] [ 64%] [32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nanosaur_msgs/msg/eyes__type_support.cpp.o[0m
+[61.029s] [ 64%] [32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nanosaur_msgs/msg/detail/eyes__type_support.c.o[0m
+[63.415s] [ 66%] [32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nanosaur_msgs/srv/eye_message__type_support.cpp.o[0m
+[63.692s] [ 69%] [32m[1mLinking CXX shared library libnanosaur_msgs__rosidl_typesupport_c.so[0m
+[63.712s] [ 71%] [32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nanosaur_msgs/srv/detail/eye_message__type_support.c.o[0m
+[63.901s] [ 74%] [32m[1mLinking C shared library libnanosaur_msgs__rosidl_typesupport_introspection_c.so[0m
+[64.144s] [ 74%] Built target nanosaur_msgs__rosidl_typesupport_c
+[64.199s] [ 74%] Built target nanosaur_msgs__rosidl_typesupport_introspection_c
+[64.300s] [ 74%] Built target nanosaur_msgs
+[64.351s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[68.472s] [ 76%] Built target nanosaur_msgs__py
+[68.631s] [ 79%] [32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_generator_py.dir/rosidl_generator_py/nanosaur_msgs/msg/_eyes_s.c.o[0m
+[69.204s] [ 82%] [32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_generator_py.dir/rosidl_generator_py/nanosaur_msgs/srv/_eye_message_s.c.o[0m
+[69.745s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/nanosaur_msgs/libnanosaur_msgs__rosidl_generator_py.so[0m
+[69.878s] [ 84%] Built target nanosaur_msgs__rosidl_generator_py
+[69.921s] [ 87%] [32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nanosaur_msgs/_nanosaur_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[70.438s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so[0m
+[70.581s] [ 89%] Built target nanosaur_msgs__rosidl_typesupport_fastrtps_c__pyext
+[70.618s] [ 92%] [32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nanosaur_msgs/_nanosaur_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[71.083s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so[0m
+[71.222s] [ 94%] Built target nanosaur_msgs__rosidl_typesupport_c__pyext
+[71.262s] [ 97%] [32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nanosaur_msgs/_nanosaur_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[71.855s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so[0m
+[71.998s] [100%] Built target nanosaur_msgs__rosidl_typesupport_introspection_c__pyext
+[72.091s] Invoked command in '/ws/build/nanosaur_msgs' returned '0': CMAKE_PREFIX_PATH=/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --build /ws/build/nanosaur_msgs -- -j4 -l4
+[72.546s] Invoking command in '/ws/build/nanosaur_msgs': CMAKE_PREFIX_PATH=/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --install /ws/build/nanosaur_msgs
+[72.734s] -- Install configuration: ""
+[72.746s] -- Execute custom install script
+[72.753s] -- Symlinking: /ws/install/nanosaur_msgs/share/ament_index/resource_index/rosidl_interfaces/nanosaur_msgs
+[72.764s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/detail/eyes__functions.h
+[72.775s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/detail/eyes__struct.h
+[72.784s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/detail/eyes__type_support.h
+[72.794s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/eyes.h
+[72.806s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/rosidl_generator_c__visibility_control.h
+[72.816s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/detail/eye_message__functions.h
+[72.826s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/detail/eye_message__struct.h
+[72.836s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/detail/eye_message__type_support.h
+[72.845s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/eye_message.h
+[72.859s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/library_path.sh
+[72.870s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/library_path.dsv
+[72.883s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/detail/eyes__rosidl_typesupport_fastrtps_c.h
+[72.893s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[72.902s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/detail/eye_message__rosidl_typesupport_fastrtps_c.h
+[72.913s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/detail/eyes__rosidl_typesupport_introspection_c.h
+[72.922s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[72.932s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/detail/eye_message__rosidl_typesupport_introspection_c.h
+[72.947s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/detail/eyes__builder.hpp
+[72.956s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/detail/eyes__struct.hpp
+[72.967s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/detail/eyes__traits.hpp
+[72.976s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/eyes.hpp
+[72.986s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/detail/eye_message__builder.hpp
+[72.996s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/detail/eye_message__struct.hpp
+[73.005s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/detail/eye_message__traits.hpp
+[73.015s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/eye_message.hpp
+[73.032s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/detail/eyes__rosidl_typesupport_fastrtps_cpp.hpp
+[73.043s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[73.053s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/detail/eye_message__rosidl_typesupport_fastrtps_cpp.hpp
+[73.070s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/detail/eyes__rosidl_typesupport_introspection_cpp.hpp
+[73.082s] -- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/detail/eye_message__rosidl_typesupport_introspection_cpp.hpp
+[73.092s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/pythonpath.sh
+[73.103s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/pythonpath.dsv
+[73.115s] -- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs-2.1.0-py3.8.egg-info/PKG-INFO
+[73.125s] -- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs-2.1.0-py3.8.egg-info/SOURCES.txt
+[73.135s] -- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs-2.1.0-py3.8.egg-info/dependency_links.txt
+[73.144s] -- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs-2.1.0-py3.8.egg-info/top_level.txt
+[73.157s] -- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/__init__.py
+[73.168s] -- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/_nanosaur_msgs_s.ep.rosidl_typesupport_c.c
+[73.178s] -- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/_nanosaur_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[73.188s] -- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/_nanosaur_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[73.197s] -- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/libnanosaur_msgs__rosidl_generator_py.so
+[73.207s] -- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/msg/__init__.py
+[73.217s] -- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/msg/_eyes.py
+[73.227s] -- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/msg/_eyes_s.c
+[73.237s] -- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[73.246s] -- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[73.257s] -- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[73.266s] -- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/srv/__init__.py
+[73.278s] -- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/srv/_eye_message.py
+[73.289s] -- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/srv/_eye_message_s.c
+[73.300s] -- Up-to-date symlink: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so
+[73.301s] -- Up-to-date symlink: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so
+[73.303s] -- Up-to-date symlink: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so
+[73.304s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/msg/Eyes.idl
+[73.319s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/srv/EyeMessage.idl
+[73.329s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/msg/Eyes.msg
+[73.339s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/srv/EyeMessage.srv
+[73.348s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/srv/EyeMessage_Request.msg
+[73.359s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/srv/EyeMessage_Response.msg
+[73.369s] -- Symlinking: /ws/install/nanosaur_msgs/share/ament_index/resource_index/package_run_dependencies/nanosaur_msgs
+[73.383s] -- Symlinking: /ws/install/nanosaur_msgs/share/ament_index/resource_index/parent_prefix_path/nanosaur_msgs
+[73.397s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/ament_prefix_path.sh
+[73.408s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/ament_prefix_path.dsv
+[73.417s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/path.sh
+[73.428s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/path.dsv
+[73.438s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/local_setup.bash
+[73.448s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/local_setup.sh
+[73.459s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/local_setup.zsh
+[73.470s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/local_setup.dsv
+[73.481s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/package.dsv
+[73.496s] -- Symlinking: /ws/install/nanosaur_msgs/share/ament_index/resource_index/packages/nanosaur_msgs
+[73.506s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/rosidl_cmake-extras.cmake
+[73.522s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[73.534s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[73.547s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[73.559s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[73.571s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[73.582s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[73.594s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgsConfig.cmake
+[73.604s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgsConfig-version.cmake
+[73.615s] -- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/package.xml
+[73.624s] -- Installing: /ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_generator_c.so
+[73.627s] -- Set runtime path of "/ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_generator_c.so" to ""
+[73.628s] -- Installing: /ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_fastrtps_c.so
+[73.630s] -- Set runtime path of "/ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[73.631s] -- Installing: /ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_introspection_c.so
+[73.633s] -- Set runtime path of "/ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_introspection_c.so" to ""
+[73.633s] -- Installing: /ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_c.so
+[73.635s] -- Set runtime path of "/ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_c.so" to ""
+[73.636s] -- Installing: /ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_fastrtps_cpp.so
+[73.639s] -- Set runtime path of "/ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[73.641s] -- Installing: /ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_introspection_cpp.so
+[73.645s] -- Set runtime path of "/ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[73.645s] -- Installing: /ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_cpp.so
+[73.647s] -- Set runtime path of "/ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_cpp.so" to ""
+[73.861s] Listing '/ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs'...
+[73.862s] Compiling '/ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/__init__.py'...
+[73.863s] Listing '/ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/msg'...
+[73.864s] Compiling '/ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/msg/__init__.py'...
+[73.864s] Compiling '/ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/msg/_eyes.py'...
+[73.865s] Listing '/ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/srv'...
+[73.865s] Compiling '/ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/srv/__init__.py'...
+[73.866s] Compiling '/ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/srv/_eye_message.py'...
+[73.891s] -- Installing: /ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_generator_py.so
+[73.892s] -- Set runtime path of "/ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_generator_py.so" to ""
+[73.893s] -- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/export_nanosaur_msgs__rosidl_generator_cExport.cmake
+[73.894s] -- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/export_nanosaur_msgs__rosidl_generator_cExport-noconfig.cmake
+[73.896s] -- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/export_nanosaur_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[73.897s] -- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/export_nanosaur_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[73.899s] -- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgs__rosidl_typesupport_introspection_cExport.cmake
+[73.901s] -- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[73.902s] -- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgs__rosidl_typesupport_cExport.cmake
+[73.904s] -- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[73.905s] -- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/export_nanosaur_msgs__rosidl_generator_cppExport.cmake
+[73.907s] -- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/export_nanosaur_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[73.909s] -- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/export_nanosaur_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[73.910s] -- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[73.912s] -- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[73.913s] -- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgs__rosidl_typesupport_cppExport.cmake
+[73.915s] -- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[73.916s] -- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/export_nanosaur_msgs__rosidl_generator_pyExport.cmake
+[73.918s] -- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/export_nanosaur_msgs__rosidl_generator_pyExport-noconfig.cmake
+[73.961s] Invoked command in '/ws/build/nanosaur_msgs' returned '0': CMAKE_PREFIX_PATH=/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --install /ws/build/nanosaur_msgs

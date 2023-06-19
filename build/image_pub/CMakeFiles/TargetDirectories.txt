@@ -1,0 +1,12 @@
+/ws/build/image_pub/CMakeFiles/uninstall.dir
+/ws/build/image_pub/CMakeFiles/image_pub_uninstall.dir
+/ws/build/image_pub/CMakeFiles/mono_image_pub.dir
+/ws/build/image_pub/CMakeFiles/stereo_image_pub.dir
+/ws/build/image_pub/CMakeFiles/camera_calibration_pub.dir
+/ws/build/image_pub/CMakeFiles/test.dir
+/ws/build/image_pub/CMakeFiles/edit_cache.dir
+/ws/build/image_pub/CMakeFiles/rebuild_cache.dir
+/ws/build/image_pub/CMakeFiles/list_install_components.dir
+/ws/build/image_pub/CMakeFiles/install.dir
+/ws/build/image_pub/CMakeFiles/install/local.dir
+/ws/build/image_pub/CMakeFiles/install/strip.dir

@@ -1,0 +1,402 @@
+[0.000000] (-) TimerEvent: {}
+[0.003443] (-) JobUnselected: {'identifier': 'nanosaur_control'}
+[0.003593] (-) JobUnselected: {'identifier': 'nanosaur_hardware'}
+[0.003880] (-) JobUnselected: {'identifier': 'nanosaur_msgs'}
+[0.004016] (image_pub) JobQueued: {'identifier': 'image_pub', 'dependencies': OrderedDict()}
+[0.004123] (image_pub) JobStarted: {'identifier': 'image_pub'}
+[0.099119] (-) TimerEvent: {}
+[0.126508] (image_pub) JobProgress: {'identifier': 'image_pub', 'progress': 'cmake'}
+[0.131150] (image_pub) JobProgress: {'identifier': 'image_pub', 'progress': 'build'}
+[0.134067] (image_pub) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/ws/build/image_pub', '--', '-j4', '-l4'], 'cwd': '/ws/build/image_pub', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'jetson-desktop'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/nanosaur_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/install:/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/ws/install/nanosaur_msgs:/ws/install/nanosaur_hardware:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/build/image_pub'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/install/nanosaur_msgs/lib/python3.8/site-packages:/ws/build/nanosaur_hardware:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[0.199525] (-) TimerEvent: {}
+[0.300328] (-) TimerEvent: {}
+[0.400936] (-) TimerEvent: {}
+[0.501690] (-) TimerEvent: {}
+[0.602309] (-) TimerEvent: {}
+[0.697259] (image_pub) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/mono_image_pub.dir/src/mono_image_pub.cpp.o\x1b[0m\n'}
+[0.698338] (image_pub) StdoutLine: {'line': b'[ 66%] Built target camera_calibration_pub\n'}
+[0.698860] (image_pub) StdoutLine: {'line': b'[ 83%] Built target stereo_image_pub\n'}
+[0.702428] (-) TimerEvent: {}
+[0.803158] (-) TimerEvent: {}
+[0.903844] (-) TimerEvent: {}
+[1.004462] (-) TimerEvent: {}
+[1.105060] (-) TimerEvent: {}
+[1.205671] (-) TimerEvent: {}
+[1.306301] (-) TimerEvent: {}
+[1.406927] (-) TimerEvent: {}
+[1.507596] (-) TimerEvent: {}
+[1.608232] (-) TimerEvent: {}
+[1.708902] (-) TimerEvent: {}
+[1.809527] (-) TimerEvent: {}
+[1.910170] (-) TimerEvent: {}
+[2.010818] (-) TimerEvent: {}
+[2.111500] (-) TimerEvent: {}
+[2.212121] (-) TimerEvent: {}
+[2.312791] (-) TimerEvent: {}
+[2.413435] (-) TimerEvent: {}
+[2.514157] (-) TimerEvent: {}
+[2.614873] (-) TimerEvent: {}
+[2.715609] (-) TimerEvent: {}
+[2.816240] (-) TimerEvent: {}
+[2.916904] (-) TimerEvent: {}
+[3.017610] (-) TimerEvent: {}
+[3.118319] (-) TimerEvent: {}
+[3.219085] (-) TimerEvent: {}
+[3.319782] (-) TimerEvent: {}
+[3.420481] (-) TimerEvent: {}
+[3.521186] (-) TimerEvent: {}
+[3.621895] (-) TimerEvent: {}
+[3.722604] (-) TimerEvent: {}
+[3.823415] (-) TimerEvent: {}
+[3.924108] (-) TimerEvent: {}
+[4.024796] (-) TimerEvent: {}
+[4.125474] (-) TimerEvent: {}
+[4.226214] (-) TimerEvent: {}
+[4.327031] (-) TimerEvent: {}
+[4.427733] (-) TimerEvent: {}
+[4.528493] (-) TimerEvent: {}
+[4.629251] (-) TimerEvent: {}
+[4.729947] (-) TimerEvent: {}
+[4.830642] (-) TimerEvent: {}
+[4.931397] (-) TimerEvent: {}
+[5.032090] (-) TimerEvent: {}
+[5.132785] (-) TimerEvent: {}
+[5.233476] (-) TimerEvent: {}
+[5.334181] (-) TimerEvent: {}
+[5.434891] (-) TimerEvent: {}
+[5.535646] (-) TimerEvent: {}
+[5.636287] (-) TimerEvent: {}
+[5.736935] (-) TimerEvent: {}
+[5.837640] (-) TimerEvent: {}
+[5.938341] (-) TimerEvent: {}
+[6.039077] (-) TimerEvent: {}
+[6.139788] (-) TimerEvent: {}
+[6.240483] (-) TimerEvent: {}
+[6.341186] (-) TimerEvent: {}
+[6.441878] (-) TimerEvent: {}
+[6.542557] (-) TimerEvent: {}
+[6.643318] (-) TimerEvent: {}
+[6.744017] (-) TimerEvent: {}
+[6.844717] (-) TimerEvent: {}
+[6.945408] (-) TimerEvent: {}
+[7.046054] (-) TimerEvent: {}
+[7.146720] (-) TimerEvent: {}
+[7.247442] (-) TimerEvent: {}
+[7.348139] (-) TimerEvent: {}
+[7.448776] (-) TimerEvent: {}
+[7.549475] (-) TimerEvent: {}
+[7.650169] (-) TimerEvent: {}
+[7.750874] (-) TimerEvent: {}
+[7.851626] (-) TimerEvent: {}
+[7.952329] (-) TimerEvent: {}
+[8.053027] (-) TimerEvent: {}
+[8.153686] (-) TimerEvent: {}
+[8.254342] (-) TimerEvent: {}
+[8.355091] (-) TimerEvent: {}
+[8.455746] (-) TimerEvent: {}
+[8.556392] (-) TimerEvent: {}
+[8.657106] (-) TimerEvent: {}
+[8.757800] (-) TimerEvent: {}
+[8.858452] (-) TimerEvent: {}
+[8.959093] (-) TimerEvent: {}
+[9.059737] (-) TimerEvent: {}
+[9.160408] (-) TimerEvent: {}
+[9.261073] (-) TimerEvent: {}
+[9.361731] (-) TimerEvent: {}
+[9.462461] (-) TimerEvent: {}
+[9.563299] (-) TimerEvent: {}
+[9.664193] (-) TimerEvent: {}
+[9.764941] (-) TimerEvent: {}
+[9.865702] (-) TimerEvent: {}
+[9.966519] (-) TimerEvent: {}
+[10.067402] (-) TimerEvent: {}
+[10.168111] (-) TimerEvent: {}
+[10.268813] (-) TimerEvent: {}
+[10.369572] (-) TimerEvent: {}
+[10.470284] (-) TimerEvent: {}
+[10.571059] (-) TimerEvent: {}
+[10.671765] (-) TimerEvent: {}
+[10.772473] (-) TimerEvent: {}
+[10.873181] (-) TimerEvent: {}
+[10.973897] (-) TimerEvent: {}
+[11.074626] (-) TimerEvent: {}
+[11.175399] (-) TimerEvent: {}
+[11.276089] (-) TimerEvent: {}
+[11.376776] (-) TimerEvent: {}
+[11.477471] (-) TimerEvent: {}
+[11.578162] (-) TimerEvent: {}
+[11.678912] (-) TimerEvent: {}
+[11.779667] (-) TimerEvent: {}
+[11.880368] (-) TimerEvent: {}
+[11.981019] (-) TimerEvent: {}
+[12.081736] (-) TimerEvent: {}
+[12.182478] (-) TimerEvent: {}
+[12.283139] (-) TimerEvent: {}
+[12.383904] (-) TimerEvent: {}
+[12.484611] (-) TimerEvent: {}
+[12.585320] (-) TimerEvent: {}
+[12.685967] (-) TimerEvent: {}
+[12.786690] (-) TimerEvent: {}
+[12.887372] (-) TimerEvent: {}
+[12.988008] (-) TimerEvent: {}
+[13.088660] (-) TimerEvent: {}
+[13.189309] (-) TimerEvent: {}
+[13.290012] (-) TimerEvent: {}
+[13.390723] (-) TimerEvent: {}
+[13.491453] (-) TimerEvent: {}
+[13.592145] (-) TimerEvent: {}
+[13.692887] (-) TimerEvent: {}
+[13.793649] (-) TimerEvent: {}
+[13.894405] (-) TimerEvent: {}
+[13.995118] (-) TimerEvent: {}
+[14.095834] (-) TimerEvent: {}
+[14.196603] (-) TimerEvent: {}
+[14.297367] (-) TimerEvent: {}
+[14.398133] (-) TimerEvent: {}
+[14.498903] (-) TimerEvent: {}
+[14.599604] (-) TimerEvent: {}
+[14.700309] (-) TimerEvent: {}
+[14.801012] (-) TimerEvent: {}
+[14.901759] (-) TimerEvent: {}
+[15.002524] (-) TimerEvent: {}
+[15.103271] (-) TimerEvent: {}
+[15.203991] (-) TimerEvent: {}
+[15.304705] (-) TimerEvent: {}
+[15.405415] (-) TimerEvent: {}
+[15.506129] (-) TimerEvent: {}
+[15.606904] (-) TimerEvent: {}
+[15.707624] (-) TimerEvent: {}
+[15.808263] (-) TimerEvent: {}
+[15.908948] (-) TimerEvent: {}
+[16.009679] (-) TimerEvent: {}
+[16.110442] (-) TimerEvent: {}
+[16.211156] (-) TimerEvent: {}
+[16.311852] (-) TimerEvent: {}
+[16.412476] (-) TimerEvent: {}
+[16.513170] (-) TimerEvent: {}
+[16.613866] (-) TimerEvent: {}
+[16.714591] (-) TimerEvent: {}
+[16.815356] (-) TimerEvent: {}
+[16.916057] (-) TimerEvent: {}
+[17.016814] (-) TimerEvent: {}
+[17.117529] (-) TimerEvent: {}
+[17.218242] (-) TimerEvent: {}
+[17.318874] (-) TimerEvent: {}
+[17.419613] (-) TimerEvent: {}
+[17.520318] (-) TimerEvent: {}
+[17.621024] (-) TimerEvent: {}
+[17.721724] (-) TimerEvent: {}
+[17.822420] (-) TimerEvent: {}
+[17.923115] (-) TimerEvent: {}
+[18.023804] (-) TimerEvent: {}
+[18.124429] (-) TimerEvent: {}
+[18.225111] (-) TimerEvent: {}
+[18.325838] (-) TimerEvent: {}
+[18.426567] (-) TimerEvent: {}
+[18.527325] (-) TimerEvent: {}
+[18.628067] (-) TimerEvent: {}
+[18.728812] (-) TimerEvent: {}
+[18.829555] (-) TimerEvent: {}
+[18.930299] (-) TimerEvent: {}
+[19.031097] (-) TimerEvent: {}
+[19.131805] (-) TimerEvent: {}
+[19.232504] (-) TimerEvent: {}
+[19.333138] (-) TimerEvent: {}
+[19.433896] (-) TimerEvent: {}
+[19.534591] (-) TimerEvent: {}
+[19.635414] (-) TimerEvent: {}
+[19.736115] (-) TimerEvent: {}
+[19.836870] (-) TimerEvent: {}
+[19.937610] (-) TimerEvent: {}
+[20.038362] (-) TimerEvent: {}
+[20.139125] (-) TimerEvent: {}
+[20.239876] (-) TimerEvent: {}
+[20.340504] (-) TimerEvent: {}
+[20.441199] (-) TimerEvent: {}
+[20.541886] (-) TimerEvent: {}
+[20.642575] (-) TimerEvent: {}
+[20.743346] (-) TimerEvent: {}
+[20.844107] (-) TimerEvent: {}
+[20.944807] (-) TimerEvent: {}
+[21.045503] (-) TimerEvent: {}
+[21.146206] (-) TimerEvent: {}
+[21.246909] (-) TimerEvent: {}
+[21.347705] (-) TimerEvent: {}
+[21.448341] (-) TimerEvent: {}
+[21.549119] (-) TimerEvent: {}
+[21.649812] (-) TimerEvent: {}
+[21.750516] (-) TimerEvent: {}
+[21.851283] (-) TimerEvent: {}
+[21.951982] (-) TimerEvent: {}
+[22.052702] (-) TimerEvent: {}
+[22.153416] (-) TimerEvent: {}
+[22.254068] (-) TimerEvent: {}
+[22.354773] (-) TimerEvent: {}
+[22.455542] (-) TimerEvent: {}
+[22.556234] (-) TimerEvent: {}
+[22.656937] (-) TimerEvent: {}
+[22.757653] (-) TimerEvent: {}
+[22.858364] (-) TimerEvent: {}
+[22.959109] (-) TimerEvent: {}
+[23.059742] (-) TimerEvent: {}
+[23.160397] (-) TimerEvent: {}
+[23.261048] (-) TimerEvent: {}
+[23.361749] (-) TimerEvent: {}
+[23.462473] (-) TimerEvent: {}
+[23.563183] (-) TimerEvent: {}
+[23.663898] (-) TimerEvent: {}
+[23.764617] (-) TimerEvent: {}
+[23.865318] (-) TimerEvent: {}
+[23.966019] (-) TimerEvent: {}
+[24.066657] (-) TimerEvent: {}
+[24.167425] (-) TimerEvent: {}
+[24.268120] (-) TimerEvent: {}
+[24.368754] (-) TimerEvent: {}
+[24.469446] (-) TimerEvent: {}
+[24.570077] (-) TimerEvent: {}
+[24.670747] (-) TimerEvent: {}
+[24.771523] (-) TimerEvent: {}
+[24.872224] (-) TimerEvent: {}
+[24.972925] (-) TimerEvent: {}
+[25.073630] (-) TimerEvent: {}
+[25.174339] (-) TimerEvent: {}
+[25.275116] (-) TimerEvent: {}
+[25.375815] (-) TimerEvent: {}
+[25.476499] (-) TimerEvent: {}
+[25.577134] (-) TimerEvent: {}
+[25.677764] (-) TimerEvent: {}
+[25.778401] (-) TimerEvent: {}
+[25.879134] (-) TimerEvent: {}
+[25.979827] (-) TimerEvent: {}
+[26.080546] (-) TimerEvent: {}
+[26.181235] (-) TimerEvent: {}
+[26.281880] (-) TimerEvent: {}
+[26.382619] (-) TimerEvent: {}
+[26.483428] (-) TimerEvent: {}
+[26.584162] (-) TimerEvent: {}
+[26.684852] (-) TimerEvent: {}
+[26.785471] (-) TimerEvent: {}
+[26.886159] (-) TimerEvent: {}
+[26.986853] (-) TimerEvent: {}
+[27.087608] (-) TimerEvent: {}
+[27.188296] (-) TimerEvent: {}
+[27.288985] (-) TimerEvent: {}
+[27.389677] (-) TimerEvent: {}
+[27.490362] (-) TimerEvent: {}
+[27.591100] (-) TimerEvent: {}
+[27.691780] (-) TimerEvent: {}
+[27.792390] (-) TimerEvent: {}
+[27.893053] (-) TimerEvent: {}
+[27.993727] (-) TimerEvent: {}
+[28.094434] (-) TimerEvent: {}
+[28.195121] (-) TimerEvent: {}
+[28.295853] (-) TimerEvent: {}
+[28.396537] (-) TimerEvent: {}
+[28.497260] (-) TimerEvent: {}
+[28.597941] (-) TimerEvent: {}
+[28.698617] (-) TimerEvent: {}
+[28.799362] (-) TimerEvent: {}
+[28.900031] (-) TimerEvent: {}
+[29.000782] (-) TimerEvent: {}
+[29.101473] (-) TimerEvent: {}
+[29.202154] (-) TimerEvent: {}
+[29.302833] (-) TimerEvent: {}
+[29.403527] (-) TimerEvent: {}
+[29.504217] (-) TimerEvent: {}
+[29.604922] (-) TimerEvent: {}
+[29.705609] (-) TimerEvent: {}
+[29.806358] (-) TimerEvent: {}
+[29.907103] (-) TimerEvent: {}
+[30.007898] (-) TimerEvent: {}
+[30.108621] (-) TimerEvent: {}
+[30.209245] (-) TimerEvent: {}
+[30.309901] (-) TimerEvent: {}
+[30.410548] (-) TimerEvent: {}
+[30.511176] (-) TimerEvent: {}
+[30.611850] (-) TimerEvent: {}
+[30.712528] (-) TimerEvent: {}
+[30.813208] (-) TimerEvent: {}
+[30.913887] (-) TimerEvent: {}
+[31.014563] (-) TimerEvent: {}
+[31.115344] (-) TimerEvent: {}
+[31.216027] (-) TimerEvent: {}
+[31.316720] (-) TimerEvent: {}
+[31.417443] (-) TimerEvent: {}
+[31.518175] (-) TimerEvent: {}
+[31.619014] (-) TimerEvent: {}
+[31.719676] (-) TimerEvent: {}
+[31.730863] (image_pub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mono_image_pub\x1b[0m\n'}
+[31.819896] (-) TimerEvent: {}
+[31.920666] (-) TimerEvent: {}
+[32.021365] (-) TimerEvent: {}
+[32.122166] (-) TimerEvent: {}
+[32.223013] (-) TimerEvent: {}
+[32.323631] (-) TimerEvent: {}
+[32.424320] (-) TimerEvent: {}
+[32.524998] (-) TimerEvent: {}
+[32.625765] (-) TimerEvent: {}
+[32.726502] (-) TimerEvent: {}
+[32.827180] (-) TimerEvent: {}
+[32.927940] (-) TimerEvent: {}
+[33.028660] (-) TimerEvent: {}
+[33.129428] (-) TimerEvent: {}
+[33.230169] (-) TimerEvent: {}
+[33.331070] (-) TimerEvent: {}
+[33.431735] (-) TimerEvent: {}
+[33.532393] (-) TimerEvent: {}
+[33.633060] (-) TimerEvent: {}
+[33.733752] (-) TimerEvent: {}
+[33.834422] (-) TimerEvent: {}
+[33.935076] (-) TimerEvent: {}
+[34.035675] (-) TimerEvent: {}
+[34.136284] (-) TimerEvent: {}
+[34.236939] (-) TimerEvent: {}
+[34.337623] (-) TimerEvent: {}
+[34.438336] (-) TimerEvent: {}
+[34.539064] (-) TimerEvent: {}
+[34.639781] (-) TimerEvent: {}
+[34.740529] (-) TimerEvent: {}
+[34.790118] (image_pub) StdoutLine: {'line': b'[100%] Built target mono_image_pub\n'}
+[34.822415] (image_pub) CommandEnded: {'returncode': 0}
+[34.841663] (-) TimerEvent: {}
+[34.943564] (-) TimerEvent: {}
+[35.044183] (-) TimerEvent: {}
+[35.125638] (image_pub) JobProgress: {'identifier': 'image_pub', 'progress': 'install'}
+[35.144456] (-) TimerEvent: {}
+[35.245252] (-) TimerEvent: {}
+[35.284469] (image_pub) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/ws/build/image_pub'], 'cwd': '/ws/build/image_pub', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'jetson-desktop'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/nanosaur_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/install:/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/ws/install/nanosaur_msgs:/ws/install/nanosaur_hardware:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/build/image_pub'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/install/nanosaur_msgs/lib/python3.8/site-packages:/ws/build/nanosaur_hardware:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[35.345456] (-) TimerEvent: {}
+[35.435323] (image_pub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.437487] (image_pub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[35.439433] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/lib/image_pub/mono_image_pub\n'}
+[35.440083] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/lib/image_pub/stereo_image_pub\n'}
+[35.440813] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/lib/image_pub/camera_calibration_pub\n'}
+[35.442344] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/share/image_pub//launch/raw_image_pub.launch.py\n'}
+[35.442852] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/share/image_pub//launch/stereo_rect_image_pub.launch.py\n'}
+[35.444199] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/share/image_pub//config/cal_results/extrinsics.yml\n'}
+[35.444865] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/share/image_pub//config/cal_results/intrinsics.yml\n'}
+[35.445416] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/share/image_pub//config/imx21983_raw_image_pub.yaml\n'}
+[35.445866] (-) TimerEvent: {}
+[35.447057] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/share/image_pub//config/imx21983_stereo_rect_image_pub.yaml\n'}
+[35.448508] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/share/ament_index/resource_index/package_run_dependencies/image_pub\n'}
+[35.449564] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/share/ament_index/resource_index/parent_prefix_path/image_pub\n'}
+[35.450698] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/share/image_pub/environment/ament_prefix_path.sh\n'}
+[35.451768] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/share/image_pub/environment/ament_prefix_path.dsv\n'}
+[35.452817] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/share/image_pub/environment/path.sh\n'}
+[35.453465] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/share/image_pub/environment/path.dsv\n'}
+[35.454392] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/share/image_pub/local_setup.bash\n'}
+[35.455304] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/share/image_pub/local_setup.sh\n'}
+[35.456211] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/share/image_pub/local_setup.zsh\n'}
+[35.457231] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/share/image_pub/local_setup.dsv\n'}
+[35.457804] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/image_pub/package.dsv\n'}
+[35.468911] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/share/ament_index/resource_index/packages/image_pub\n'}
+[35.469670] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/share/image_pub/cmake/image_pubConfig.cmake\n'}
+[35.470452] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/share/image_pub/cmake/image_pubConfig-version.cmake\n'}
+[35.471171] (image_pub) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/image_pub/share/image_pub/package.xml\n'}
+[35.493652] (image_pub) CommandEnded: {'returncode': 0}
+[35.551295] (-) TimerEvent: {}
+[35.654212] (-) TimerEvent: {}
+[35.755015] (-) TimerEvent: {}
+[35.860628] (-) TimerEvent: {}
+[35.918312] (image_pub) JobEnded: {'identifier': 'image_pub', 'rc': 0}
+[35.921041] (-) EventReactorShutdown: {}

@@ -1,0 +1,33 @@
+[0.339s] Invoking command in '/ws/build/image_pub': CMAKE_PREFIX_PATH=/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --build /ws/build/image_pub -- -j4 -l4
+[1.546s] [ 33%] Built target camera_calibration_pub
+[1.549s] [ 66%] Built target mono_image_pub
+[1.549s] [100%] Built target stereo_image_pub
+[1.565s] Invoked command in '/ws/build/image_pub' returned '0': CMAKE_PREFIX_PATH=/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --build /ws/build/image_pub -- -j4 -l4
+[2.112s] Invoking command in '/ws/build/image_pub': CMAKE_PREFIX_PATH=/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --install /ws/build/image_pub
+[2.324s] -- Install configuration: ""
+[2.326s] -- Execute custom install script
+[2.327s] -- Up-to-date symlink: /ws/install/image_pub/lib/image_pub/mono_image_pub
+[2.328s] -- Up-to-date symlink: /ws/install/image_pub/lib/image_pub/stereo_image_pub
+[2.329s] -- Up-to-date symlink: /ws/install/image_pub/lib/image_pub/camera_calibration_pub
+[2.330s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub//launch/raw_image_pub.launch.py
+[2.331s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub//launch/stereo_rect_image_pub.launch.py
+[2.332s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub//config/cal_results/extrinsics.yml
+[2.333s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub//config/cal_results/intrinsics.yml
+[2.334s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub//config/imx21983_raw_image_pub.yaml
+[2.334s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub//config/imx21983_stereo_rect_image_pub.yaml
+[2.335s] -- Up-to-date symlink: /ws/install/image_pub/share/ament_index/resource_index/package_run_dependencies/image_pub
+[2.336s] -- Up-to-date symlink: /ws/install/image_pub/share/ament_index/resource_index/parent_prefix_path/image_pub
+[2.337s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/environment/ament_prefix_path.sh
+[2.338s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/environment/ament_prefix_path.dsv
+[2.339s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/environment/path.sh
+[2.341s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/environment/path.dsv
+[2.342s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/local_setup.bash
+[2.344s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/local_setup.sh
+[2.346s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/local_setup.zsh
+[2.348s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/local_setup.dsv
+[2.349s] -- Symlinking: /ws/install/image_pub/share/image_pub/package.dsv
+[2.395s] -- Up-to-date symlink: /ws/install/image_pub/share/ament_index/resource_index/packages/image_pub
+[2.396s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/cmake/image_pubConfig.cmake
+[2.397s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/cmake/image_pubConfig-version.cmake
+[2.398s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/package.xml
+[2.497s] Invoked command in '/ws/build/image_pub' returned '0': CMAKE_PREFIX_PATH=/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --install /ws/build/image_pub

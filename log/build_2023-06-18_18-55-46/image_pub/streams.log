@@ -1,0 +1,35 @@
+[0.384s] Invoking command in '/ws/build/image_pub': CMAKE_PREFIX_PATH=/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --build /ws/build/image_pub -- -j4 -l4
+[1.623s] [ 33%] Built target camera_calibration_pub
+[1.627s] [ 50%] [32mBuilding CXX object CMakeFiles/mono_image_pub.dir/src/mono_image_pub.cpp.o[0m
+[1.629s] [ 83%] Built target stereo_image_pub
+[33.503s] [100%] [32m[1mLinking CXX executable mono_image_pub[0m
+[36.432s] [100%] Built target mono_image_pub
+[36.470s] Invoked command in '/ws/build/image_pub' returned '0': CMAKE_PREFIX_PATH=/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --build /ws/build/image_pub -- -j4 -l4
+[36.723s] Invoking command in '/ws/build/image_pub': CMAKE_PREFIX_PATH=/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --install /ws/build/image_pub
+[36.860s] -- Install configuration: ""
+[36.863s] -- Execute custom install script
+[36.865s] -- Up-to-date symlink: /ws/install/image_pub/lib/image_pub/mono_image_pub
+[36.866s] -- Up-to-date symlink: /ws/install/image_pub/lib/image_pub/stereo_image_pub
+[36.866s] -- Up-to-date symlink: /ws/install/image_pub/lib/image_pub/camera_calibration_pub
+[36.872s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub//launch/raw_image_pub.launch.py
+[36.872s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub//launch/stereo_rect_image_pub.launch.py
+[36.874s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub//config/cal_results/extrinsics.yml
+[36.880s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub//config/cal_results/intrinsics.yml
+[36.880s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub//config/imx21983_raw_image_pub.yaml
+[36.881s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub//config/imx21983_stereo_rect_image_pub.yaml
+[36.884s] -- Up-to-date symlink: /ws/install/image_pub/share/ament_index/resource_index/package_run_dependencies/image_pub
+[36.886s] -- Up-to-date symlink: /ws/install/image_pub/share/ament_index/resource_index/parent_prefix_path/image_pub
+[36.898s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/environment/ament_prefix_path.sh
+[36.899s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/environment/ament_prefix_path.dsv
+[36.900s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/environment/path.sh
+[36.901s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/environment/path.dsv
+[36.902s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/local_setup.bash
+[36.903s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/local_setup.sh
+[36.904s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/local_setup.zsh
+[36.904s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/local_setup.dsv
+[36.905s] -- Symlinking: /ws/install/image_pub/share/image_pub/package.dsv
+[36.917s] -- Up-to-date symlink: /ws/install/image_pub/share/ament_index/resource_index/packages/image_pub
+[36.918s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/cmake/image_pubConfig.cmake
+[36.919s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/cmake/image_pubConfig-version.cmake
+[36.919s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/package.xml
+[36.950s] Invoked command in '/ws/build/image_pub' returned '0': CMAKE_PREFIX_PATH=/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --install /ws/build/image_pub

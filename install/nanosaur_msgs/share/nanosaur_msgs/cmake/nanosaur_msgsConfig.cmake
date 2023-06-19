@@ -1,0 +1,1 @@
+/ws/build/nanosaur_msgs/ament_cmake_core/nanosaur_msgsConfig.cmake

@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.000541] (-) JobUnselected: {'identifier': 'image_pub'}
+[0.000696] (-) JobUnselected: {'identifier': 'nanosaur_control'}
+[0.000855] (-) JobUnselected: {'identifier': 'nanosaur_hardware'}
+[0.001070] (-) JobUnselected: {'identifier': 'nanosaur_msgs'}
+[0.001230] (-) JobUnselected: {'identifier': 'rosboard'}
+[0.001339] (-) JobUnselected: {'identifier': 'rover_line_follower'}
+[0.001432] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.002090] (-) EventReactorShutdown: {}

@@ -1,0 +1,35 @@
+[0.128s] Invoking command in '/ws/build/image_pub': CMAKE_PREFIX_PATH=/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --build /ws/build/image_pub -- -j4 -l4
+[0.515s] [ 66%] [32mBuilding CXX object CMakeFiles/mono_image_pub.dir/src/mono_image_pub.cpp.o[0m
+[0.516s] [ 83%] Built target camera_calibration_pub
+[0.516s] [ 83%] Built target stereo_image_pub
+[31.317s] [100%] [32m[1mLinking CXX executable mono_image_pub[0m
+[33.493s] [100%] Built target mono_image_pub
+[33.526s] Invoked command in '/ws/build/image_pub' returned '0': CMAKE_PREFIX_PATH=/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --build /ws/build/image_pub -- -j4 -l4
+[33.927s] Invoking command in '/ws/build/image_pub': CMAKE_PREFIX_PATH=/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --install /ws/build/image_pub
+[34.054s] -- Install configuration: ""
+[34.056s] -- Execute custom install script
+[34.058s] -- Up-to-date symlink: /ws/install/image_pub/lib/image_pub/mono_image_pub
+[34.058s] -- Up-to-date symlink: /ws/install/image_pub/lib/image_pub/stereo_image_pub
+[34.059s] -- Up-to-date symlink: /ws/install/image_pub/lib/image_pub/camera_calibration_pub
+[34.061s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub//launch/raw_image_pub.launch.py
+[34.061s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub//launch/stereo_rect_image_pub.launch.py
+[34.062s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub//config/cal_results/extrinsics.yml
+[34.063s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub//config/cal_results/intrinsics.yml
+[34.063s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub//config/imx21983_raw_image_pub.yaml
+[34.065s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub//config/imx21983_stereo_rect_image_pub.yaml
+[34.067s] -- Up-to-date symlink: /ws/install/image_pub/share/ament_index/resource_index/package_run_dependencies/image_pub
+[34.068s] -- Up-to-date symlink: /ws/install/image_pub/share/ament_index/resource_index/parent_prefix_path/image_pub
+[34.070s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/environment/ament_prefix_path.sh
+[34.071s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/environment/ament_prefix_path.dsv
+[34.072s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/environment/path.sh
+[34.073s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/environment/path.dsv
+[34.074s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/local_setup.bash
+[34.075s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/local_setup.sh
+[34.076s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/local_setup.zsh
+[34.077s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/local_setup.dsv
+[34.078s] -- Symlinking: /ws/install/image_pub/share/image_pub/package.dsv
+[34.089s] -- Up-to-date symlink: /ws/install/image_pub/share/ament_index/resource_index/packages/image_pub
+[34.090s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/cmake/image_pubConfig.cmake
+[34.090s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/cmake/image_pubConfig-version.cmake
+[34.091s] -- Up-to-date symlink: /ws/install/image_pub/share/image_pub/package.xml
+[34.113s] Invoked command in '/ws/build/image_pub' returned '0': CMAKE_PREFIX_PATH=/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install /usr/local/bin/cmake --install /ws/build/image_pub

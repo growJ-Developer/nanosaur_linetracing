@@ -1,0 +1,25 @@
+[5.363s] Invoking command in '/ws/build/teleop_twist_keyboard': PYTHONPATH=/ws/build/teleop_twist_keyboard/prefix_override:/ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ws/build/teleop_twist_keyboard/build --no-deps install_data
+[7.451s] running develop
+[9.112s] running egg_info
+[9.113s] creating teleop_twist_keyboard.egg-info
+[9.114s] writing teleop_twist_keyboard.egg-info/PKG-INFO
+[9.115s] writing dependency_links to teleop_twist_keyboard.egg-info/dependency_links.txt
+[9.115s] writing entry points to teleop_twist_keyboard.egg-info/entry_points.txt
+[9.116s] writing requirements to teleop_twist_keyboard.egg-info/requires.txt
+[9.117s] writing top-level names to teleop_twist_keyboard.egg-info/top_level.txt
+[9.117s] writing manifest file 'teleop_twist_keyboard.egg-info/SOURCES.txt'
+[9.602s] reading manifest file 'teleop_twist_keyboard.egg-info/SOURCES.txt'
+[9.607s] writing manifest file 'teleop_twist_keyboard.egg-info/SOURCES.txt'
+[10.127s] running build_ext
+[10.139s] Creating /ws/install/teleop_twist_keyboard/lib/python3.8/site-packages/site.py
+[10.157s] Creating /ws/install/teleop_twist_keyboard/lib/python3.8/site-packages/teleop-twist-keyboard.egg-link (link to .)
+[10.162s] Installing teleop_twist_keyboard script to /ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[10.169s] 
+[10.170s] Installed /ws/build/teleop_twist_keyboard
+[10.171s] running install_data
+[10.183s] creating /ws/install/teleop_twist_keyboard/share/ament_index
+[10.186s] creating /ws/install/teleop_twist_keyboard/share/ament_index/resource_index
+[10.188s] creating /ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[10.191s] copying resource/teleop_twist_keyboard -> /ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[10.193s] copying package.xml -> /ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard
+[10.540s] Invoked command in '/ws/build/teleop_twist_keyboard' returned '0': PYTHONPATH=/ws/build/teleop_twist_keyboard/prefix_override:/ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /ws/build/teleop_twist_keyboard/build --no-deps install_data

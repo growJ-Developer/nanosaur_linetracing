@@ -1,0 +1,1323 @@
+[0.000000] (-) TimerEvent: {}
+[0.000620] (image_pub) JobQueued: {'identifier': 'image_pub', 'dependencies': OrderedDict()}
+[0.000790] (nanosaur_control) JobQueued: {'identifier': 'nanosaur_control', 'dependencies': OrderedDict()}
+[0.000918] (nanosaur_hardware) JobQueued: {'identifier': 'nanosaur_hardware', 'dependencies': OrderedDict()}
+[0.001226] (nanosaur_msgs) JobQueued: {'identifier': 'nanosaur_msgs', 'dependencies': OrderedDict()}
+[0.001350] (rosboard) JobQueued: {'identifier': 'rosboard', 'dependencies': OrderedDict()}
+[0.001441] (rover_line_follower) JobQueued: {'identifier': 'rover_line_follower', 'dependencies': OrderedDict()}
+[0.001528] (teleop_twist_keyboard) JobQueued: {'identifier': 'teleop_twist_keyboard', 'dependencies': OrderedDict()}
+[0.004703] (image_pub) JobStarted: {'identifier': 'image_pub'}
+[0.098750] (nanosaur_control) JobStarted: {'identifier': 'nanosaur_control'}
+[0.104736] (-) TimerEvent: {}
+[0.179298] (nanosaur_hardware) JobStarted: {'identifier': 'nanosaur_hardware'}
+[0.209157] (-) TimerEvent: {}
+[0.259181] (nanosaur_msgs) JobStarted: {'identifier': 'nanosaur_msgs'}
+[0.309361] (-) TimerEvent: {}
+[0.333292] (image_pub) JobProgress: {'identifier': 'image_pub', 'progress': 'cmake'}
+[0.334040] (image_pub) Command: {'cmd': ['/usr/local/bin/cmake', '/ws/src/image_pub', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ws/install/image_pub'], 'cwd': '/ws/build/image_pub', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'jetson-desktop'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/nanosaur_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/ws/install'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/install:/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('ROS_DOMAIN_ID', '31'), ('AMENT_PREFIX_PATH', '/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_msgs:/ws/install/nanosaur_hardware:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/build/image_pub'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/build/teleop_twist_keyboard:/ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/ws/build/rover_line_follower:/ws/install/rover_line_follower/lib/python3.8/site-packages:/ws/build/rosboard:/ws/install/rosboard/lib/python3.8/site-packages:/ws/install/nanosaur_msgs/lib/python3.8/site-packages:/ws/build/nanosaur_hardware:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[0.349025] (nanosaur_control) JobProgress: {'identifier': 'nanosaur_control', 'progress': 'cmake'}
+[0.349745] (nanosaur_control) Command: {'cmd': ['/usr/local/bin/cmake', '/ws/src/nanosaur/nanosaur_control', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ws/install/nanosaur_control'], 'cwd': '/ws/build/nanosaur_control', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'jetson-desktop'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/nanosaur_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/ws/install'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/install:/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('ROS_DOMAIN_ID', '31'), ('AMENT_PREFIX_PATH', '/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_msgs:/ws/install/nanosaur_hardware:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/build/nanosaur_control'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/build/teleop_twist_keyboard:/ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/ws/build/rover_line_follower:/ws/install/rover_line_follower/lib/python3.8/site-packages:/ws/build/rosboard:/ws/install/rosboard/lib/python3.8/site-packages:/ws/install/nanosaur_msgs/lib/python3.8/site-packages:/ws/build/nanosaur_hardware:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[0.409679] (-) TimerEvent: {}
+[0.512202] (-) TimerEvent: {}
+[0.612968] (-) TimerEvent: {}
+[0.713676] (-) TimerEvent: {}
+[0.814463] (-) TimerEvent: {}
+[0.915177] (-) TimerEvent: {}
+[1.017718] (-) TimerEvent: {}
+[1.118448] (-) TimerEvent: {}
+[1.219353] (-) TimerEvent: {}
+[1.320055] (-) TimerEvent: {}
+[1.420852] (-) TimerEvent: {}
+[1.521781] (-) TimerEvent: {}
+[1.551960] (image_pub) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.552949] (image_pub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.563042] (nanosaur_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.565002] (nanosaur_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.565626] (nanosaur_msgs) JobProgress: {'identifier': 'nanosaur_msgs', 'progress': 'cmake'}
+[1.565876] (nanosaur_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '/ws/src/nanosaur/nanosaur_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/ws/install/nanosaur_msgs'], 'cwd': '/ws/build/nanosaur_msgs', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'jetson-desktop'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/nanosaur_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/ws/install'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/install:/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('ROS_DOMAIN_ID', '31'), ('AMENT_PREFIX_PATH', '/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_msgs:/ws/install/nanosaur_hardware:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/build/nanosaur_msgs'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/build/teleop_twist_keyboard:/ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/ws/build/rover_line_follower:/ws/install/rover_line_follower/lib/python3.8/site-packages:/ws/build/rosboard:/ws/install/rosboard/lib/python3.8/site-packages:/ws/install/nanosaur_msgs/lib/python3.8/site-packages:/ws/build/nanosaur_hardware:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[1.602567] (nanosaur_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.604402] (image_pub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.621962] (-) TimerEvent: {}
+[1.722825] (-) TimerEvent: {}
+[1.824831] (-) TimerEvent: {}
+[1.853592] (image_pub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.856334] (nanosaur_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.894314] (nanosaur_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.905030] (image_pub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.907878] (nanosaur_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.909870] (image_pub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.910708] (nanosaur_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.912834] (nanosaur_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.913543] (image_pub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.925014] (-) TimerEvent: {}
+[1.931910] (nanosaur_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.933028] (image_pub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.025185] (-) TimerEvent: {}
+[2.127284] (-) TimerEvent: {}
+[2.131617] (nanosaur_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.175517] (nanosaur_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.201758] (image_pub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.205888] (nanosaur_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.227439] (-) TimerEvent: {}
+[2.254145] (image_pub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.255487] (image_pub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.258698] (image_pub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.278599] (nanosaur_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.279788] (nanosaur_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.282273] (nanosaur_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.292100] (image_pub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/install/share/ament_cmake/cmake)\n'}
+[2.297504] (nanosaur_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/install/share/ament_cmake/cmake)\n'}
+[2.327607] (-) TimerEvent: {}
+[2.429709] (-) TimerEvent: {}
+[2.481949] (nanosaur_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.529879] (-) TimerEvent: {}
+[2.537705] (nanosaur_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.539984] (nanosaur_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.542956] (nanosaur_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.559834] (nanosaur_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.630060] (-) TimerEvent: {}
+[2.731913] (-) TimerEvent: {}
+[2.833275] (-) TimerEvent: {}
+[2.848345] (nanosaur_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.904590] (nanosaur_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.906945] (nanosaur_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.910098] (nanosaur_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.926701] (nanosaur_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.4 (/opt/ros/humble/install/share/ament_cmake/cmake)\n'}
+[2.933443] (-) TimerEvent: {}
+[3.034915] (-) TimerEvent: {}
+[3.135626] (-) TimerEvent: {}
+[3.237862] (-) TimerEvent: {}
+[3.340184] (-) TimerEvent: {}
+[3.442477] (-) TimerEvent: {}
+[3.544928] (-) TimerEvent: {}
+[3.646740] (-) TimerEvent: {}
+[3.749308] (-) TimerEvent: {}
+[3.759113] (nanosaur_hardware) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/ws/build/nanosaur_hardware/build', '--no-deps', 'install_data'], 'cwd': '/ws/build/nanosaur_hardware', 'env': {'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': 'jetson-desktop', 'ROS_PACKAGE_PATH': '/ros_deep_learning/install/ros_deep_learning/share', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/ws/install/nanosaur_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:', 'HOME': '/root', 'OLDPWD': '/ws/install', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/ws/install:/ros_deep_learning/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': '', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'ROS_DOMAIN_ID': '31', 'AMENT_PREFIX_PATH': '/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_msgs:/ws/install/nanosaur_hardware:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PWD': '/ws/build/nanosaur_hardware', 'CUDA_HOME': '/usr/local/cuda', 'PYTHONPATH': '/ws/build/nanosaur_hardware/prefix_override:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:/ws/build/teleop_twist_keyboard:/ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/ws/build/rover_line_follower:/ws/install/rover_line_follower/lib/python3.8/site-packages:/ws/build/rosboard:/ws/install/rosboard/lib/python3.8/site-packages:/ws/install/nanosaur_msgs/lib/python3.8/site-packages:/ws/build/nanosaur_hardware:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'}, 'shell': False}
+[3.849524] (-) TimerEvent: {}
+[3.951477] (-) TimerEvent: {}
+[4.053346] (-) TimerEvent: {}
+[4.154294] (-) TimerEvent: {}
+[4.255014] (-) TimerEvent: {}
+[4.357396] (-) TimerEvent: {}
+[4.459858] (-) TimerEvent: {}
+[4.562344] (-) TimerEvent: {}
+[4.664518] (-) TimerEvent: {}
+[4.766253] (-) TimerEvent: {}
+[4.868373] (-) TimerEvent: {}
+[4.970786] (-) TimerEvent: {}
+[5.002506] (nanosaur_hardware) StdoutLine: {'line': b'running develop\n'}
+[5.070967] (-) TimerEvent: {}
+[5.173629] (-) TimerEvent: {}
+[5.274377] (-) TimerEvent: {}
+[5.376778] (-) TimerEvent: {}
+[5.479100] (-) TimerEvent: {}
+[5.581200] (-) TimerEvent: {}
+[5.683374] (-) TimerEvent: {}
+[5.785686] (-) TimerEvent: {}
+[5.825950] (nanosaur_hardware) StdoutLine: {'line': b'running egg_info\n'}
+[5.835364] (nanosaur_hardware) StdoutLine: {'line': b'creating nanosaur_hardware.egg-info\n'}
+[5.835900] (nanosaur_hardware) StdoutLine: {'line': b'writing nanosaur_hardware.egg-info/PKG-INFO\n'}
+[5.837873] (nanosaur_hardware) StdoutLine: {'line': b'writing dependency_links to nanosaur_hardware.egg-info/dependency_links.txt\n'}
+[5.839279] (nanosaur_hardware) StdoutLine: {'line': b'writing entry points to nanosaur_hardware.egg-info/entry_points.txt\n'}
+[5.840041] (nanosaur_hardware) StdoutLine: {'line': b'writing requirements to nanosaur_hardware.egg-info/requires.txt\n'}
+[5.840588] (nanosaur_hardware) StdoutLine: {'line': b'writing top-level names to nanosaur_hardware.egg-info/top_level.txt\n'}
+[5.841307] (nanosaur_hardware) StdoutLine: {'line': b"writing manifest file 'nanosaur_hardware.egg-info/SOURCES.txt'\n"}
+[5.885860] (-) TimerEvent: {}
+[5.986590] (-) TimerEvent: {}
+[6.018070] (nanosaur_hardware) StdoutLine: {'line': b"reading manifest file 'nanosaur_hardware.egg-info/SOURCES.txt'\n"}
+[6.022207] (nanosaur_hardware) StdoutLine: {'line': b"writing manifest file 'nanosaur_hardware.egg-info/SOURCES.txt'\n"}
+[6.086756] (-) TimerEvent: {}
+[6.188621] (-) TimerEvent: {}
+[6.219705] (nanosaur_hardware) StdoutLine: {'line': b'running build_ext\n'}
+[6.220992] (nanosaur_hardware) StdoutLine: {'line': b'Creating /ws/install/nanosaur_hardware/lib/python3.8/site-packages/site.py\n'}
+[6.229081] (nanosaur_hardware) StdoutLine: {'line': b'Creating /ws/install/nanosaur_hardware/lib/python3.8/site-packages/nanosaur-hardware.egg-link (link to .)\n'}
+[6.232202] (nanosaur_hardware) StdoutLine: {'line': b'Installing nanosaur script to /ws/install/nanosaur_hardware/lib/nanosaur_hardware\n'}
+[6.233360] (nanosaur_hardware) StdoutLine: {'line': b'\n'}
+[6.233969] (nanosaur_hardware) StdoutLine: {'line': b'Installed /ws/build/nanosaur_hardware\n'}
+[6.234716] (nanosaur_hardware) StdoutLine: {'line': b'running install_data\n'}
+[6.235246] (nanosaur_hardware) StdoutLine: {'line': b'creating /ws/install/nanosaur_hardware/share/ament_index\n'}
+[6.235720] (nanosaur_hardware) StdoutLine: {'line': b'creating /ws/install/nanosaur_hardware/share/ament_index/resource_index\n'}
+[6.236292] (nanosaur_hardware) StdoutLine: {'line': b'creating /ws/install/nanosaur_hardware/share/ament_index/resource_index/packages\n'}
+[6.237059] (nanosaur_hardware) StdoutLine: {'line': b'copying resource/nanosaur_hardware -> /ws/install/nanosaur_hardware/share/ament_index/resource_index/packages\n'}
+[6.237632] (nanosaur_hardware) StdoutLine: {'line': b'copying package.xml -> /ws/install/nanosaur_hardware/share/nanosaur_hardware\n'}
+[6.238176] (nanosaur_hardware) StdoutLine: {'line': b'copying requirements.txt -> /ws/install/nanosaur_hardware/share/nanosaur_hardware\n'}
+[6.288796] (-) TimerEvent: {}
+[6.385459] (nanosaur_hardware) CommandEnded: {'returncode': 0}
+[6.394079] (-) TimerEvent: {}
+[6.496927] (-) TimerEvent: {}
+[6.516345] (nanosaur_hardware) JobEnded: {'identifier': 'nanosaur_hardware', 'rc': 0}
+[6.519922] (rosboard) JobStarted: {'identifier': 'rosboard'}
+[6.597193] (-) TimerEvent: {}
+[6.698803] (-) TimerEvent: {}
+[6.800500] (-) TimerEvent: {}
+[6.902561] (-) TimerEvent: {}
+[7.004419] (-) TimerEvent: {}
+[7.105919] (-) TimerEvent: {}
+[7.207774] (-) TimerEvent: {}
+[7.309613] (-) TimerEvent: {}
+[7.411457] (-) TimerEvent: {}
+[7.513290] (-) TimerEvent: {}
+[7.581090] (nanosaur_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter \n'}
+[7.613459] (-) TimerEvent: {}
+[7.639506] (image_pub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter \n'}
+[7.713671] (-) TimerEvent: {}
+[7.815399] (-) TimerEvent: {}
+[7.907482] (nanosaur_control) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.915631] (-) TimerEvent: {}
+[7.968668] (image_pub) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[8.016272] (-) TimerEvent: {}
+[8.118087] (-) TimerEvent: {}
+[8.219993] (-) TimerEvent: {}
+[8.288651] (image_pub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.320217] (-) TimerEvent: {}
+[8.407618] (nanosaur_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.8 (found version "3.8.10") found components: Interpreter \n'}
+[8.420374] (-) TimerEvent: {}
+[8.461681] (nanosaur_control) StdoutLine: {'line': b'-- Configuring done (8.0s)\n'}
+[8.476600] (nanosaur_control) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[8.482325] (nanosaur_control) StdoutLine: {'line': b'-- Build files have been written to: /ws/build/nanosaur_control\n'}
+[8.520676] (-) TimerEvent: {}
+[8.524944] (nanosaur_control) CommandEnded: {'returncode': 0}
+[8.527474] (nanosaur_control) JobProgress: {'identifier': 'nanosaur_control', 'progress': 'build'}
+[8.530435] (nanosaur_control) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/ws/build/nanosaur_control', '--', '-j4', '-l4'], 'cwd': '/ws/build/nanosaur_control', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'jetson-desktop'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/nanosaur_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/ws/install'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/install:/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('ROS_DOMAIN_ID', '31'), ('AMENT_PREFIX_PATH', '/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_msgs:/ws/install/nanosaur_hardware:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/build/nanosaur_control'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/build/teleop_twist_keyboard:/ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/ws/build/rover_line_follower:/ws/install/rover_line_follower/lib/python3.8/site-packages:/ws/build/rosboard:/ws/install/rosboard/lib/python3.8/site-packages:/ws/install/nanosaur_msgs/lib/python3.8/site-packages:/ws/build/nanosaur_hardware:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[8.580797] (image_pub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[8.582353] (image_pub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[8.620846] (-) TimerEvent: {}
+[8.717905] (nanosaur_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[8.721013] (-) TimerEvent: {}
+[8.757116] (nanosaur_control) CommandEnded: {'returncode': 0}
+[8.803628] (image_pub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[8.804997] (image_pub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[8.828380] (-) TimerEvent: {}
+[8.885245] (nanosaur_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/install/share/rosidl_default_generators/cmake)\n'}
+[8.916370] (nanosaur_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.928543] (-) TimerEvent: {}
+[8.975856] (nanosaur_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)\n'}
+[8.992094] (nanosaur_control) JobProgress: {'identifier': 'nanosaur_control', 'progress': 'install'}
+[9.028762] (-) TimerEvent: {}
+[9.038071] (image_pub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[9.043958] (image_pub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.128931] (-) TimerEvent: {}
+[9.146382] (image_pub) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda (found suitable exact version "11.4") \n'}
+[9.174279] (nanosaur_control) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/ws/build/nanosaur_control'], 'cwd': '/ws/build/nanosaur_control', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'jetson-desktop'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/nanosaur_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/ws/install'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/install:/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('ROS_DOMAIN_ID', '31'), ('AMENT_PREFIX_PATH', '/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_msgs:/ws/install/nanosaur_hardware:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/build/nanosaur_control'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/build/teleop_twist_keyboard:/ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/ws/build/rover_line_follower:/ws/install/rover_line_follower/lib/python3.8/site-packages:/ws/build/rosboard:/ws/install/rosboard/lib/python3.8/site-packages:/ws/install/nanosaur_msgs/lib/python3.8/site-packages:/ws/build/nanosaur_hardware:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[9.216769] (image_pub) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.0") \n'}
+[9.229096] (-) TimerEvent: {}
+[9.233851] (image_pub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.4 (/opt/ros/humble/install/share/rclcpp/cmake)\n'}
+[9.299736] (nanosaur_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.329259] (-) TimerEvent: {}
+[9.339491] (nanosaur_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.341188] (nanosaur_control) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.343304] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/nanosaur_control/launch/nanosaur_bringup.launch.py\n'}
+[9.353438] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/nanosaur_control/launch/teleop.launch.py\n'}
+[9.364955] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/nanosaur_control/launch/twist_control.launch.py\n'}
+[9.375906] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/nanosaur_control/config/joystick.yaml\n'}
+[9.386266] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/nanosaur_control/config/ps3.nanosaur.yml\n'}
+[9.396217] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/nanosaur_control/config/twist_mux_locks.yaml\n'}
+[9.407162] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/nanosaur_control/config/twist_mux_topics.yaml\n'}
+[9.417812] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/ament_index/resource_index/package_run_dependencies/nanosaur_control\n'}
+[9.427904] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/ament_index/resource_index/parent_prefix_path/nanosaur_control\n'}
+[9.429397] (-) TimerEvent: {}
+[9.440623] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/nanosaur_control/environment/ament_prefix_path.sh\n'}
+[9.450553] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/nanosaur_control/environment/ament_prefix_path.dsv\n'}
+[9.460858] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/nanosaur_control/environment/path.sh\n'}
+[9.470578] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/nanosaur_control/environment/path.dsv\n'}
+[9.480856] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/nanosaur_control/local_setup.bash\n'}
+[9.493456] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/nanosaur_control/local_setup.sh\n'}
+[9.502860] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/nanosaur_control/local_setup.zsh\n'}
+[9.505808] (image_pub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)\n'}
+[9.511843] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/nanosaur_control/local_setup.dsv\n'}
+[9.522402] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/nanosaur_control/package.dsv\n'}
+[9.529571] (-) TimerEvent: {}
+[9.533401] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/ament_index/resource_index/packages/nanosaur_control\n'}
+[9.543002] (image_pub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/install/share/rosidl_adapter/cmake)\n'}
+[9.544033] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/nanosaur_control/cmake/nanosaur_controlConfig.cmake\n'}
+[9.553082] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/nanosaur_control/cmake/nanosaur_controlConfig-version.cmake\n'}
+[9.562933] (nanosaur_control) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_control/share/nanosaur_control/package.xml\n'}
+[9.609494] (nanosaur_control) CommandEnded: {'returncode': 0}
+[9.616099] (image_pub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)\n'}
+[9.616852] (nanosaur_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/install/share/geometry_msgs/cmake)\n'}
+[9.634849] (-) TimerEvent: {}
+[9.707663] (image_pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.735042] (-) TimerEvent: {}
+[9.837021] (-) TimerEvent: {}
+[9.853253] (image_pub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.942305] (-) TimerEvent: {}
+[10.007293] (nanosaur_control) JobEnded: {'identifier': 'nanosaur_control', 'rc': 0}
+[10.012816] (rover_line_follower) JobStarted: {'identifier': 'rover_line_follower'}
+[10.047669] (-) TimerEvent: {}
+[10.148544] (-) TimerEvent: {}
+[10.249561] (-) TimerEvent: {}
+[10.350968] (-) TimerEvent: {}
+[10.385849] (image_pub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/install/share/rmw_implementation_cmake/cmake)\n'}
+[10.408626] (image_pub) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/install/share/rmw_cyclonedds_cpp/cmake)\n'}
+[10.451127] (-) TimerEvent: {}
+[10.552909] (-) TimerEvent: {}
+[10.653628] (-) TimerEvent: {}
+[10.675944] (image_pub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[10.753841] (-) TimerEvent: {}
+[10.854559] (-) TimerEvent: {}
+[10.969857] (-) TimerEvent: {}
+[11.076677] (-) TimerEvent: {}
+[11.178173] (-) TimerEvent: {}
+[11.285217] (-) TimerEvent: {}
+[11.371894] (rosboard) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/ws/build/rosboard/build', '--no-deps', 'install_data'], 'cwd': '/ws/build/rosboard', 'env': {'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': 'jetson-desktop', 'ROS_PACKAGE_PATH': '/ros_deep_learning/install/ros_deep_learning/share', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/ws/install/nanosaur_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:', 'HOME': '/root', 'OLDPWD': '/ws/install', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/ws/install:/ros_deep_learning/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': '', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'ROS_DOMAIN_ID': '31', 'AMENT_PREFIX_PATH': '/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_msgs:/ws/install/nanosaur_hardware:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PWD': '/ws/build/rosboard', 'CUDA_HOME': '/usr/local/cuda', 'PYTHONPATH': '/ws/build/rosboard/prefix_override:/ws/install/rosboard/lib/python3.8/site-packages:/ws/build/teleop_twist_keyboard:/ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/ws/build/rover_line_follower:/ws/install/rover_line_follower/lib/python3.8/site-packages:/ws/build/rosboard:/ws/install/rosboard/lib/python3.8/site-packages:/ws/install/nanosaur_msgs/lib/python3.8/site-packages:/ws/build/nanosaur_hardware:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'}, 'shell': False}
+[11.385601] (-) TimerEvent: {}
+[11.487149] (-) TimerEvent: {}
+[11.589059] (-) TimerEvent: {}
+[11.691252] (-) TimerEvent: {}
+[11.749887] (nanosaur_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)\n'}
+[11.791411] (-) TimerEvent: {}
+[11.847840] (image_pub) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/install/share/sensor_msgs/cmake)\n'}
+[11.891574] (-) TimerEvent: {}
+[11.993859] (-) TimerEvent: {}
+[12.096187] (-) TimerEvent: {}
+[12.198389] (-) TimerEvent: {}
+[12.300534] (-) TimerEvent: {}
+[12.402873] (-) TimerEvent: {}
+[12.505109] (-) TimerEvent: {}
+[12.532358] (rosboard) StdoutLine: {'line': b'running develop\n'}
+[12.605267] (-) TimerEvent: {}
+[12.706009] (-) TimerEvent: {}
+[12.806731] (-) TimerEvent: {}
+[12.908013] (-) TimerEvent: {}
+[12.915319] (nanosaur_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.008221] (-) TimerEvent: {}
+[13.034409] (image_pub) StdoutLine: {'line': b'-- Configuring done (12.6s)\n'}
+[13.108374] (-) TimerEvent: {}
+[13.179419] (image_pub) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[13.189232] (image_pub) StdoutLine: {'line': b'-- Build files have been written to: /ws/build/image_pub\n'}
+[13.208528] (-) TimerEvent: {}
+[13.262323] (image_pub) CommandEnded: {'returncode': 0}
+[13.266102] (image_pub) JobProgress: {'identifier': 'image_pub', 'progress': 'build'}
+[13.266328] (image_pub) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/ws/build/image_pub', '--', '-j4', '-l4'], 'cwd': '/ws/build/image_pub', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'jetson-desktop'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/nanosaur_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/ws/install'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/install:/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('ROS_DOMAIN_ID', '31'), ('AMENT_PREFIX_PATH', '/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_msgs:/ws/install/nanosaur_hardware:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/build/image_pub'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/build/teleop_twist_keyboard:/ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/ws/build/rover_line_follower:/ws/install/rover_line_follower/lib/python3.8/site-packages:/ws/build/rosboard:/ws/install/rosboard/lib/python3.8/site-packages:/ws/install/nanosaur_msgs/lib/python3.8/site-packages:/ws/build/nanosaur_hardware:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[13.308733] (-) TimerEvent: {}
+[13.340461] (rosboard) StdoutLine: {'line': b'running egg_info\n'}
+[13.341324] (rosboard) StdoutLine: {'line': b'creating rosboard.egg-info\n'}
+[13.342025] (rosboard) StdoutLine: {'line': b'writing rosboard.egg-info/PKG-INFO\n'}
+[13.342777] (rosboard) StdoutLine: {'line': b'writing dependency_links to rosboard.egg-info/dependency_links.txt\n'}
+[13.343520] (rosboard) StdoutLine: {'line': b'writing entry points to rosboard.egg-info/entry_points.txt\n'}
+[13.344331] (rosboard) StdoutLine: {'line': b'writing requirements to rosboard.egg-info/requires.txt\n'}
+[13.344902] (rosboard) StdoutLine: {'line': b'writing top-level names to rosboard.egg-info/top_level.txt\n'}
+[13.345562] (rosboard) StdoutLine: {'line': b"writing manifest file 'rosboard.egg-info/SOURCES.txt'\n"}
+[13.395632] (rover_line_follower) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/ws/build/rover_line_follower/build', '--no-deps', 'install_data'], 'cwd': '/ws/build/rover_line_follower', 'env': {'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': 'jetson-desktop', 'ROS_PACKAGE_PATH': '/ros_deep_learning/install/ros_deep_learning/share', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/ws/install/nanosaur_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:', 'HOME': '/root', 'OLDPWD': '/ws/install', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/ws/install:/ros_deep_learning/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': '', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'ROS_DOMAIN_ID': '31', 'AMENT_PREFIX_PATH': '/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_msgs:/ws/install/nanosaur_hardware:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PWD': '/ws/build/rover_line_follower', 'CUDA_HOME': '/usr/local/cuda', 'PYTHONPATH': '/ws/build/rover_line_follower/prefix_override:/ws/install/rover_line_follower/lib/python3.8/site-packages:/ws/build/teleop_twist_keyboard:/ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/ws/build/rover_line_follower:/ws/install/rover_line_follower/lib/python3.8/site-packages:/ws/build/rosboard:/ws/install/rosboard/lib/python3.8/site-packages:/ws/install/nanosaur_msgs/lib/python3.8/site-packages:/ws/build/nanosaur_hardware:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'}, 'shell': False}
+[13.408939] (-) TimerEvent: {}
+[13.509789] (-) TimerEvent: {}
+[13.529665] (rosboard) StdoutLine: {'line': b"reading manifest file 'rosboard.egg-info/SOURCES.txt'\n"}
+[13.535622] (rosboard) StdoutLine: {'line': b"writing manifest file 'rosboard.egg-info/SOURCES.txt'\n"}
+[13.570891] (image_pub) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/mono_image_pub.dir/src/mono_image_pub.cpp.o\x1b[0m\n'}
+[13.593443] (image_pub) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/stereo_image_pub.dir/src/stereo_image_pub.cpp.o\x1b[0m\n'}
+[13.596268] (image_pub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/camera_calibration_pub.dir/src/camera_calibration_pub.cpp.o\x1b[0m\n'}
+[13.609973] (-) TimerEvent: {}
+[13.712499] (-) TimerEvent: {}
+[13.753586] (rosboard) StdoutLine: {'line': b'running build_ext\n'}
+[13.776007] (rosboard) StdoutLine: {'line': b'Creating /ws/install/rosboard/lib/python3.8/site-packages/site.py\n'}
+[13.790097] (rosboard) StdoutLine: {'line': b'Creating /ws/install/rosboard/lib/python3.8/site-packages/rosboard.egg-link (link to .)\n'}
+[13.794114] (rosboard) StdoutLine: {'line': b'Installing rosboard_node script to /ws/install/rosboard/lib/rosboard\n'}
+[13.795922] (rosboard) StdoutLine: {'line': b'\n'}
+[13.796731] (rosboard) StdoutLine: {'line': b'Installed /ws/build/rosboard\n'}
+[13.797745] (rosboard) StdoutLine: {'line': b'running install_data\n'}
+[13.798921] (rosboard) StdoutLine: {'line': b'copying package.xml -> /ws/install/rosboard/share/rosboard\n'}
+[13.812661] (-) TimerEvent: {}
+[13.914807] (-) TimerEvent: {}
+[14.016579] (-) TimerEvent: {}
+[14.029682] (rosboard) CommandEnded: {'returncode': 0}
+[14.130886] (-) TimerEvent: {}
+[14.213261] (rosboard) JobEnded: {'identifier': 'rosboard', 'rc': 0}
+[14.217604] (teleop_twist_keyboard) JobStarted: {'identifier': 'teleop_twist_keyboard'}
+[14.234861] (-) TimerEvent: {}
+[14.336302] (-) TimerEvent: {}
+[14.438595] (-) TimerEvent: {}
+[14.540807] (-) TimerEvent: {}
+[14.642967] (nanosaur_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[14.643760] (-) TimerEvent: {}
+[14.746291] (-) TimerEvent: {}
+[14.842019] (rover_line_follower) StdoutLine: {'line': b'running develop\n'}
+[14.846447] (-) TimerEvent: {}
+[14.944407] (nanosaur_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.6") \n'}
+[14.946603] (-) TimerEvent: {}
+[14.961512] (nanosaur_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)\n'}
+[15.046779] (-) TimerEvent: {}
+[15.148814] (-) TimerEvent: {}
+[15.250844] (-) TimerEvent: {}
+[15.308760] (nanosaur_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[15.309575] (nanosaur_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[15.310013] (nanosaur_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[15.310479] (nanosaur_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.8.so\n'}
+[15.350998] (-) TimerEvent: {}
+[15.453134] (-) TimerEvent: {}
+[15.495232] (nanosaur_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[15.553324] (-) TimerEvent: {}
+[15.654980] (-) TimerEvent: {}
+[15.756521] (-) TimerEvent: {}
+[15.858085] (-) TimerEvent: {}
+[16.000003] (-) TimerEvent: {}
+[16.002598] (rover_line_follower) StdoutLine: {'line': b'running egg_info\n'}
+[16.003988] (rover_line_follower) StdoutLine: {'line': b'creating rover_line_follower.egg-info\n'}
+[16.005522] (rover_line_follower) StdoutLine: {'line': b'writing rover_line_follower.egg-info/PKG-INFO\n'}
+[16.012475] (rover_line_follower) StdoutLine: {'line': b'writing dependency_links to rover_line_follower.egg-info/dependency_links.txt\n'}
+[16.013309] (rover_line_follower) StdoutLine: {'line': b'writing entry points to rover_line_follower.egg-info/entry_points.txt\n'}
+[16.014026] (rover_line_follower) StdoutLine: {'line': b'writing requirements to rover_line_follower.egg-info/requires.txt\n'}
+[16.014760] (rover_line_follower) StdoutLine: {'line': b'writing top-level names to rover_line_follower.egg-info/top_level.txt\n'}
+[16.015453] (rover_line_follower) StdoutLine: {'line': b"writing manifest file 'rover_line_follower.egg-info/SOURCES.txt'\n"}
+[16.100215] (-) TimerEvent: {}
+[16.212715] (-) TimerEvent: {}
+[16.233908] (rover_line_follower) StdoutLine: {'line': b"reading manifest file 'rover_line_follower.egg-info/SOURCES.txt'\n"}
+[16.237185] (rover_line_follower) StdoutLine: {'line': b"writing manifest file 'rover_line_follower.egg-info/SOURCES.txt'\n"}
+[16.273207] (nanosaur_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/install/share/ament_lint_auto/cmake)\n'}
+[16.312739] (-) TimerEvent: {}
+[16.414345] (-) TimerEvent: {}
+[16.452618] (rover_line_follower) StdoutLine: {'line': b'running build_ext\n'}
+[16.453835] (rover_line_follower) StdoutLine: {'line': b'Creating /ws/install/rover_line_follower/lib/python3.8/site-packages/site.py\n'}
+[16.462868] (rover_line_follower) StdoutLine: {'line': b'Creating /ws/install/rover_line_follower/lib/python3.8/site-packages/rover-line-follower.egg-link (link to .)\n'}
+[16.466387] (rover_line_follower) StdoutLine: {'line': b'Installing rover_line_follower script to /ws/install/rover_line_follower/lib/rover_line_follower\n'}
+[16.467464] (rover_line_follower) StdoutLine: {'line': b'\n'}
+[16.468015] (rover_line_follower) StdoutLine: {'line': b'Installed /ws/build/rover_line_follower\n'}
+[16.468989] (rover_line_follower) StdoutLine: {'line': b'running install_data\n'}
+[16.469456] (rover_line_follower) StdoutLine: {'line': b'creating /ws/install/rover_line_follower/share/ament_index\n'}
+[16.469943] (rover_line_follower) StdoutLine: {'line': b'creating /ws/install/rover_line_follower/share/ament_index/resource_index\n'}
+[16.470376] (rover_line_follower) StdoutLine: {'line': b'creating /ws/install/rover_line_follower/share/ament_index/resource_index/packages\n'}
+[16.470945] (rover_line_follower) StdoutLine: {'line': b'copying resource/rover_line_follower -> /ws/install/rover_line_follower/share/ament_index/resource_index/packages\n'}
+[16.471402] (rover_line_follower) StdoutLine: {'line': b'copying package.xml -> /ws/install/rover_line_follower/share/rover_line_follower\n'}
+[16.514517] (-) TimerEvent: {}
+[16.602891] (nanosaur_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[16.614721] (-) TimerEvent: {}
+[16.626327] (nanosaur_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[16.645859] (nanosaur_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[16.684109] (nanosaur_msgs) StdoutLine: {'line': b'-- Configuring done (15.0s)\n'}
+[16.714921] (-) TimerEvent: {}
+[16.758524] (rover_line_follower) CommandEnded: {'returncode': 0}
+[16.825345] (-) TimerEvent: {}
+[16.926996] (-) TimerEvent: {}
+[16.937019] (nanosaur_msgs) StdoutLine: {'line': b'-- Generating done (0.2s)\n'}
+[16.937627] (nanosaur_msgs) StdoutLine: {'line': b'-- Build files have been written to: /ws/build/nanosaur_msgs\n'}
+[16.957892] (rover_line_follower) JobEnded: {'identifier': 'rover_line_follower', 'rc': 0}
+[17.028428] (nanosaur_msgs) CommandEnded: {'returncode': 0}
+[17.031862] (-) TimerEvent: {}
+[17.032800] (nanosaur_msgs) JobProgress: {'identifier': 'nanosaur_msgs', 'progress': 'build'}
+[17.033017] (nanosaur_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/ws/build/nanosaur_msgs', '--', '-j4', '-l4'], 'cwd': '/ws/build/nanosaur_msgs', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'jetson-desktop'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/nanosaur_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/ws/install'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/install:/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('ROS_DOMAIN_ID', '31'), ('AMENT_PREFIX_PATH', '/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_msgs:/ws/install/nanosaur_hardware:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/build/nanosaur_msgs'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/build/teleop_twist_keyboard:/ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/ws/build/rover_line_follower:/ws/install/rover_line_follower/lib/python3.8/site-packages:/ws/build/rosboard:/ws/install/rosboard/lib/python3.8/site-packages:/ws/install/nanosaur_msgs/lib/python3.8/site-packages:/ws/build/nanosaur_hardware:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[17.132043] (-) TimerEvent: {}
+[17.232843] (-) TimerEvent: {}
+[17.334928] (-) TimerEvent: {}
+[17.436998] (-) TimerEvent: {}
+[17.482715] (nanosaur_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[17.537175] (-) TimerEvent: {}
+[17.544348] (nanosaur_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[17.575154] (nanosaur_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_symlink_nanosaur_msgs\n'}
+[17.637350] (-) TimerEvent: {}
+[17.739626] (-) TimerEvent: {}
+[17.841840] (-) TimerEvent: {}
+[17.943349] (-) TimerEvent: {}
+[18.045566] (-) TimerEvent: {}
+[18.147192] (-) TimerEvent: {}
+[18.249587] (-) TimerEvent: {}
+[18.351335] (-) TimerEvent: {}
+[18.453029] (-) TimerEvent: {}
+[18.555315] (-) TimerEvent: {}
+[18.656911] (-) TimerEvent: {}
+[18.758475] (-) TimerEvent: {}
+[18.859744] (-) TimerEvent: {}
+[18.961021] (-) TimerEvent: {}
+[19.063437] (-) TimerEvent: {}
+[19.166614] (-) TimerEvent: {}
+[19.267332] (-) TimerEvent: {}
+[19.368618] (-) TimerEvent: {}
+[19.469431] (-) TimerEvent: {}
+[19.570220] (-) TimerEvent: {}
+[19.578370] (teleop_twist_keyboard) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/ws/build/teleop_twist_keyboard/build', '--no-deps', 'install_data'], 'cwd': '/ws/build/teleop_twist_keyboard', 'env': {'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': 'jetson-desktop', 'ROS_PACKAGE_PATH': '/ros_deep_learning/install/ros_deep_learning/share', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/ws/install/nanosaur_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:', 'HOME': '/root', 'OLDPWD': '/ws/install', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/ws/install:/ros_deep_learning/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': '', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'ROS_DOMAIN_ID': '31', 'AMENT_PREFIX_PATH': '/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_msgs:/ws/install/nanosaur_hardware:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PWD': '/ws/build/teleop_twist_keyboard', 'CUDA_HOME': '/usr/local/cuda', 'PYTHONPATH': '/ws/build/teleop_twist_keyboard/prefix_override:/ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/ws/build/teleop_twist_keyboard:/ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/ws/build/rover_line_follower:/ws/install/rover_line_follower/lib/python3.8/site-packages:/ws/build/rosboard:/ws/install/rosboard/lib/python3.8/site-packages:/ws/install/nanosaur_msgs/lib/python3.8/site-packages:/ws/build/nanosaur_hardware:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'}, 'shell': False}
+[19.670501] (-) TimerEvent: {}
+[19.773101] (-) TimerEvent: {}
+[19.874642] (-) TimerEvent: {}
+[19.976791] (-) TimerEvent: {}
+[20.040498] (nanosaur_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[20.044223] (nanosaur_msgs) StdoutLine: {'line': b'creating nanosaur_msgs.egg-info\n'}
+[20.046282] (nanosaur_msgs) StdoutLine: {'line': b'writing nanosaur_msgs.egg-info/PKG-INFO\n'}
+[20.048067] (nanosaur_msgs) StdoutLine: {'line': b'writing dependency_links to nanosaur_msgs.egg-info/dependency_links.txt\n'}
+[20.049873] (nanosaur_msgs) StdoutLine: {'line': b'writing top-level names to nanosaur_msgs.egg-info/top_level.txt\n'}
+[20.051472] (nanosaur_msgs) StdoutLine: {'line': b"writing manifest file 'nanosaur_msgs.egg-info/SOURCES.txt'\n"}
+[20.076959] (-) TimerEvent: {}
+[20.179052] (-) TimerEvent: {}
+[20.281556] (-) TimerEvent: {}
+[20.383086] (-) TimerEvent: {}
+[20.412720] (nanosaur_msgs) StdoutLine: {'line': b"reading manifest file 'nanosaur_msgs.egg-info/SOURCES.txt'\n"}
+[20.420452] (nanosaur_msgs) StdoutLine: {'line': b"writing manifest file 'nanosaur_msgs.egg-info/SOURCES.txt'\n"}
+[20.483261] (-) TimerEvent: {}
+[20.585428] (-) TimerEvent: {}
+[20.647792] (nanosaur_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_nanosaur_msgs_egg\n'}
+[20.685601] (-) TimerEvent: {}
+[20.788192] (-) TimerEvent: {}
+[20.890384] (-) TimerEvent: {}
+[21.007435] (-) TimerEvent: {}
+[21.109799] (-) TimerEvent: {}
+[21.211937] (-) TimerEvent: {}
+[21.314083] (-) TimerEvent: {}
+[21.415659] (-) TimerEvent: {}
+[21.516965] (-) TimerEvent: {}
+[21.619718] (-) TimerEvent: {}
+[21.668655] (teleop_twist_keyboard) StdoutLine: {'line': b'running develop\n'}
+[21.719911] (-) TimerEvent: {}
+[21.796157] (nanosaur_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_generator_c.dir/rosidl_generator_c/nanosaur_msgs/msg/detail/eyes__functions.c.o\x1b[0m\n'}
+[21.803743] (nanosaur_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_generator_c.dir/rosidl_generator_c/nanosaur_msgs/srv/detail/eye_message__functions.c.o\x1b[0m\n'}
+[21.820266] (-) TimerEvent: {}
+[21.930043] (-) TimerEvent: {}
+[22.032964] (-) TimerEvent: {}
+[22.134762] (-) TimerEvent: {}
+[22.258835] (-) TimerEvent: {}
+[22.316647] (nanosaur_msgs) StdoutLine: {'line': b'[ 10%] Built target nanosaur_msgs__cpp\n'}
+[22.359013] (-) TimerEvent: {}
+[22.402913] (nanosaur_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[22.417768] (nanosaur_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[22.459199] (-) TimerEvent: {}
+[22.561831] (-) TimerEvent: {}
+[22.601849] (nanosaur_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[22.644515] (nanosaur_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libnanosaur_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[22.662011] (-) TimerEvent: {}
+[22.764237] (-) TimerEvent: {}
+[22.866534] (-) TimerEvent: {}
+[22.969277] (-) TimerEvent: {}
+[23.036524] (nanosaur_msgs) StdoutLine: {'line': b'[ 20%] Built target nanosaur_msgs__rosidl_generator_c\n'}
+[23.069447] (-) TimerEvent: {}
+[23.125496] (nanosaur_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[23.169620] (-) TimerEvent: {}
+[23.271792] (-) TimerEvent: {}
+[23.329591] (teleop_twist_keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[23.330383] (teleop_twist_keyboard) StdoutLine: {'line': b'creating teleop_twist_keyboard.egg-info\n'}
+[23.331128] (teleop_twist_keyboard) StdoutLine: {'line': b'writing teleop_twist_keyboard.egg-info/PKG-INFO\n'}
+[23.331841] (teleop_twist_keyboard) StdoutLine: {'line': b'writing dependency_links to teleop_twist_keyboard.egg-info/dependency_links.txt\n'}
+[23.332590] (teleop_twist_keyboard) StdoutLine: {'line': b'writing entry points to teleop_twist_keyboard.egg-info/entry_points.txt\n'}
+[23.333421] (teleop_twist_keyboard) StdoutLine: {'line': b'writing requirements to teleop_twist_keyboard.egg-info/requires.txt\n'}
+[23.334006] (teleop_twist_keyboard) StdoutLine: {'line': b'writing top-level names to teleop_twist_keyboard.egg-info/top_level.txt\n'}
+[23.334650] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file 'teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[23.371972] (-) TimerEvent: {}
+[23.472765] (-) TimerEvent: {}
+[23.573504] (-) TimerEvent: {}
+[23.675248] (-) TimerEvent: {}
+[23.776041] (-) TimerEvent: {}
+[23.819678] (teleop_twist_keyboard) StdoutLine: {'line': b"reading manifest file 'teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[23.823768] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file 'teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[23.876244] (-) TimerEvent: {}
+[23.977130] (-) TimerEvent: {}
+[24.078084] (-) TimerEvent: {}
+[24.179764] (-) TimerEvent: {}
+[24.280827] (-) TimerEvent: {}
+[24.344487] (teleop_twist_keyboard) StdoutLine: {'line': b'running build_ext\n'}
+[24.356447] (teleop_twist_keyboard) StdoutLine: {'line': b'Creating /ws/install/teleop_twist_keyboard/lib/python3.8/site-packages/site.py\n'}
+[24.374711] (teleop_twist_keyboard) StdoutLine: {'line': b'Creating /ws/install/teleop_twist_keyboard/lib/python3.8/site-packages/teleop-twist-keyboard.egg-link (link to .)\n'}
+[24.379356] (teleop_twist_keyboard) StdoutLine: {'line': b'Installing teleop_twist_keyboard script to /ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard\n'}
+[24.380984] (-) TimerEvent: {}
+[24.386391] (teleop_twist_keyboard) StdoutLine: {'line': b'\n'}
+[24.387578] (teleop_twist_keyboard) StdoutLine: {'line': b'Installed /ws/build/teleop_twist_keyboard\n'}
+[24.388618] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_data\n'}
+[24.400550] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /ws/install/teleop_twist_keyboard/share/ament_index\n'}
+[24.403221] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /ws/install/teleop_twist_keyboard/share/ament_index/resource_index\n'}
+[24.404775] (teleop_twist_keyboard) StdoutLine: {'line': b'creating /ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages\n'}
+[24.408418] (teleop_twist_keyboard) StdoutLine: {'line': b'copying resource/teleop_twist_keyboard -> /ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages\n'}
+[24.409940] (teleop_twist_keyboard) StdoutLine: {'line': b'copying package.xml -> /ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard\n'}
+[24.481169] (-) TimerEvent: {}
+[24.582954] (-) TimerEvent: {}
+[24.685860] (-) TimerEvent: {}
+[24.757413] (teleop_twist_keyboard) CommandEnded: {'returncode': 0}
+[24.786287] (-) TimerEvent: {}
+[24.893683] (-) TimerEvent: {}
+[24.946604] (teleop_twist_keyboard) JobEnded: {'identifier': 'teleop_twist_keyboard', 'rc': 0}
+[24.993874] (-) TimerEvent: {}
+[25.095369] (-) TimerEvent: {}
+[25.196987] (-) TimerEvent: {}
+[25.299446] (-) TimerEvent: {}
+[25.401552] (-) TimerEvent: {}
+[25.503101] (-) TimerEvent: {}
+[25.605148] (-) TimerEvent: {}
+[25.706645] (-) TimerEvent: {}
+[25.809330] (-) TimerEvent: {}
+[25.911526] (-) TimerEvent: {}
+[26.022003] (-) TimerEvent: {}
+[26.123517] (-) TimerEvent: {}
+[26.225071] (-) TimerEvent: {}
+[26.327166] (-) TimerEvent: {}
+[26.429448] (-) TimerEvent: {}
+[26.531450] (-) TimerEvent: {}
+[26.633490] (-) TimerEvent: {}
+[26.735761] (-) TimerEvent: {}
+[26.838437] (-) TimerEvent: {}
+[26.940432] (-) TimerEvent: {}
+[27.042393] (-) TimerEvent: {}
+[27.144428] (-) TimerEvent: {}
+[27.197772] (nanosaur_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nanosaur_msgs/msg/detail/eyes__type_support.cpp.o\x1b[0m\n'}
+[27.198916] (nanosaur_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nanosaur_msgs/msg/eyes__type_support.cpp.o\x1b[0m\n'}
+[27.244621] (-) TimerEvent: {}
+[27.299225] (nanosaur_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nanosaur_msgs/msg/detail/dds_fastrtps/eyes__type_support.cpp.o\x1b[0m\n'}
+[27.344808] (-) TimerEvent: {}
+[27.446404] (-) TimerEvent: {}
+[27.548653] (-) TimerEvent: {}
+[27.650821] (-) TimerEvent: {}
+[27.751730] (-) TimerEvent: {}
+[27.852944] (-) TimerEvent: {}
+[27.953770] (-) TimerEvent: {}
+[28.054879] (-) TimerEvent: {}
+[28.156276] (-) TimerEvent: {}
+[28.256880] (nanosaur_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nanosaur_msgs/msg/detail/eyes__type_support_c.cpp.o\x1b[0m\n'}
+[28.257862] (-) TimerEvent: {}
+[28.359872] (-) TimerEvent: {}
+[28.462786] (-) TimerEvent: {}
+[28.564946] (-) TimerEvent: {}
+[28.666998] (-) TimerEvent: {}
+[28.769444] (-) TimerEvent: {}
+[28.872072] (-) TimerEvent: {}
+[28.975277] (-) TimerEvent: {}
+[29.077327] (-) TimerEvent: {}
+[29.179116] (-) TimerEvent: {}
+[29.281686] (-) TimerEvent: {}
+[29.384380] (-) TimerEvent: {}
+[29.485674] (-) TimerEvent: {}
+[29.586991] (-) TimerEvent: {}
+[29.689604] (-) TimerEvent: {}
+[29.792249] (-) TimerEvent: {}
+[29.898784] (-) TimerEvent: {}
+[30.008270] (-) TimerEvent: {}
+[30.116296] (-) TimerEvent: {}
+[30.228425] (-) TimerEvent: {}
+[30.336336] (-) TimerEvent: {}
+[30.437194] (-) TimerEvent: {}
+[30.540531] (-) TimerEvent: {}
+[30.641305] (-) TimerEvent: {}
+[30.742802] (-) TimerEvent: {}
+[30.843656] (-) TimerEvent: {}
+[30.944810] (-) TimerEvent: {}
+[31.071581] (-) TimerEvent: {}
+[31.172459] (-) TimerEvent: {}
+[31.273278] (-) TimerEvent: {}
+[31.384477] (-) TimerEvent: {}
+[31.486311] (-) TimerEvent: {}
+[31.587981] (-) TimerEvent: {}
+[31.690296] (-) TimerEvent: {}
+[31.800424] (-) TimerEvent: {}
+[31.901586] (-) TimerEvent: {}
+[32.138251] (-) TimerEvent: {}
+[32.239221] (-) TimerEvent: {}
+[32.342141] (-) TimerEvent: {}
+[32.443133] (-) TimerEvent: {}
+[32.544715] (-) TimerEvent: {}
+[32.647871] (-) TimerEvent: {}
+[32.749809] (-) TimerEvent: {}
+[32.851389] (-) TimerEvent: {}
+[32.952417] (-) TimerEvent: {}
+[33.054494] (-) TimerEvent: {}
+[33.155603] (-) TimerEvent: {}
+[33.257331] (-) TimerEvent: {}
+[33.359715] (-) TimerEvent: {}
+[33.462128] (-) TimerEvent: {}
+[33.564379] (-) TimerEvent: {}
+[33.665250] (-) TimerEvent: {}
+[33.766163] (-) TimerEvent: {}
+[33.867428] (-) TimerEvent: {}
+[33.968468] (-) TimerEvent: {}
+[34.070296] (-) TimerEvent: {}
+[34.171557] (-) TimerEvent: {}
+[34.274199] (-) TimerEvent: {}
+[34.341932] (nanosaur_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nanosaur_msgs/srv/eye_message__type_support.cpp.o\x1b[0m\n'}
+[34.380103] (-) TimerEvent: {}
+[34.382439] (nanosaur_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nanosaur_msgs/srv/detail/eye_message__type_support.cpp.o\x1b[0m\n'}
+[34.383763] (nanosaur_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nanosaur_msgs/srv/detail/eye_message__type_support_c.cpp.o\x1b[0m\n'}
+[34.385208] (nanosaur_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nanosaur_msgs/srv/detail/dds_fastrtps/eye_message__type_support.cpp.o\x1b[0m\n'}
+[34.480322] (-) TimerEvent: {}
+[34.582858] (-) TimerEvent: {}
+[34.685325] (-) TimerEvent: {}
+[34.787392] (-) TimerEvent: {}
+[34.889146] (-) TimerEvent: {}
+[34.989957] (-) TimerEvent: {}
+[35.090691] (-) TimerEvent: {}
+[35.191407] (-) TimerEvent: {}
+[35.293684] (-) TimerEvent: {}
+[35.395916] (-) TimerEvent: {}
+[35.498321] (-) TimerEvent: {}
+[35.600316] (-) TimerEvent: {}
+[35.701810] (-) TimerEvent: {}
+[35.802570] (-) TimerEvent: {}
+[35.905213] (-) TimerEvent: {}
+[36.006992] (-) TimerEvent: {}
+[36.113571] (-) TimerEvent: {}
+[36.215523] (-) TimerEvent: {}
+[36.317604] (-) TimerEvent: {}
+[36.419683] (-) TimerEvent: {}
+[36.522013] (-) TimerEvent: {}
+[36.624420] (-) TimerEvent: {}
+[36.726407] (-) TimerEvent: {}
+[36.828761] (-) TimerEvent: {}
+[36.931051] (-) TimerEvent: {}
+[37.034273] (-) TimerEvent: {}
+[37.136212] (-) TimerEvent: {}
+[37.238062] (-) TimerEvent: {}
+[37.340494] (-) TimerEvent: {}
+[37.442729] (-) TimerEvent: {}
+[37.545280] (-) TimerEvent: {}
+[37.652272] (-) TimerEvent: {}
+[37.754439] (-) TimerEvent: {}
+[37.855257] (-) TimerEvent: {}
+[37.956624] (-) TimerEvent: {}
+[38.057350] (-) TimerEvent: {}
+[38.159597] (-) TimerEvent: {}
+[38.261558] (-) TimerEvent: {}
+[38.363444] (-) TimerEvent: {}
+[38.539137] (-) TimerEvent: {}
+[38.589840] (nanosaur_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libnanosaur_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[38.639443] (-) TimerEvent: {}
+[38.741497] (-) TimerEvent: {}
+[38.844866] (-) TimerEvent: {}
+[38.948066] (-) TimerEvent: {}
+[39.049577] (-) TimerEvent: {}
+[39.160371] (-) TimerEvent: {}
+[39.262913] (-) TimerEvent: {}
+[39.365398] (-) TimerEvent: {}
+[39.467965] (-) TimerEvent: {}
+[39.571251] (-) TimerEvent: {}
+[39.673437] (-) TimerEvent: {}
+[39.774559] (-) TimerEvent: {}
+[39.875892] (-) TimerEvent: {}
+[39.977444] (-) TimerEvent: {}
+[40.081067] (-) TimerEvent: {}
+[40.185987] (nanosaur_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libnanosaur_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[40.234999] (-) TimerEvent: {}
+[40.236936] (nanosaur_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libnanosaur_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[40.237556] (nanosaur_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libnanosaur_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[40.335194] (-) TimerEvent: {}
+[40.436592] (-) TimerEvent: {}
+[40.471736] (nanosaur_msgs) StdoutLine: {'line': b'[ 53%] Built target nanosaur_msgs__rosidl_typesupport_cpp\n'}
+[40.536787] (-) TimerEvent: {}
+[40.579457] (nanosaur_msgs) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[40.636964] (-) TimerEvent: {}
+[40.739214] (-) TimerEvent: {}
+[40.828273] (nanosaur_msgs) StdoutLine: {'line': b'[ 56%] Built target nanosaur_msgs__rosidl_typesupport_fastrtps_c\n'}
+[40.839395] (-) TimerEvent: {}
+[40.866821] (nanosaur_msgs) StdoutLine: {'line': b'[ 56%] Built target nanosaur_msgs__rosidl_typesupport_introspection_cpp\n'}
+[40.895086] (nanosaur_msgs) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[40.896017] (nanosaur_msgs) StdoutLine: {'line': b'[ 58%] Built target nanosaur_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[40.939567] (-) TimerEvent: {}
+[41.040563] (-) TimerEvent: {}
+[41.145846] (-) TimerEvent: {}
+[41.260286] (-) TimerEvent: {}
+[41.364465] (-) TimerEvent: {}
+[41.466536] (-) TimerEvent: {}
+[41.568908] (-) TimerEvent: {}
+[41.671057] (-) TimerEvent: {}
+[41.773187] (-) TimerEvent: {}
+[41.874566] (-) TimerEvent: {}
+[41.975346] (-) TimerEvent: {}
+[42.076844] (-) TimerEvent: {}
+[42.179098] (-) TimerEvent: {}
+[42.287411] (-) TimerEvent: {}
+[42.398541] (-) TimerEvent: {}
+[42.500363] (-) TimerEvent: {}
+[42.608277] (-) TimerEvent: {}
+[42.710259] (-) TimerEvent: {}
+[42.812304] (-) TimerEvent: {}
+[42.913023] (-) TimerEvent: {}
+[43.013708] (-) TimerEvent: {}
+[43.115586] (-) TimerEvent: {}
+[43.217854] (-) TimerEvent: {}
+[43.318925] (-) TimerEvent: {}
+[43.419872] (-) TimerEvent: {}
+[43.520640] (-) TimerEvent: {}
+[43.622084] (-) TimerEvent: {}
+[43.724741] (-) TimerEvent: {}
+[43.827053] (-) TimerEvent: {}
+[43.927900] (-) TimerEvent: {}
+[44.028655] (-) TimerEvent: {}
+[44.129540] (-) TimerEvent: {}
+[44.230151] (-) TimerEvent: {}
+[44.330738] (-) TimerEvent: {}
+[44.431349] (-) TimerEvent: {}
+[44.531924] (-) TimerEvent: {}
+[44.632557] (-) TimerEvent: {}
+[44.733221] (-) TimerEvent: {}
+[44.833736] (-) TimerEvent: {}
+[44.934235] (-) TimerEvent: {}
+[45.035787] (-) TimerEvent: {}
+[45.136713] (-) TimerEvent: {}
+[45.237369] (-) TimerEvent: {}
+[45.337982] (-) TimerEvent: {}
+[45.438609] (-) TimerEvent: {}
+[45.539201] (-) TimerEvent: {}
+[45.639797] (-) TimerEvent: {}
+[45.740459] (-) TimerEvent: {}
+[45.841112] (-) TimerEvent: {}
+[45.941812] (-) TimerEvent: {}
+[46.042578] (-) TimerEvent: {}
+[46.143201] (-) TimerEvent: {}
+[46.310112] (-) TimerEvent: {}
+[46.410780] (-) TimerEvent: {}
+[46.511393] (-) TimerEvent: {}
+[46.612072] (-) TimerEvent: {}
+[46.714621] (-) TimerEvent: {}
+[46.815557] (-) TimerEvent: {}
+[46.916209] (-) TimerEvent: {}
+[47.016854] (-) TimerEvent: {}
+[47.117575] (-) TimerEvent: {}
+[47.218287] (-) TimerEvent: {}
+[47.319166] (-) TimerEvent: {}
+[47.420187] (-) TimerEvent: {}
+[47.520806] (-) TimerEvent: {}
+[47.621524] (-) TimerEvent: {}
+[47.722368] (-) TimerEvent: {}
+[47.823036] (-) TimerEvent: {}
+[47.923779] (-) TimerEvent: {}
+[48.024604] (-) TimerEvent: {}
+[48.125310] (-) TimerEvent: {}
+[48.226028] (-) TimerEvent: {}
+[48.326633] (-) TimerEvent: {}
+[48.427370] (-) TimerEvent: {}
+[48.528810] (-) TimerEvent: {}
+[48.633154] (-) TimerEvent: {}
+[48.733766] (-) TimerEvent: {}
+[48.834298] (-) TimerEvent: {}
+[48.934803] (-) TimerEvent: {}
+[49.035286] (-) TimerEvent: {}
+[49.135923] (-) TimerEvent: {}
+[49.236564] (-) TimerEvent: {}
+[49.337210] (-) TimerEvent: {}
+[49.437897] (-) TimerEvent: {}
+[49.538565] (-) TimerEvent: {}
+[49.639317] (-) TimerEvent: {}
+[49.739967] (-) TimerEvent: {}
+[49.843887] (-) TimerEvent: {}
+[49.944647] (-) TimerEvent: {}
+[50.045343] (-) TimerEvent: {}
+[50.146005] (-) TimerEvent: {}
+[50.246799] (-) TimerEvent: {}
+[50.347678] (-) TimerEvent: {}
+[50.448622] (-) TimerEvent: {}
+[50.549341] (-) TimerEvent: {}
+[50.650033] (-) TimerEvent: {}
+[50.750651] (-) TimerEvent: {}
+[50.851313] (-) TimerEvent: {}
+[50.951993] (-) TimerEvent: {}
+[51.052654] (-) TimerEvent: {}
+[51.153370] (-) TimerEvent: {}
+[51.254097] (-) TimerEvent: {}
+[51.354782] (-) TimerEvent: {}
+[51.455682] (-) TimerEvent: {}
+[51.556549] (-) TimerEvent: {}
+[51.657197] (-) TimerEvent: {}
+[51.757805] (-) TimerEvent: {}
+[51.862122] (-) TimerEvent: {}
+[51.962778] (-) TimerEvent: {}
+[52.063437] (-) TimerEvent: {}
+[52.164030] (-) TimerEvent: {}
+[52.264728] (-) TimerEvent: {}
+[52.365468] (-) TimerEvent: {}
+[52.466128] (-) TimerEvent: {}
+[52.566792] (-) TimerEvent: {}
+[52.667477] (-) TimerEvent: {}
+[52.768311] (-) TimerEvent: {}
+[52.869098] (-) TimerEvent: {}
+[52.969853] (-) TimerEvent: {}
+[53.070545] (-) TimerEvent: {}
+[53.171189] (-) TimerEvent: {}
+[53.271919] (-) TimerEvent: {}
+[53.372731] (-) TimerEvent: {}
+[53.473420] (-) TimerEvent: {}
+[53.574026] (-) TimerEvent: {}
+[53.674638] (-) TimerEvent: {}
+[53.775219] (-) TimerEvent: {}
+[53.875992] (-) TimerEvent: {}
+[53.976653] (-) TimerEvent: {}
+[54.077334] (-) TimerEvent: {}
+[54.178103] (-) TimerEvent: {}
+[54.278832] (-) TimerEvent: {}
+[54.379498] (-) TimerEvent: {}
+[54.480253] (-) TimerEvent: {}
+[54.581048] (-) TimerEvent: {}
+[54.681703] (-) TimerEvent: {}
+[54.782379] (-) TimerEvent: {}
+[54.883248] (-) TimerEvent: {}
+[54.999128] (-) TimerEvent: {}
+[55.118950] (-) TimerEvent: {}
+[55.219684] (-) TimerEvent: {}
+[55.320721] (-) TimerEvent: {}
+[55.421399] (-) TimerEvent: {}
+[55.522084] (-) TimerEvent: {}
+[55.622897] (-) TimerEvent: {}
+[55.724240] (-) TimerEvent: {}
+[55.824911] (-) TimerEvent: {}
+[55.925602] (-) TimerEvent: {}
+[56.027871] (-) TimerEvent: {}
+[56.128740] (-) TimerEvent: {}
+[56.231009] (-) TimerEvent: {}
+[56.958527] (-) TimerEvent: {}
+[57.059207] (-) TimerEvent: {}
+[57.159892] (-) TimerEvent: {}
+[57.260650] (-) TimerEvent: {}
+[57.361343] (-) TimerEvent: {}
+[57.462023] (-) TimerEvent: {}
+[57.562706] (-) TimerEvent: {}
+[57.663393] (-) TimerEvent: {}
+[57.764073] (-) TimerEvent: {}
+[57.864773] (-) TimerEvent: {}
+[57.965445] (-) TimerEvent: {}
+[58.066152] (-) TimerEvent: {}
+[58.166940] (-) TimerEvent: {}
+[58.269359] (-) TimerEvent: {}
+[58.370080] (-) TimerEvent: {}
+[58.472579] (-) TimerEvent: {}
+[58.573357] (-) TimerEvent: {}
+[58.674061] (-) TimerEvent: {}
+[58.774664] (-) TimerEvent: {}
+[58.875197] (-) TimerEvent: {}
+[58.975768] (-) TimerEvent: {}
+[59.076492] (-) TimerEvent: {}
+[59.177860] (-) TimerEvent: {}
+[59.278627] (-) TimerEvent: {}
+[59.379388] (-) TimerEvent: {}
+[59.480244] (-) TimerEvent: {}
+[59.581070] (-) TimerEvent: {}
+[59.681817] (-) TimerEvent: {}
+[59.782643] (-) TimerEvent: {}
+[59.883363] (-) TimerEvent: {}
+[59.984204] (-) TimerEvent: {}
+[60.086457] (-) TimerEvent: {}
+[60.187195] (-) TimerEvent: {}
+[60.287882] (-) TimerEvent: {}
+[60.388571] (-) TimerEvent: {}
+[60.489398] (-) TimerEvent: {}
+[60.590079] (-) TimerEvent: {}
+[60.690865] (-) TimerEvent: {}
+[60.792015] (-) TimerEvent: {}
+[60.892828] (-) TimerEvent: {}
+[60.994215] (-) TimerEvent: {}
+[61.095127] (-) TimerEvent: {}
+[61.189813] (nanosaur_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nanosaur_msgs/msg/eyes__type_support.cpp.o\x1b[0m\n'}
+[61.292673] (-) TimerEvent: {}
+[61.293150] (nanosaur_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nanosaur_msgs/msg/detail/eyes__type_support.c.o\x1b[0m\n'}
+[61.392853] (-) TimerEvent: {}
+[61.495403] (-) TimerEvent: {}
+[61.597748] (-) TimerEvent: {}
+[61.698479] (-) TimerEvent: {}
+[61.799177] (-) TimerEvent: {}
+[61.899840] (-) TimerEvent: {}
+[62.004628] (-) TimerEvent: {}
+[62.105468] (-) TimerEvent: {}
+[62.206218] (-) TimerEvent: {}
+[62.306948] (-) TimerEvent: {}
+[62.407683] (-) TimerEvent: {}
+[62.508419] (-) TimerEvent: {}
+[62.609057] (-) TimerEvent: {}
+[62.709774] (-) TimerEvent: {}
+[62.810428] (-) TimerEvent: {}
+[62.911160] (-) TimerEvent: {}
+[63.011766] (-) TimerEvent: {}
+[63.112563] (-) TimerEvent: {}
+[63.213225] (-) TimerEvent: {}
+[63.313971] (-) TimerEvent: {}
+[63.414900] (-) TimerEvent: {}
+[63.515586] (-) TimerEvent: {}
+[63.617686] (-) TimerEvent: {}
+[63.679389] (nanosaur_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/nanosaur_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nanosaur_msgs/srv/eye_message__type_support.cpp.o\x1b[0m\n'}
+[63.717861] (-) TimerEvent: {}
+[63.820915] (-) TimerEvent: {}
+[63.921970] (-) TimerEvent: {}
+[63.956325] (nanosaur_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libnanosaur_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[63.976259] (nanosaur_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nanosaur_msgs/srv/detail/eye_message__type_support.c.o\x1b[0m\n'}
+[64.022209] (-) TimerEvent: {}
+[64.123165] (-) TimerEvent: {}
+[64.165579] (nanosaur_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking C shared library libnanosaur_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[64.223372] (-) TimerEvent: {}
+[64.324687] (-) TimerEvent: {}
+[64.354114] (image_pub) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable camera_calibration_pub\x1b[0m\n'}
+[64.408631] (nanosaur_msgs) StdoutLine: {'line': b'[ 74%] Built target nanosaur_msgs__rosidl_typesupport_c\n'}
+[64.424942] (-) TimerEvent: {}
+[64.462897] (nanosaur_msgs) StdoutLine: {'line': b'[ 74%] Built target nanosaur_msgs__rosidl_typesupport_introspection_c\n'}
+[64.525155] (-) TimerEvent: {}
+[64.564524] (nanosaur_msgs) StdoutLine: {'line': b'[ 74%] Built target nanosaur_msgs\n'}
+[64.614540] (nanosaur_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[64.625316] (-) TimerEvent: {}
+[64.726103] (-) TimerEvent: {}
+[64.827291] (-) TimerEvent: {}
+[64.928303] (-) TimerEvent: {}
+[65.029328] (-) TimerEvent: {}
+[65.130173] (-) TimerEvent: {}
+[65.231377] (-) TimerEvent: {}
+[65.332448] (-) TimerEvent: {}
+[65.433730] (-) TimerEvent: {}
+[65.534488] (-) TimerEvent: {}
+[65.635422] (-) TimerEvent: {}
+[65.736304] (-) TimerEvent: {}
+[65.739528] (image_pub) StdoutLine: {'line': b'[ 66%] Built target camera_calibration_pub\n'}
+[65.836472] (-) TimerEvent: {}
+[65.937482] (-) TimerEvent: {}
+[66.038928] (-) TimerEvent: {}
+[66.139928] (-) TimerEvent: {}
+[66.241223] (-) TimerEvent: {}
+[66.341964] (-) TimerEvent: {}
+[66.443193] (-) TimerEvent: {}
+[66.544049] (-) TimerEvent: {}
+[66.644908] (-) TimerEvent: {}
+[66.745832] (-) TimerEvent: {}
+[66.846892] (-) TimerEvent: {}
+[66.947821] (-) TimerEvent: {}
+[67.048817] (-) TimerEvent: {}
+[67.149743] (-) TimerEvent: {}
+[67.250850] (-) TimerEvent: {}
+[67.352065] (-) TimerEvent: {}
+[67.453284] (-) TimerEvent: {}
+[67.554444] (-) TimerEvent: {}
+[67.655864] (-) TimerEvent: {}
+[67.756814] (-) TimerEvent: {}
+[67.857683] (-) TimerEvent: {}
+[67.958499] (-) TimerEvent: {}
+[68.059339] (-) TimerEvent: {}
+[68.161494] (-) TimerEvent: {}
+[68.263446] (-) TimerEvent: {}
+[68.365999] (-) TimerEvent: {}
+[68.466891] (-) TimerEvent: {}
+[68.569421] (-) TimerEvent: {}
+[68.671279] (-) TimerEvent: {}
+[68.736299] (nanosaur_msgs) StdoutLine: {'line': b'[ 76%] Built target nanosaur_msgs__py\n'}
+[68.771501] (-) TimerEvent: {}
+[68.872270] (-) TimerEvent: {}
+[68.895524] (nanosaur_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_generator_py.dir/rosidl_generator_py/nanosaur_msgs/msg/_eyes_s.c.o\x1b[0m\n'}
+[68.972578] (-) TimerEvent: {}
+[69.074248] (-) TimerEvent: {}
+[69.176719] (-) TimerEvent: {}
+[69.279267] (-) TimerEvent: {}
+[69.380481] (-) TimerEvent: {}
+[69.468305] (nanosaur_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_generator_py.dir/rosidl_generator_py/nanosaur_msgs/srv/_eye_message_s.c.o\x1b[0m\n'}
+[69.480705] (-) TimerEvent: {}
+[69.581463] (-) TimerEvent: {}
+[69.682209] (-) TimerEvent: {}
+[69.784586] (-) TimerEvent: {}
+[69.886974] (-) TimerEvent: {}
+[69.989551] (-) TimerEvent: {}
+[70.009246] (nanosaur_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/nanosaur_msgs/libnanosaur_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[70.089814] (-) TimerEvent: {}
+[70.142155] (nanosaur_msgs) StdoutLine: {'line': b'[ 84%] Built target nanosaur_msgs__rosidl_generator_py\n'}
+[70.185171] (nanosaur_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nanosaur_msgs/_nanosaur_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[70.190045] (-) TimerEvent: {}
+[70.292499] (-) TimerEvent: {}
+[70.394425] (-) TimerEvent: {}
+[70.496661] (-) TimerEvent: {}
+[70.599052] (-) TimerEvent: {}
+[70.699851] (-) TimerEvent: {}
+[70.701878] (nanosaur_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[70.800104] (-) TimerEvent: {}
+[70.845353] (nanosaur_msgs) StdoutLine: {'line': b'[ 89%] Built target nanosaur_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[70.881959] (nanosaur_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nanosaur_msgs/_nanosaur_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[70.900407] (-) TimerEvent: {}
+[71.001959] (-) TimerEvent: {}
+[71.104296] (-) TimerEvent: {}
+[71.207269] (-) TimerEvent: {}
+[71.308798] (-) TimerEvent: {}
+[71.346876] (nanosaur_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[71.408988] (-) TimerEvent: {}
+[71.486356] (nanosaur_msgs) StdoutLine: {'line': b'[ 94%] Built target nanosaur_msgs__rosidl_typesupport_c__pyext\n'}
+[71.509162] (-) TimerEvent: {}
+[71.525732] (nanosaur_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/nanosaur_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nanosaur_msgs/_nanosaur_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[71.609339] (-) TimerEvent: {}
+[71.711598] (-) TimerEvent: {}
+[71.814170] (-) TimerEvent: {}
+[71.916938] (-) TimerEvent: {}
+[72.019871] (-) TimerEvent: {}
+[72.119362] (nanosaur_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\x1b[0m\n'}
+[72.120041] (-) TimerEvent: {}
+[72.220822] (-) TimerEvent: {}
+[72.261774] (nanosaur_msgs) StdoutLine: {'line': b'[100%] Built target nanosaur_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[72.321052] (-) TimerEvent: {}
+[72.353582] (nanosaur_msgs) CommandEnded: {'returncode': 0}
+[72.421381] (-) TimerEvent: {}
+[72.523926] (-) TimerEvent: {}
+[72.625417] (-) TimerEvent: {}
+[72.728013] (-) TimerEvent: {}
+[72.803137] (nanosaur_msgs) JobProgress: {'identifier': 'nanosaur_msgs', 'progress': 'install'}
+[72.808594] (nanosaur_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/ws/build/nanosaur_msgs'], 'cwd': '/ws/build/nanosaur_msgs', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'jetson-desktop'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/nanosaur_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/ws/install'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/install:/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('ROS_DOMAIN_ID', '31'), ('AMENT_PREFIX_PATH', '/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_msgs:/ws/install/nanosaur_hardware:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/build/nanosaur_msgs'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/build/teleop_twist_keyboard:/ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/ws/build/rover_line_follower:/ws/install/rover_line_follower/lib/python3.8/site-packages:/ws/build/rosboard:/ws/install/rosboard/lib/python3.8/site-packages:/ws/install/nanosaur_msgs/lib/python3.8/site-packages:/ws/build/nanosaur_hardware:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[72.828266] (-) TimerEvent: {}
+[72.929050] (-) TimerEvent: {}
+[72.997681] (nanosaur_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[73.010068] (nanosaur_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[73.016920] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/ament_index/resource_index/rosidl_interfaces/nanosaur_msgs\n'}
+[73.028506] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/detail/eyes__functions.h\n'}
+[73.029124] (-) TimerEvent: {}
+[73.038685] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/detail/eyes__struct.h\n'}
+[73.048247] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/detail/eyes__type_support.h\n'}
+[73.057759] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/eyes.h\n'}
+[73.070573] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[73.080352] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/detail/eye_message__functions.h\n'}
+[73.090144] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/detail/eye_message__struct.h\n'}
+[73.100023] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/detail/eye_message__type_support.h\n'}
+[73.108852] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/eye_message.h\n'}
+[73.123292] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/library_path.sh\n'}
+[73.129369] (-) TimerEvent: {}
+[73.134274] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/library_path.dsv\n'}
+[73.147271] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/detail/eyes__rosidl_typesupport_fastrtps_c.h\n'}
+[73.156840] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[73.165912] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/detail/eye_message__rosidl_typesupport_fastrtps_c.h\n'}
+[73.176874] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/detail/eyes__rosidl_typesupport_introspection_c.h\n'}
+[73.186549] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[73.196290] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/detail/eye_message__rosidl_typesupport_introspection_c.h\n'}
+[73.211050] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/detail/eyes__builder.hpp\n'}
+[73.220624] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/detail/eyes__struct.hpp\n'}
+[73.229542] (-) TimerEvent: {}
+[73.230931] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/detail/eyes__traits.hpp\n'}
+[73.240471] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/eyes.hpp\n'}
+[73.250058] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/detail/eye_message__builder.hpp\n'}
+[73.259669] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/detail/eye_message__struct.hpp\n'}
+[73.269282] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/detail/eye_message__traits.hpp\n'}
+[73.279510] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/eye_message.hpp\n'}
+[73.295764] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/detail/eyes__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[73.306640] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[73.316762] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/detail/eye_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[73.329783] (-) TimerEvent: {}
+[73.333260] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/msg/detail/eyes__rosidl_typesupport_introspection_cpp.hpp\n'}
+[73.346130] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/include/nanosaur_msgs/nanosaur_msgs/srv/detail/eye_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[73.356586] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/pythonpath.sh\n'}
+[73.366697] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/pythonpath.dsv\n'}
+[73.379482] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs-2.1.0-py3.8.egg-info/PKG-INFO\n'}
+[73.388892] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs-2.1.0-py3.8.egg-info/SOURCES.txt\n'}
+[73.398881] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs-2.1.0-py3.8.egg-info/dependency_links.txt\n'}
+[73.408576] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs-2.1.0-py3.8.egg-info/top_level.txt\n'}
+[73.421233] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/__init__.py\n'}
+[73.429962] (-) TimerEvent: {}
+[73.432050] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/_nanosaur_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[73.442446] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/_nanosaur_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[73.451947] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/_nanosaur_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[73.461351] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/libnanosaur_msgs__rosidl_generator_py.so\n'}
+[73.471471] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/msg/__init__.py\n'}
+[73.481333] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/msg/_eyes.py\n'}
+[73.491316] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/msg/_eyes_s.c\n'}
+[73.500709] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[73.510593] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[73.520855] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[73.530376] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/srv/__init__.py\n'}
+[73.531055] (-) TimerEvent: {}
+[73.541905] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/srv/_eye_message.py\n'}
+[73.551841] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/srv/_eye_message_s.c\n'}
+[73.563702] (nanosaur_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-aarch64-linux-gnu.so\n'}
+[73.565590] (nanosaur_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_introspection_c.cpython-38-aarch64-linux-gnu.so\n'}
+[73.567161] (nanosaur_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/nanosaur_msgs_s__rosidl_typesupport_c.cpython-38-aarch64-linux-gnu.so\n'}
+[73.568373] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/msg/Eyes.idl\n'}
+[73.582754] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/srv/EyeMessage.idl\n'}
+[73.592718] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/msg/Eyes.msg\n'}
+[73.602707] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/srv/EyeMessage.srv\n'}
+[73.605081] (image_pub) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable mono_image_pub\x1b[0m\n'}
+[73.612412] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/srv/EyeMessage_Request.msg\n'}
+[73.622584] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/srv/EyeMessage_Response.msg\n'}
+[73.631245] (-) TimerEvent: {}
+[73.633656] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/ament_index/resource_index/package_run_dependencies/nanosaur_msgs\n'}
+[73.646722] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/ament_index/resource_index/parent_prefix_path/nanosaur_msgs\n'}
+[73.661489] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/ament_prefix_path.sh\n'}
+[73.672395] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/ament_prefix_path.dsv\n'}
+[73.681158] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/path.sh\n'}
+[73.691737] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/environment/path.dsv\n'}
+[73.701852] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/local_setup.bash\n'}
+[73.712469] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/local_setup.sh\n'}
+[73.722705] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/local_setup.zsh\n'}
+[73.731428] (-) TimerEvent: {}
+[73.733710] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/local_setup.dsv\n'}
+[73.744902] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/package.dsv\n'}
+[73.759843] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/ament_index/resource_index/packages/nanosaur_msgs\n'}
+[73.769619] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[73.786409] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[73.798428] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[73.810841] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[73.823367] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[73.831614] (-) TimerEvent: {}
+[73.835543] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[73.846512] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[73.857865] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgsConfig.cmake\n'}
+[73.867891] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgsConfig-version.cmake\n'}
+[73.878718] (nanosaur_msgs) StdoutLine: {'line': b'-- Symlinking: /ws/install/nanosaur_msgs/share/nanosaur_msgs/package.xml\n'}
+[73.888439] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_generator_c.so\n'}
+[73.891117] (nanosaur_msgs) StdoutLine: {'line': b'-- Set runtime path of "/ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_generator_c.so" to ""\n'}
+[73.891929] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[73.894398] (nanosaur_msgs) StdoutLine: {'line': b'-- Set runtime path of "/ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[73.895359] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_introspection_c.so\n'}
+[73.896800] (nanosaur_msgs) StdoutLine: {'line': b'-- Set runtime path of "/ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[73.897488] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_c.so\n'}
+[73.899273] (nanosaur_msgs) StdoutLine: {'line': b'-- Set runtime path of "/ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_c.so" to ""\n'}
+[73.900204] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[73.903442] (nanosaur_msgs) StdoutLine: {'line': b'-- Set runtime path of "/ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[73.904881] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[73.908639] (nanosaur_msgs) StdoutLine: {'line': b'-- Set runtime path of "/ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[73.909643] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_cpp.so\n'}
+[73.911156] (nanosaur_msgs) StdoutLine: {'line': b'-- Set runtime path of "/ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[73.931872] (-) TimerEvent: {}
+[74.033404] (-) TimerEvent: {}
+[74.124891] (nanosaur_msgs) StdoutLine: {'line': b"Listing '/ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs'...\n"}
+[74.126192] (nanosaur_msgs) StdoutLine: {'line': b"Compiling '/ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/__init__.py'...\n"}
+[74.126957] (nanosaur_msgs) StdoutLine: {'line': b"Listing '/ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/msg'...\n"}
+[74.127659] (nanosaur_msgs) StdoutLine: {'line': b"Compiling '/ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/msg/__init__.py'...\n"}
+[74.128503] (nanosaur_msgs) StdoutLine: {'line': b"Compiling '/ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/msg/_eyes.py'...\n"}
+[74.129121] (nanosaur_msgs) StdoutLine: {'line': b"Listing '/ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/srv'...\n"}
+[74.129701] (nanosaur_msgs) StdoutLine: {'line': b"Compiling '/ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/srv/__init__.py'...\n"}
+[74.130264] (nanosaur_msgs) StdoutLine: {'line': b"Compiling '/ws/install/nanosaur_msgs/lib/python3.8/site-packages/nanosaur_msgs/srv/_eye_message.py'...\n"}
+[74.133605] (-) TimerEvent: {}
+[74.154811] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_generator_py.so\n'}
+[74.155467] (nanosaur_msgs) StdoutLine: {'line': b'-- Set runtime path of "/ws/install/nanosaur_msgs/lib/libnanosaur_msgs__rosidl_generator_py.so" to ""\n'}
+[74.156842] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/export_nanosaur_msgs__rosidl_generator_cExport.cmake\n'}
+[74.158064] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/export_nanosaur_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[74.159613] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/export_nanosaur_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[74.161311] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/export_nanosaur_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[74.163092] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[74.164795] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[74.166256] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgs__rosidl_typesupport_cExport.cmake\n'}
+[74.167765] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[74.169251] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/export_nanosaur_msgs__rosidl_generator_cppExport.cmake\n'}
+[74.170956] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/export_nanosaur_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[74.172606] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/export_nanosaur_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[74.174126] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[74.175688] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[74.177092] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[74.178617] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/nanosaur_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[74.180231] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/export_nanosaur_msgs__rosidl_generator_pyExport.cmake\n'}
+[74.181773] (nanosaur_msgs) StdoutLine: {'line': b'-- Installing: /ws/install/nanosaur_msgs/share/nanosaur_msgs/cmake/export_nanosaur_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[74.219922] (nanosaur_msgs) CommandEnded: {'returncode': 0}
+[74.238946] (-) TimerEvent: {}
+[74.360765] (-) TimerEvent: {}
+[74.465012] (-) TimerEvent: {}
+[74.565969] (-) TimerEvent: {}
+[74.667347] (-) TimerEvent: {}
+[74.770345] (-) TimerEvent: {}
+[74.873540] (-) TimerEvent: {}
+[74.981353] (-) TimerEvent: {}
+[75.043584] (nanosaur_msgs) JobEnded: {'identifier': 'nanosaur_msgs', 'rc': 0}
+[75.081536] (-) TimerEvent: {}
+[75.182167] (-) TimerEvent: {}
+[75.282789] (-) TimerEvent: {}
+[75.383436] (-) TimerEvent: {}
+[75.484064] (-) TimerEvent: {}
+[75.584759] (-) TimerEvent: {}
+[75.685410] (-) TimerEvent: {}
+[75.786122] (-) TimerEvent: {}
+[75.887078] (-) TimerEvent: {}
+[75.987774] (-) TimerEvent: {}
+[76.089192] (-) TimerEvent: {}
+[76.189977] (-) TimerEvent: {}
+[76.290736] (-) TimerEvent: {}
+[76.391455] (-) TimerEvent: {}
+[76.442463] (image_pub) StdoutLine: {'line': b'[ 83%] Built target mono_image_pub\n'}
+[76.491687] (-) TimerEvent: {}
+[76.592416] (-) TimerEvent: {}
+[76.693104] (-) TimerEvent: {}
+[76.793791] (-) TimerEvent: {}
+[76.894423] (-) TimerEvent: {}
+[76.995117] (-) TimerEvent: {}
+[77.095828] (-) TimerEvent: {}
+[77.196641] (-) TimerEvent: {}
+[77.297403] (-) TimerEvent: {}
+[77.398164] (-) TimerEvent: {}
+[77.498890] (-) TimerEvent: {}
+[77.599579] (-) TimerEvent: {}
+[77.700265] (-) TimerEvent: {}
+[77.802095] (-) TimerEvent: {}
+[77.902710] (-) TimerEvent: {}
+[78.003385] (-) TimerEvent: {}
+[78.104080] (-) TimerEvent: {}
+[78.204884] (-) TimerEvent: {}
+[78.305625] (-) TimerEvent: {}
+[78.406320] (-) TimerEvent: {}
+[78.507012] (-) TimerEvent: {}
+[78.607737] (-) TimerEvent: {}
+[78.708537] (-) TimerEvent: {}
+[78.809263] (-) TimerEvent: {}
+[78.910014] (-) TimerEvent: {}
+[79.010749] (-) TimerEvent: {}
+[79.111470] (-) TimerEvent: {}
+[79.212200] (-) TimerEvent: {}
+[79.312884] (-) TimerEvent: {}
+[79.413549] (-) TimerEvent: {}
+[79.514210] (-) TimerEvent: {}
+[79.614947] (-) TimerEvent: {}
+[79.715635] (-) TimerEvent: {}
+[79.816306] (-) TimerEvent: {}
+[79.916975] (-) TimerEvent: {}
+[80.017642] (-) TimerEvent: {}
+[80.118306] (-) TimerEvent: {}
+[80.218975] (-) TimerEvent: {}
+[80.319653] (-) TimerEvent: {}
+[80.420328] (-) TimerEvent: {}
+[80.521003] (-) TimerEvent: {}
+[80.621667] (-) TimerEvent: {}
+[80.722331] (-) TimerEvent: {}
+[80.823007] (-) TimerEvent: {}
+[80.923679] (-) TimerEvent: {}
+[81.024359] (-) TimerEvent: {}
+[81.125029] (-) TimerEvent: {}
+[81.225698] (-) TimerEvent: {}
+[81.326365] (-) TimerEvent: {}
+[81.427038] (-) TimerEvent: {}
+[81.527696] (-) TimerEvent: {}
+[81.628381] (-) TimerEvent: {}
+[81.729047] (-) TimerEvent: {}
+[81.829715] (-) TimerEvent: {}
+[81.930383] (-) TimerEvent: {}
+[82.031049] (-) TimerEvent: {}
+[82.131714] (-) TimerEvent: {}
+[82.232345] (-) TimerEvent: {}
+[82.333022] (-) TimerEvent: {}
+[82.433712] (-) TimerEvent: {}
+[82.534385] (-) TimerEvent: {}
+[82.635059] (-) TimerEvent: {}
+[82.735742] (-) TimerEvent: {}
+[82.836479] (-) TimerEvent: {}
+[82.937147] (-) TimerEvent: {}
+[83.037802] (-) TimerEvent: {}
+[83.138492] (-) TimerEvent: {}
+[83.239195] (-) TimerEvent: {}
+[83.339892] (-) TimerEvent: {}
+[83.406433] (image_pub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable stereo_image_pub\x1b[0m\n'}
+[83.440215] (-) TimerEvent: {}
+[83.540897] (-) TimerEvent: {}
+[83.641657] (-) TimerEvent: {}
+[83.742390] (-) TimerEvent: {}
+[83.843116] (-) TimerEvent: {}
+[83.943892] (-) TimerEvent: {}
+[84.044693] (-) TimerEvent: {}
+[84.145430] (-) TimerEvent: {}
+[84.246117] (-) TimerEvent: {}
+[84.346873] (-) TimerEvent: {}
+[84.447509] (-) TimerEvent: {}
+[84.548261] (-) TimerEvent: {}
+[84.648983] (-) TimerEvent: {}
+[84.749711] (-) TimerEvent: {}
+[84.850455] (-) TimerEvent: {}
+[84.951248] (-) TimerEvent: {}
+[85.052028] (-) TimerEvent: {}
+[85.122210] (image_pub) StdoutLine: {'line': b'[100%] Built target stereo_image_pub\n'}
+[85.152354] (-) TimerEvent: {}
+[85.176100] (image_pub) CommandEnded: {'returncode': 0}
+[85.252611] (-) TimerEvent: {}
+[85.353307] (-) TimerEvent: {}
+[85.406225] (image_pub) JobProgress: {'identifier': 'image_pub', 'progress': 'install'}
+[85.407959] (image_pub) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/ws/build/image_pub'], 'cwd': '/ws/build/image_pub', 'env': OrderedDict([('PYTHONIOENCODING', 'utf-8'), ('HOSTNAME', 'jetson-desktop'), ('ROS_PACKAGE_PATH', '/ros_deep_learning/install/ros_deep_learning/share'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ws/install/nanosaur_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('OLDPWD', '/ws/install'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/ws/install:/ros_deep_learning/install:/opt/ros/humble/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ''), ('LD_PRELOAD', '/usr/lib/aarch64-linux-gnu/libgomp.so.1'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('ROS_DOMAIN_ID', '31'), ('AMENT_PREFIX_PATH', '/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_msgs:/ws/install/nanosaur_hardware:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PWD', '/ws/build/image_pub'), ('CUDA_HOME', '/usr/local/cuda'), ('PYTHONPATH', '/ws/build/teleop_twist_keyboard:/ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/ws/build/rover_line_follower:/ws/install/rover_line_follower/lib/python3.8/site-packages:/ws/build/rosboard:/ws/install/rosboard/lib/python3.8/site-packages:/ws/install/nanosaur_msgs/lib/python3.8/site-packages:/ws/build/nanosaur_hardware:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_hardware:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install')]), 'shell': False}
+[85.453598] (-) TimerEvent: {}
+[85.549478] (image_pub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[85.552069] (image_pub) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[85.553498] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/lib/image_pub/mono_image_pub\n'}
+[85.553914] (-) TimerEvent: {}
+[85.562461] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/lib/image_pub/stereo_image_pub\n'}
+[85.570939] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/lib/image_pub/camera_calibration_pub\n'}
+[85.581656] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/image_pub//launch/raw_image_pub.launch.py\n'}
+[85.590238] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/image_pub//launch/stereo_rect_image_pub.launch.py\n'}
+[85.601548] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/image_pub//config/cal_results/extrinsics.yml\n'}
+[85.610298] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/image_pub//config/cal_results/intrinsics.yml\n'}
+[85.618664] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/image_pub//config/imx21983_raw_image_pub.yaml\n'}
+[85.626888] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/image_pub//config/imx21983_stereo_rect_image_pub.yaml\n'}
+[85.642102] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/ament_index/resource_index/package_run_dependencies/image_pub\n'}
+[85.652219] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/ament_index/resource_index/parent_prefix_path/image_pub\n'}
+[85.654097] (-) TimerEvent: {}
+[85.661226] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/image_pub/environment/ament_prefix_path.sh\n'}
+[85.672437] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/image_pub/environment/ament_prefix_path.dsv\n'}
+[85.681133] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/image_pub/environment/path.sh\n'}
+[85.689586] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/image_pub/environment/path.dsv\n'}
+[85.698061] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/image_pub/local_setup.bash\n'}
+[85.707052] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/image_pub/local_setup.sh\n'}
+[85.715721] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/image_pub/local_setup.zsh\n'}
+[85.724337] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/image_pub/local_setup.dsv\n'}
+[85.733667] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/image_pub/package.dsv\n'}
+[85.743513] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/ament_index/resource_index/packages/image_pub\n'}
+[85.753785] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/image_pub/cmake/image_pubConfig.cmake\n'}
+[85.754283] (-) TimerEvent: {}
+[85.762492] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/image_pub/cmake/image_pubConfig-version.cmake\n'}
+[85.771676] (image_pub) StdoutLine: {'line': b'-- Symlinking: /ws/install/image_pub/share/image_pub/package.xml\n'}
+[85.798480] (image_pub) CommandEnded: {'returncode': 0}
+[85.857863] (-) TimerEvent: {}
+[85.958868] (-) TimerEvent: {}
+[86.059578] (-) TimerEvent: {}
+[86.161209] (-) TimerEvent: {}
+[86.168956] (image_pub) JobEnded: {'identifier': 'image_pub', 'rc': 0}
+[86.173082] (-) EventReactorShutdown: {}

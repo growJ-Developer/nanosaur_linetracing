@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.005367] (-) JobUnselected: {'identifier': 'image_pub'}
+[0.005530] (-) JobUnselected: {'identifier': 'nanosaur_control'}
+[0.005631] (-) JobUnselected: {'identifier': 'nanosaur_hardware'}
+[0.005723] (-) JobUnselected: {'identifier': 'nanosaur_msgs'}
+[0.005814] (-) JobUnselected: {'identifier': 'rosboard'}
+[0.005905] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.006074] (rover_line_follower) JobQueued: {'identifier': 'rover_line_follower', 'dependencies': OrderedDict()}
+[0.006229] (rover_line_follower) JobStarted: {'identifier': 'rover_line_follower'}
+[0.096230] (-) TimerEvent: {}
+[0.197057] (-) TimerEvent: {}
+[0.297881] (-) TimerEvent: {}
+[0.398505] (-) TimerEvent: {}
+[0.499079] (-) TimerEvent: {}
+[0.599716] (-) TimerEvent: {}
+[0.700323] (-) TimerEvent: {}
+[0.800919] (-) TimerEvent: {}
+[0.901487] (-) TimerEvent: {}
+[1.002096] (-) TimerEvent: {}
+[1.102758] (-) TimerEvent: {}
+[1.203401] (-) TimerEvent: {}
+[1.304080] (-) TimerEvent: {}
+[1.404928] (-) TimerEvent: {}
+[1.505493] (-) TimerEvent: {}
+[1.606056] (-) TimerEvent: {}
+[1.706662] (-) TimerEvent: {}
+[1.807215] (-) TimerEvent: {}
+[1.907806] (-) TimerEvent: {}
+[2.008415] (-) TimerEvent: {}
+[2.109008] (-) TimerEvent: {}
+[2.209622] (-) TimerEvent: {}
+[2.310243] (-) TimerEvent: {}
+[2.410852] (-) TimerEvent: {}
+[2.511479] (-) TimerEvent: {}
+[2.612137] (-) TimerEvent: {}
+[2.712764] (-) TimerEvent: {}
+[2.813468] (-) TimerEvent: {}
+[2.914190] (-) TimerEvent: {}
+[3.014920] (-) TimerEvent: {}
+[3.021836] (rover_line_follower) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/ws/build/rover_line_follower/build', '--no-deps', 'install_data'], 'cwd': '/ws/build/rover_line_follower', 'env': {'PYTHONIOENCODING': 'utf-8', 'HOSTNAME': 'jetson-desktop', 'ROS_PACKAGE_PATH': '/ros_deep_learning/install/ros_deep_learning/share', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/ws/install/nanosaur_msgs/lib:/opt/ros/humble/install/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:', 'HOME': '/root', 'OLDPWD': '/ws/src/image_pub/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/ws/install:/ros_deep_learning/install:/opt/ros/humble/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/ros_deep_learning/install/ros_deep_learning/lib/aarch64-linux-gnu/pkgconfig:/ros_deep_learning/install/ros_deep_learning/lib/pkgconfig:/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/install/bin:/usr/local/cuda/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': '', 'LD_PRELOAD': '/usr/lib/aarch64-linux-gnu/libgomp.so.1', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'ROS_DOMAIN_ID': '31', 'AMENT_PREFIX_PATH': '/ws/install/teleop_twist_keyboard:/ws/install/rover_line_follower:/ws/install/rosboard:/ws/install/nanosaur_msgs:/ws/install/nanosaur_hardware:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PWD': '/ws/build/rover_line_follower', 'CUDA_HOME': '/usr/local/cuda', 'PYTHONPATH': '/ws/build/rover_line_follower/prefix_override:/ws/install/rover_line_follower/lib/python3.8/site-packages:/ws/build/teleop_twist_keyboard:/ws/install/teleop_twist_keyboard/lib/python3.8/site-packages:/ws/build/rover_line_follower:/ws/install/rover_line_follower/lib/python3.8/site-packages:/ws/build/rosboard:/ws/install/rosboard/lib/python3.8/site-packages:/ws/install/nanosaur_msgs/lib/python3.8/site-packages:/ws/build/nanosaur_hardware:/ws/install/nanosaur_hardware/lib/python3.8/site-packages:/opt/ros/humble/install/lib/python3.8/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/ws/install/nanosaur_msgs:/ws/install/nanosaur_control:/ws/install/image_pub:/ros_deep_learning/install/ros_deep_learning:/opt/ros/humble/install'}, 'shell': False}
+[3.115203] (-) TimerEvent: {}
+[3.215959] (-) TimerEvent: {}
+[3.316580] (-) TimerEvent: {}
+[3.417275] (-) TimerEvent: {}
+[3.517824] (-) TimerEvent: {}
+[3.618425] (-) TimerEvent: {}
+[3.719018] (-) TimerEvent: {}
+[3.819630] (-) TimerEvent: {}
+[3.920238] (-) TimerEvent: {}
+[4.020927] (-) TimerEvent: {}
+[4.041083] (rover_line_follower) StdoutLine: {'line': b'running develop\n'}
+[4.121122] (-) TimerEvent: {}
+[4.221769] (-) TimerEvent: {}
+[4.322410] (-) TimerEvent: {}
+[4.423062] (-) TimerEvent: {}
+[4.523658] (-) TimerEvent: {}
+[4.624306] (-) TimerEvent: {}
+[4.667996] (rover_line_follower) StdoutLine: {'line': b'running egg_info\n'}
+[4.668914] (rover_line_follower) StdoutLine: {'line': b'writing rover_line_follower.egg-info/PKG-INFO\n'}
+[4.669689] (rover_line_follower) StdoutLine: {'line': b'writing dependency_links to rover_line_follower.egg-info/dependency_links.txt\n'}
+[4.670229] (rover_line_follower) StdoutLine: {'line': b'writing entry points to rover_line_follower.egg-info/entry_points.txt\n'}
+[4.670853] (rover_line_follower) StdoutLine: {'line': b'writing requirements to rover_line_follower.egg-info/requires.txt\n'}
+[4.671231] (rover_line_follower) StdoutLine: {'line': b'writing top-level names to rover_line_follower.egg-info/top_level.txt\n'}
+[4.724507] (-) TimerEvent: {}
+[4.815863] (rover_line_follower) StdoutLine: {'line': b"reading manifest file 'rover_line_follower.egg-info/SOURCES.txt'\n"}
+[4.818863] (rover_line_follower) StdoutLine: {'line': b"writing manifest file 'rover_line_follower.egg-info/SOURCES.txt'\n"}
+[4.824698] (-) TimerEvent: {}
+[4.925338] (-) TimerEvent: {}
+[4.986152] (rover_line_follower) StdoutLine: {'line': b'running build_ext\n'}
+[4.987366] (rover_line_follower) StdoutLine: {'line': b'Creating /ws/install/rover_line_follower/lib/python3.8/site-packages/rover-line-follower.egg-link (link to .)\n'}
+[4.990297] (rover_line_follower) StdoutLine: {'line': b'Installing rover_line_follower script to /ws/install/rover_line_follower/lib/rover_line_follower\n'}
+[4.991142] (rover_line_follower) StdoutLine: {'line': b'\n'}
+[4.991669] (rover_line_follower) StdoutLine: {'line': b'Installed /ws/build/rover_line_follower\n'}
+[4.992071] (rover_line_follower) StdoutLine: {'line': b'running install_data\n'}
+[5.025571] (-) TimerEvent: {}
+[5.115979] (rover_line_follower) CommandEnded: {'returncode': 0}
+[5.127173] (-) TimerEvent: {}
+[5.219102] (rover_line_follower) JobEnded: {'identifier': 'rover_line_follower', 'rc': 0}
+[5.221553] (-) EventReactorShutdown: {}
