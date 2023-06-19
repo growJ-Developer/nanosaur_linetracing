@@ -28,8 +28,6 @@ Nanosaur 로봇을 검은 라인에 따라 목적지까지 이동합니다. 카�
 ##### - Gazebo 시뮬레이션 결과
 [![Video Label](http://img.youtube.com/vi/mh1ZJo_Cqmo/0.jpg)](https://youtu.be/mh1ZJo_Cqmo)
 
-#### 🧩 로버 구조
-
 #### 🧰 도커 레이어 구조
 <img width="813" alt="Docker Layer" src="https://github.com/growJ-Developer/nanosaur_linetracing/assets/74158951/e20336f6-8ab6-457a-b849-664b7f28bfa3">
 
