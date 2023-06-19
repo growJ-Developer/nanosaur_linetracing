@@ -25,7 +25,7 @@ Nanosaur 로봇을 검은 라인에 따라 목적지까지 이동합니다. 카�
  - Develop Platform: `Mac OS 13 Ventura`, `ROS Humble(Docker based / aarch64)`
  - Gazebo Simulation Platform: `Ubuntu 22.04`, `ROS Humble(Docker based / amd64)`
 
-#####      Gazebo 시뮬레이션 결과
+##### - Gazebo 시뮬레이션 결과
 [![Video Label](http://img.youtube.com/vi/mh1ZJo_Cqmo/0.jpg)](https://youtu.be/mh1ZJo_Cqmo)
 
 #### 🧩 로버 구조
@@ -33,13 +33,13 @@ Nanosaur 로봇을 검은 라인에 따라 목적지까지 이동합니다. 카�
 #### 🧰 도커 레이어 구조
 <img width="813" alt="Docker Layer" src="https://github.com/growJ-Developer/nanosaur_linetracing/assets/74158951/bde0189c-9e55-4b6e-88b5-7f983588b0d3">
 
-#####      1) Jetson Nano용 Docker Image
-             - Jetson의 카메라 기능은 Jetson-utils에서 제공하고 있으며, Jetson-inference 내부에 포함
-             - `dustynv/ros:humble-pytorch-l4t-r34.3.1` 이미지를 기반으로 Jetson용 Docker Image 구축
+##### 1) Jetson Nano용 Docker Image
+ - Jetson의 카메라 기능은 Jetson-utils에서 제공하고 있으며, Jetson-inference 내부에 포함
+ - `dustynv/ros:humble-pytorch-l4t-r34.3.1` 이미지를 기반으로 Jetson용 Docker Image 구축
 
   ```docker pull addps5012/ros:humble_nano```
 
-#####      2) Gazebo Simulation용 Docker Image
+##### 2) Gazebo Simulation용 Docker Image
   ```docker pull addps5012/ros:humble_x86```
 
 
