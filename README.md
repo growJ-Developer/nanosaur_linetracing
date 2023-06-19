@@ -31,7 +31,7 @@ Nanosaur 로봇을 검은 라인에 따라 목적지까지 이동합니다. 카�
 #### 🧩 로버 구조
 
 #### 🧰 도커 레이어 구조
-<img width="813" alt="Docker Layer" src="https://github.com/growJ-Developer/nanosaur_linetracing/assets/74158951/bde0189c-9e55-4b6e-88b5-7f983588b0d3">
+<img width="813" alt="Docker Layer" src="https://github.com/growJ-Developer/nanosaur_linetracing/assets/74158951/e20336f6-8ab6-457a-b849-664b7f28bfa3">
 
 ##### 1) Jetson Nano용 Docker Image
  - Jetson의 카메라 기능은 Jetson-utils에서 제공하고 있으며, Jetson-inference 내부에 포함
