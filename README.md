@@ -21,6 +21,9 @@ Nanosaur 로봇을 검은 라인에 따라 목적지까지 이동합니다. 카�
  - Robot Platform: `Ubuntu 18.04(JetPack 4.6.1)`, `ROS Humble(Docker based / aarch64)`
  - Rover H/W: `Jetson Nano 2GB Development Kit`, `Pi Camera v2.1`
 
+##### - Camera Crop Area
+<img width="817" alt="crop area" src="https://github.com/growJ-Developer/nanosaur_linetracing/assets/74158951/3f510777-ffbf-4add-9dd7-111481bf9faf">
+
 #### 🖥️ Gazebo 시뮬레이션 및 개발 환경
  - Develop Platform: `Mac OS 13 Ventura`, `ROS Humble(Docker based / aarch64)`
  - Gazebo Simulation Platform: `Ubuntu 22.04`, `ROS Humble(Docker based / amd64)`
