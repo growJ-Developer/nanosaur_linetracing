@@ -46,6 +46,40 @@ docker pull addps5012/ros:humble_nano
  docker pull addps5012/ros:humble_x86
 ```
 
+#### 동작 주요 알고리즘
 
+##### 1) 변수 설정
+```python
+# Robot's speed when following the line
+LINEAR_SPEED = 0.025
+
+# Proportional constant to be applied on speed when turning
+# (Multiplied by the error value)
+KP = LINEAR_SPEED * 0.3
+XP = LINEAR_SPEED * 0.025
+
+# If the line is completely lost, the error value shall be compensated by:
+LOSS_FACTOR = 1.0 #1.5
+
+# Send messages every $TIMER_PERIOD seconds
+#TIMER_PERIOD = 0.03
+TIMER_PERIOD = 0.1
+
+# When about to end the track, move for ~$FINALIZATION_PERIOD more seconds
+FINALIZATION_PERIOD = 4
+
+# BGR values to filter only the selected color range
+
+#lower_bgr_values = np.array([31,  42,  53])
+#lower_bgr_values = np.array([108, 108, 108])       # using for default environment
+lower_bgr_values = np.array([110, 110, 110])        # using for bright environment(midium bright)
+upper_bgr_values = np.array([255, 255, 255])
+```
+
+##### 2) 직진 및 회전 속도 제어값 계산
+```python
+message.angular.z = float(error) * -KP
+message.linear.x = max(0.0, min(LINEAR_SPEED, LINEAR_SPEED - (error * XP)))
+```
 
 
