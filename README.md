@@ -36,11 +36,10 @@ Nanosaur 로봇을 검은 라인에 따라 목적지까지 이동합니다. 카�
 ##### 1) Jetson Nano용 Docker Image
  - Jetson의 카메라 기능은 Jetson-utils에서 제공하고 있으며, Jetson-inference 내부에 포함
  - `dustynv/ros:humble-pytorch-l4t-r34.3.1` 이미지를 기반으로 Jetson용 Docker Image 구축
-
-  ```docker pull addps5012/ros:humble_nano```
+  docker pull addps5012/ros:humble_nano
 
 ##### 2) Gazebo Simulation용 Docker Image
-  ```docker pull addps5012/ros:humble_x86```
+ docker pull addps5012/ros:humble_x86
 
 
 
