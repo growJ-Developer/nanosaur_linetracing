@@ -21,6 +21,10 @@ Nanosaur 로봇을 검은 라인에 따라 목적지까지 이동합니다. 카�
  - Develop Platform: `Mac OS 13 Ventura`, `ROS Humble(Docker based / aarch64)`
  - Gazebo Simulation Platform: `Ubuntu 22.04`, `ROS Humble(Docker based / amd64)`
 
+#### Gazebo 시뮬레이션 결과
+[![Video Label](http://img.youtube.com/vi/mh1ZJo_Cqmo/0.jpg)](https://youtu.be/mh1ZJo_Cqmo)
+
+
 #### 🔖 주요 기능
  - Pi Camera를 이용한 Line Detection, Extracting
  - Line 데이터와 nanosaur 로버를 이용한 Line Following
