@@ -1,6 +1,0 @@
-Invoking command in '/ws/build/nanosaur_control': /usr/local/bin/cmake /ws/src/nanosaur/nanosaur_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/nanosaur_control
-Invoked command in '/ws/build/nanosaur_control' returned '0': /usr/local/bin/cmake /ws/src/nanosaur/nanosaur_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/nanosaur_control
-Invoking command in '/ws/build/nanosaur_control': /usr/local/bin/cmake --build /ws/build/nanosaur_control -- -j4 -l4
-Invoked command in '/ws/build/nanosaur_control' returned '0': /usr/local/bin/cmake --build /ws/build/nanosaur_control -- -j4 -l4
-Invoking command in '/ws/build/nanosaur_control': /usr/local/bin/cmake --install /ws/build/nanosaur_control
-Invoked command in '/ws/build/nanosaur_control' returned '0': /usr/local/bin/cmake --install /ws/build/nanosaur_control

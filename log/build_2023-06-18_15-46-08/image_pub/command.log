@@ -1,6 +1,0 @@
-Invoking command in '/ws/build/image_pub': /usr/local/bin/cmake /ws/src/image_pub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/image_pub
-Invoked command in '/ws/build/image_pub' returned '0': /usr/local/bin/cmake /ws/src/image_pub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/image_pub
-Invoking command in '/ws/build/image_pub': /usr/local/bin/cmake --build /ws/build/image_pub -- -j4 -l4
-Invoked command in '/ws/build/image_pub' returned '0': /usr/local/bin/cmake --build /ws/build/image_pub -- -j4 -l4
-Invoking command in '/ws/build/image_pub': /usr/local/bin/cmake --install /ws/build/image_pub
-Invoked command in '/ws/build/image_pub' returned '0': /usr/local/bin/cmake --install /ws/build/image_pub

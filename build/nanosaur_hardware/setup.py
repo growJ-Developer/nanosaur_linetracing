@@ -1,1 +1,0 @@
-/ws/src/nanosaur_hardware/setup.py

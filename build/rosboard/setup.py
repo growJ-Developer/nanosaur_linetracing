@@ -1,1 +1,0 @@
-/ws/src/rosboard/setup.py
