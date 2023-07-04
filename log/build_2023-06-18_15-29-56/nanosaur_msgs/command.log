@@ -1,6 +1,0 @@
-Invoking command in '/ws/build/nanosaur_msgs': /usr/local/bin/cmake /ws/src/nanosaur/nanosaur_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/nanosaur_msgs
-Invoked command in '/ws/build/nanosaur_msgs' returned '0': /usr/local/bin/cmake /ws/src/nanosaur/nanosaur_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ws/install/nanosaur_msgs
-Invoking command in '/ws/build/nanosaur_msgs': /usr/local/bin/cmake --build /ws/build/nanosaur_msgs -- -j4 -l4
-Invoked command in '/ws/build/nanosaur_msgs' returned '0': /usr/local/bin/cmake --build /ws/build/nanosaur_msgs -- -j4 -l4
-Invoking command in '/ws/build/nanosaur_msgs': /usr/local/bin/cmake --install /ws/build/nanosaur_msgs
-Invoked command in '/ws/build/nanosaur_msgs' returned '0': /usr/local/bin/cmake --install /ws/build/nanosaur_msgs

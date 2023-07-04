@@ -1,1 +1,0 @@
-/ws/build/nanosaur_msgs/rosidl_typesupport_fastrtps_c/nanosaur_msgs/srv/detail/eye_message__rosidl_typesupport_fastrtps_c.h

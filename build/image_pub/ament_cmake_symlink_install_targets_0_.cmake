@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/ws/build/image_pub/mono_image_pub" "/ws/build/image_pub/stereo_image_pub" "/ws/build/image_pub/camera_calibration_pub" "TARGETS" "mono_image_pub" "stereo_image_pub" "camera_calibration_pub" "DESTINATION" "lib/image_pub")

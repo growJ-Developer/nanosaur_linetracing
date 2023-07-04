@@ -1,1 +1,0 @@
-/ws/build/nanosaur_msgs/rosidl_cmake/srv/EyeMessage_Response.msg

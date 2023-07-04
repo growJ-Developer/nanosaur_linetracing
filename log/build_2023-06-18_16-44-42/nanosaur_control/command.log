@@ -1,4 +1,0 @@
-Invoking command in '/ws/build/nanosaur_control': /usr/local/bin/cmake --build /ws/build/nanosaur_control -- -j4 -l4
-Invoked command in '/ws/build/nanosaur_control' returned '0': /usr/local/bin/cmake --build /ws/build/nanosaur_control -- -j4 -l4
-Invoking command in '/ws/build/nanosaur_control': /usr/local/bin/cmake --install /ws/build/nanosaur_control
-Invoked command in '/ws/build/nanosaur_control' returned '0': /usr/local/bin/cmake --install /ws/build/nanosaur_control
