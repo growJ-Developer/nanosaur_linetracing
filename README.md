@@ -11,7 +11,7 @@ Nanosaur 로봇을 검은 라인에 따라 목적지까지 이동합니다. 카�
 #### 🙋🏻‍♂️ 멤버 구성
  - 장성용: Nanosaur 로버 환경 설정, 개발용 Docker image 구축, 모듈 이식 진행
  - [박동주](https://github.com/PDJ107): Line Following 모듈 제작 및 Gazebo 시뮬레이션 개발
- - [한준혁](https://github.com/Dreams5712): Line Following 모듈 제작 및 Gazebo 시뮬레이션 개발
+ - [한준혁](https://github.com/dream7513): Line Following 모듈 제작 및 Gazebo 시뮬레이션 개발
 
 #### 🔖 주요 기능
  - Pi Camera를 이용한 Line Detection, Extracting
